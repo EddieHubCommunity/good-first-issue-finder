@@ -1,0 +1,18 @@
+
+tasks:
+  - init: npm install # runs during prebuild
+    command: |
+      export HMR_HOST=`gp url 3000`
+      npm run dev
+
+ports:
+  - port: 3000
+    onOpen: ignore
+
+
+
+vscode:
+  extensions:
+    - humao.rest-client
+    - svelte.svelte-vscode
+    - bradlc.vscode-tailwindcss
