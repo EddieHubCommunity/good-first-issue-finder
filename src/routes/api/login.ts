@@ -8,16 +8,9 @@ export const post: RequestHandler = async ({ request }) => {
 			status: 400
 		};
 	}
-	const isValidToken = await getUser(body.token);
-	if (!isValidToken) return { status: 400 };
-	console.log(isValidToken);
+	const user = await getUser(body.token);
+	if (!user) return { status: 400 };
 	const token = cookie.serialize('token', body.token, {
-		httpOnly: true,
-		secure: true,
-		path: '/',
-		sameSite: 'strict'
-	});
-	const user = cookie.serialize('username', isValidToken, {
 		httpOnly: true,
 		secure: true,
 		path: '/',
@@ -26,7 +19,8 @@ export const post: RequestHandler = async ({ request }) => {
 
 	return {
 		status: 200,
-		headers: { 'set-cookie': token }
+		headers: { 'set-cookie': token },
+		body: { user }
 	};
 };
 
