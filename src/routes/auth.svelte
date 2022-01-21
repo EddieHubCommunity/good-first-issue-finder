@@ -16,11 +16,11 @@
 	};
 </script>
 
-<div class="min-h-screen bg-cyan-400 flex flex-col items-center justify-center">
+<div class="min-h-screen flex flex-col items-center justify-center">
 	<input
 		placeholder="Login"
 		id="login-input"
-		class="mb-4 p-2 rounded-lg outline-none focus:border-rose-500 border-2"
+		class="mb-4 p-2 rounded-lg outline-none border-2"
 		type="text"
 		bind:value={loginInput}
 	/>
