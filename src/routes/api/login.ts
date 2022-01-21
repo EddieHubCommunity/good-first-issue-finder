@@ -3,11 +3,14 @@ import cookie from 'cookie';
 
 export const post: RequestHandler = async ({ request }) => {
 	const body = await request.json();
-	console.log(body);
+	const a = cookie.serialize('token', body.token, {
+		httpOnly: true,
+		secure: true,
+		path: '/',
+		sameSite: 'lax',
+		maxAge: 60 * 60 * 24
+	});
 
-	const a = cookie.serialize('token', body.token, { httpOnly: true, secure: true });
-
-	console.log(a);
 	return {
 		status: 200,
 		headers: { 'set-cookie': a }
