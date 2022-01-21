@@ -1,6 +1,5 @@
 <script lang="ts">
   import { goto } from '$app/navigation';
-  import { user } from '$lib/stores/user.store';
 
   let loginInput = '';
 
@@ -12,8 +11,6 @@
       headers: { 'content-type': 'application/json' },
     });
     if (res.ok) {
-      const data = await res.json();
-      user.set(data.user);
       goto('/');
     }
   };
