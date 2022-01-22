@@ -1,6 +1,5 @@
 <script lang="ts">
   import { goto } from '$app/navigation';
-  import { user } from '$lib/stores/user.store';
 
   let loginInput = '';
 
@@ -12,14 +11,12 @@
       headers: { 'content-type': 'application/json' },
     });
     if (res.ok) {
-      const data = await res.json();
-      user.set(data.user);
       goto('/');
     }
   };
 </script>
 
-<div class="min-h-screen flex flex-col items-center justify-center">
+<div class="flex flex-col items-center justify-center">
   <input
     placeholder="Login"
     id="login-input"
