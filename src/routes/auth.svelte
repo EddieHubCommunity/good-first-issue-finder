@@ -16,7 +16,7 @@
   };
 </script>
 
-<div class="min-h-screen flex flex-col items-center justify-center">
+<div class="flex flex-col items-center justify-center">
   <input
     placeholder="Login"
     id="login-input"
