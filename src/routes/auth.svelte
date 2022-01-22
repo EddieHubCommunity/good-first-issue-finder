@@ -1,5 +1,6 @@
 <script lang="ts">
   import { goto } from '$app/navigation';
+  import Card from '$lib/components/card.svelte';
 
   let loginInput = '';
 

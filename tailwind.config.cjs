@@ -1,11 +1,15 @@
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
 
-	theme: {
-		extend: {}
-	},
+  theme: {
+    extend: {
+      colors: {
+        background: '#f5f4f4',
+      },
+    },
+  },
 
-	plugins: []
+  plugins: [],
 };
 
 module.exports = config;
