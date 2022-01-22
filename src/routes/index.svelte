@@ -1,5 +1,6 @@
 <script lang="ts" context="module">
   import type { Load } from '@sveltejs/kit';
+  import type { Item } from '../lib/types/github.type';
 
   export const load: Load = async ({ session, fetch }) => {
     if (!session.token) {
@@ -22,7 +23,7 @@
       const data = await res.json();
       return {
         props: {
-          issues: data.items,
+          issues: data.items as Item[],
         },
       };
     }
@@ -30,6 +31,12 @@
 </script>
 
 <script lang="ts">
-  export let issues: any[];
-  console.log(issues);
+  import IssueCard from '../lib/components/issue-card.svelte';
+  export let issues: Item[];
 </script>
+
+<div class="space-y-4">
+  {#each issues as issue}
+    <IssueCard {issue} />
+  {/each}
+</div>
