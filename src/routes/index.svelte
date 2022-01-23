@@ -11,7 +11,7 @@
     }
 
     const res = await fetch(
-      'https://api.github.com/search/issues?q=is:issue%20is:open%20label:%22good%20first%20issue%22%20org:EddieHubCommunity',
+      'https://api.github.com/search/issues?q=is:issue%20is:open%20label:%22good%20first%20issue%22%20org:EddieHubCommunity%20no:assignee',
       {
         headers: {
           Authorization: `token ${session.token}`,
