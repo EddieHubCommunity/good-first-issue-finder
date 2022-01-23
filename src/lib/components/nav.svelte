@@ -6,5 +6,7 @@
   <a href="/">
     <img src="/images/hubber.png" class="object-contain w-12" alt="hubber" />
   </a>
-  <Button label="Sign Out" variant="primary" />
+  <a rel="external" href="/logout">
+    <Button label="Sign Out" variant="primary" />
+  </a>
 </nav>
