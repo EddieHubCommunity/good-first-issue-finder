@@ -8,7 +8,7 @@
 <Card>
   <div class="flex items-center justify-between">
     <div class="flex items-center">
-      <img class="object-contain mr-4" src="/images/githubmark.png" alt="github" />
+      <img class="object-contain mr-4" src="/images/githubmark.svg" width="32" alt="github" />
       <a
         class="transition duration-100 underline hover:no-underline mr-4"
         href={issue.html_url}
