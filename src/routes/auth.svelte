@@ -1,6 +1,6 @@
 <script lang="ts">
   import { goto } from '$app/navigation';
-  import Card from '$lib/components/card.svelte';
+  import {session} from "$app/stores"
 
   let loginInput = '';
 
@@ -12,6 +12,7 @@
       headers: { 'content-type': 'application/json' },
     });
     if (res.ok) {
+      $session.token = loginInput
       goto('/');
     }
   };
