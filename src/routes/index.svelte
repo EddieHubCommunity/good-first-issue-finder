@@ -12,6 +12,10 @@
         },
       };
     }
+    const data = await res.json();
+    return {
+      error: data.message,
+    };
   };
 </script>
 

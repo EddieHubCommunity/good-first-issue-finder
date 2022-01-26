@@ -2,7 +2,9 @@ import type { RequestHandler } from '@sveltejs/kit';
 import { Octokit } from 'octokit';
 
 export const get: RequestHandler = async () => {
-  const octokit = new Octokit({ auth: import.meta.env.VITE_TOKEN });
+  const token = import.meta.env.VITE_TOKEN;
+  if (!token) return { status: 500, body: { message: 'please provide a token' } };
+  const octokit = new Octokit({ auth: token });
   const response = await octokit.request('GET /search/issues', {
     q: 'is:issue is:open label:"good first issue" org:EddieHubCommunity no:assignee',
   });
