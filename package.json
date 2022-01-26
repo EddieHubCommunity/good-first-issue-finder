@@ -35,6 +35,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"cookie": "^0.4.1"
+		"octokit": "^1.7.1"
 	}
 }

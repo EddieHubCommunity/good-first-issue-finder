@@ -29,48 +29,6 @@ export type Label = {
   description: string;
 };
 
-export type Assignee = {
-  login: string;
-  id: number;
-  node_id: string;
-  avatar_url: string;
-  gravatar_id: string;
-  url: string;
-  html_url: string;
-  followers_url: string;
-  following_url: string;
-  gists_url: string;
-  starred_url: string;
-  subscriptions_url: string;
-  organizations_url: string;
-  repos_url: string;
-  events_url: string;
-  received_events_url: string;
-  type: string;
-  site_admin: boolean;
-};
-
-export type Assignee2 = {
-  login: string;
-  id: number;
-  node_id: string;
-  avatar_url: string;
-  gravatar_id: string;
-  url: string;
-  html_url: string;
-  followers_url: string;
-  following_url: string;
-  gists_url: string;
-  starred_url: string;
-  subscriptions_url: string;
-  organizations_url: string;
-  repos_url: string;
-  events_url: string;
-  received_events_url: string;
-  type: string;
-  site_admin: boolean;
-};
-
 export type Reactions = {
   url: string;
   total_count: number;
@@ -99,8 +57,8 @@ export type Item = {
   labels: Label[];
   state: string;
   locked: boolean;
-  assignee: Assignee;
-  assignees: Assignee2[];
+  assignee?: any;
+  assignees: any[];
   milestone?: any;
   comments: number;
   created_at: Date;
@@ -115,7 +73,7 @@ export type Item = {
   score: number;
 };
 
-export type GithubResponse = {
+export type IssueResponse = {
   total_count: number;
   incomplete_results: boolean;
   items: Item[];
