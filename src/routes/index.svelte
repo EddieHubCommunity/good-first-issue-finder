@@ -1,7 +1,7 @@
 <script lang="ts" context="module">
   import type { Load } from '@sveltejs/kit';
 
-  export const load: Load = async ({ session, fetch }) => {
+  export const load: Load = async ({ fetch }) => {
     const res = await fetch('/api/get-issues');
 
     if (res.ok) {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Item } from '../types/github.type';
+  import type { Item } from '../types/github.types';
   import Card from './card.svelte';
 
   export let issue: Item;
