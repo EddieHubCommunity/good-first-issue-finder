@@ -1,4 +1,3 @@
-
 tasks:
   - init: npm install # runs during prebuild
     command: |
@@ -18,8 +17,6 @@ github:
     addCheck: true
     addComment: false
     addBadge: true
-
-
 
 vscode:
   extensions:
