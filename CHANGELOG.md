@@ -1,3 +1,12 @@
+## [0.3.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.3.3...v0.3.4) (2022-01-28)
+
+
+### Bug Fixes
+
+* github token secret ([74501d5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/74501d5ed5fb9560267772e5b2754ece7983f9f5))
+
+
+
 ## [0.3.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.3.2...v0.3.3) (2022-01-28)
 
 
