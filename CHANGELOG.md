@@ -1,4 +1,13 @@
-# 0.3.0 (2022-01-28)
+## [0.3.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.3.0...v0.3.1) (2022-01-28)
+
+
+### Bug Fixes
+
+* husky with docker file ([50c992a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/50c992a0f272a787063ecb72f9e404a51b46fec7))
+
+
+
+# [0.3.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/6287773cda0cf4d742dbafbf2899075f7c24ba89...v0.3.0) (2022-01-28)
 
 
 ### Bug Fixes
