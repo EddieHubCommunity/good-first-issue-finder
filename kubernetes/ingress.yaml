@@ -15,4 +15,4 @@ spec:
               service:
                 name: eddiehub-finder-service
                 port:
-                  number: 5000
+                  number: 3000
