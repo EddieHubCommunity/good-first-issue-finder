@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.3.1...v0.3.2) (2022-01-28)
+
+
+### Bug Fixes
+
+* deployment port ([#39](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/39)) ([043296a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/043296a9fea7c743d1ff437e8354dc4c4380666e))
+
+
+
 ## [0.3.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.3.0...v0.3.1) (2022-01-28)
 
 
