@@ -6,7 +6,7 @@ tasks:
 
 ports:
   - port: 3000
-    onOpen: ignore
+    onOpen: open-preview
 
 github:
   prebuilds:
