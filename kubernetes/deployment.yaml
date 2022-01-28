@@ -19,3 +19,9 @@ spec:
           image: ghcr.io/eddiehubcommunity/finder:latest
           ports:
             - containerPort: 3000
+          env:
+            - name: VITE_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: vite-token
+                  key: VITE_TOKEN
