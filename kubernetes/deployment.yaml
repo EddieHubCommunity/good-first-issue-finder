@@ -15,7 +15,7 @@ spec:
         app: eddiehub-finder
     spec:
       containers:
-        - name: api
+        - name: finder
           image: ghcr.io/eddiehubcommunity/finder:latest
           ports:
             - containerPort: 3000
@@ -23,5 +23,5 @@ spec:
             - name: VITE_TOKEN
               valueFrom:
                 secretKeyRef:
-                  name: vite-token
+                  name: github-token-secret
                   key: VITE_TOKEN
