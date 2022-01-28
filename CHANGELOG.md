@@ -1,3 +1,12 @@
+## [0.3.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.3.2...v0.3.3) (2022-01-28)
+
+
+### Bug Fixes
+
+* github token for sveltekit ([08468df](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/08468dfcc16dafcd8e13ef5316f6636a1c773935))
+
+
+
 ## [0.3.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.3.1...v0.3.2) (2022-01-28)
 
 
