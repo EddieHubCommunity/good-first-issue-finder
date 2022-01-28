@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eddiehub-finder-deployment
+  labels:
+    app: eddiehub-finder
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: eddiehub-finder
+  template:
+    metadata:
+      labels:
+        app: eddiehub-finder
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/eddiehubcommunity/finder:latest
+          ports:
+            - containerPort: 5000
