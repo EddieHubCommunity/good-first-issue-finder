@@ -8,7 +8,7 @@
       const data = await res.json();
       return {
         props: {
-          data: data as IssueResponse,
+          data: data as SearchResponse,
         },
       };
     }
@@ -21,12 +21,12 @@
 
 <script lang="ts">
   import IssueCard from '../lib/components/issue-card.svelte';
-  import type { IssueResponse } from '../lib/types/github.types';
-  export let data: IssueResponse;
+  import type { SearchResponse } from '../lib/types/github.types';
+  export let data: SearchResponse;
 </script>
 
 <div class="space-y-4">
-  {#each data.items as issue}
-    <IssueCard {issue} />
+  {#each data.edges as node}
+    <IssueCard issue={node.node} />
   {/each}
 </div>

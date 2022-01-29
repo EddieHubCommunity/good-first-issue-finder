@@ -5,11 +5,37 @@ export const get: RequestHandler = async () => {
   const token = process.env['VITE_TOKEN'];
   if (!token) return { status: 500, body: { message: 'please provide a token' } };
   const octokit = new Octokit({ auth: token });
-  const response = await octokit.request('GET /search/issues', {
-    q: 'is:issue is:open label:"good first issue" org:EddieHubCommunity no:assignee',
-  });
+  const { search } = (await octokit.graphql(
+    `query EddieHubIssues($queryString: String! $skip: Int!) {
+      search(first: $skip, query: $queryString, type: ISSUE) {
+        issueCount
+        edges {
+          node {
+            ... on Issue {
+              url
+              title
+              repository {
+                name
+                url
+                owner {
+                  login
+                }
+              }
+            }
+          }
+        }
+      }
+    }`,
+    {
+      queryString: 'is:open label:"good first issue" org:EddieHubCommunity no:assignee',
+      skip: 50,
+    },
+  )) as any;
+
+  console.log(JSON.stringify(search));
+
   return {
     status: 200,
-    body: response.data,
+    body: search,
   };
 };
