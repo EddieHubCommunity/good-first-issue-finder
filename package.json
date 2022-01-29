@@ -1,11 +1,11 @@
 {
   "name": "issue-finder",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
+    "dev": "env-cmd svelte-kit dev",
+    "build": "env-cmd --silent svelte-kit build",
+    "package": "env-cmd svelte-kit package",
+    "preview": "env-cmd svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -23,6 +23,7 @@
     "@typescript-eslint/parser": "^4.31.1",
     "autoprefixer": "^10.4.2",
     "dotenv": "^14.3.2",
+    "env-cmd": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
@@ -44,7 +45,7 @@
     "octokit": "^1.7.1"
   },
   "lint-staged": {
-    "*.{cjs,js,ts,css,scss,md,svelte}": [
+    "*.{cjs,js,ts,css,scss,svelte}": [
       "eslint --fix",
       "prettier --write --plugin-search-dir=. ."
     ]

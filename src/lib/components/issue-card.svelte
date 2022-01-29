@@ -1,8 +1,8 @@
 <script lang="ts">
-  import type { Item } from '../types/github.types';
+  import type { Node } from '../types/github.types';
   import Card from './card.svelte';
 
-  export let issue: Item;
+  export let issue: Node;
 </script>
 
 <Card>
@@ -11,13 +11,13 @@
       <img class="object-contain mr-4" src="/images/githubmark.svg" width="32" alt="github" />
       <a
         class="transition duration-100 underline hover:no-underline mr-4"
-        href={issue.html_url}
+        href={issue.url}
         target="_blank"
       >
         {issue.title}</a
       >
     </div>
-    <a href={`https://gitpod.io/#${issue.html_url}`} target="_blank">
+    <a href={`https://gitpod.io/#${issue.url}`} target="_blank">
       <img src="/images/open-in-gitpod.svg" alt="open-in-gitpod" /></a
     >
   </div>
