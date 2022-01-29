@@ -11,7 +11,8 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "validate": "npx svelte-check --fail-on-hints",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "gitpod": "node scripts/gitpod/checkEnv.cjs"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
@@ -21,6 +22,7 @@
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
     "autoprefixer": "^10.4.2",
+    "dotenv": "^14.3.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
