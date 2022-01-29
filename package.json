@@ -43,7 +43,7 @@
     "octokit": "^1.7.1"
   },
   "lint-staged": {
-    "*.{cjs,js,ts,css,scss,md,svelte}": [
+    "*.{cjs,js,ts,css,scss,svelte}": [
       "eslint --fix",
       "prettier --write --plugin-search-dir=. ."
     ]
