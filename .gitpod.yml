@@ -2,7 +2,7 @@ tasks:
   - init: npm install # runs during prebuild
     command: |
       export HMR_HOST=`gp url 3000`
-      npm run gitpod
+      npm run dev
 
 ports:
   - port: 3000
