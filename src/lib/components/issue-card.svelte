@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Node } from '../types/github.types';
+  import type { Node } from '../../global';
   import Card from './card.svelte';
 
   export let issue: Node;
