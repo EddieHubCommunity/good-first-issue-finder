@@ -17,8 +17,12 @@
         {issue.title}</a
       >
     </div>
-    <a href={`https://gitpod.io/#${issue.url}`} target="_blank">
-      <img src="/images/open-in-gitpod.svg" alt="open-in-gitpod" /></a
+    <a
+      class="hidden sm:block flex-shrink-0"
+      href={`https://gitpod.io/#${issue.url}`}
+      target="_blank"
+    >
+      <img class="object-fill" src="/images/open-in-gitpod.svg" alt="open-in-gitpod" /></a
     >
   </div>
 </Card>
