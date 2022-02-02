@@ -21,7 +21,7 @@
 
 <script lang="ts">
   import IssueCard from '../lib/components/issue-card.svelte';
-  import type { SearchResponse } from '../lib/types/github.types';
+  import type { SearchResponse } from '../global';
   export let data: SearchResponse;
 </script>
 
