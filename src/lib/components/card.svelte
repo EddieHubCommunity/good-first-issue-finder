@@ -1,4 +1,4 @@
-<div class="card rounded-xl p-4 bg-white">
+<div class="card rounded-xl bg-white p-4">
   <slot />
 </div>
 

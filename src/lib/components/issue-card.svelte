@@ -8,9 +8,9 @@
 <Card>
   <div class="flex items-center justify-between">
     <div class="flex items-center">
-      <img class="object-contain mr-4" src="/images/githubmark.svg" width="32" alt="github" />
+      <img class="mr-4 object-contain" src="/images/githubmark.svg" width="32" alt="github" />
       <a
-        class="transition duration-100 underline hover:no-underline mr-4"
+        class="mr-4 underline transition duration-100 hover:no-underline"
         href={issue.url}
         target="_blank"
       >
@@ -18,7 +18,7 @@
       >
     </div>
     <a
-      class="hidden sm:block flex-shrink-0"
+      class="hidden flex-shrink-0 sm:block"
       href={`https://gitpod.io/#${issue.url}`}
       target="_blank"
     >
