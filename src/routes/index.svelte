@@ -21,12 +21,25 @@
 
 <script lang="ts">
   import IssueCard from '../lib/components/issue-card.svelte';
-  import type { SearchResponse } from '../global';
+  import Search from '$lib/components/search.svelte';
+  import type { Edge, SearchResponse } from '../global';
   export let data: SearchResponse;
+
+  let searchString = '';
+  let searchResult = data.edges;
+
+  const performSearch = () => {
+    searchResult = data.edges.filter((el) =>
+      el.node.title.toLowerCase().includes(searchString.toLowerCase()),
+    );
+  };
 </script>
 
+<div class="mb-4 flex justify-center">
+  <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
+</div>
 <div class="space-y-4">
-  {#each data.edges as node}
+  {#each searchResult as node}
     <IssueCard issue={node.node} />
   {/each}
 </div>

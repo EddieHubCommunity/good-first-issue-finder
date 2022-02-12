@@ -11,8 +11,8 @@ const config = {
           300: '#c23100',
         },
       },
-      dropShadow: {
-        standard: '0 1rem 2rem 0 rgba(0, 0, 0, 0.05)',
+      boxShadow: {
+        standard: 'rgba(0, 0, 0, 0.05) 0px 1rem 2rem',
       },
     },
   },

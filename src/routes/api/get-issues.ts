@@ -32,8 +32,6 @@ export const get: RequestHandler = async () => {
     },
   )) as any;
 
-  console.log(JSON.stringify(search));
-
   return {
     status: 200,
     body: search,
