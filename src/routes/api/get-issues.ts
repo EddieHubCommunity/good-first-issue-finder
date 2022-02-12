@@ -14,6 +14,14 @@ export const get: RequestHandler = async () => {
             ... on Issue {
               url
               title
+              labels(first:$skip) {
+                edges {
+                  node {
+                    color
+                    name
+                  }
+                }
+              }
               repository {
                 name
                 url
