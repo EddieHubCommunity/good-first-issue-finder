@@ -22,7 +22,7 @@
 <script lang="ts">
   import IssueCard from '../lib/components/issue-card.svelte';
   import Search from '$lib/components/search.svelte';
-  import type { Edge, SearchResponse } from '../global';
+  import type { SearchResponse } from '../global';
   export let data: SearchResponse;
 
   let searchString = '';
