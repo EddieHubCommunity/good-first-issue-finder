@@ -1,3 +1,12 @@
+## [0.7.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.7.0...v0.7.1) (2022-02-12)
+
+
+### Bug Fixes
+
+* update footer ([#68](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/68)) ([178d92e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/178d92e01067169ed0f303fab59b4298741d43a1))
+
+
+
 # [0.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.6.0...v0.7.0) (2022-02-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Switch to GraphQL ([#48](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/48)) ([15af1d2](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/15af1d2767304e5a6086d89f0988937abc4ad899))
-
-
-
-## [0.3.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.3.4...v0.3.5) (2022-01-28)
-
-
-### Bug Fixes
-
-* deployment ([#42](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/42)) ([d2f28e8](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/d2f28e8905b2607e56ad1c0bb5da8b168347257c))
 
 
 
