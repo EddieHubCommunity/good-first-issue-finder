@@ -18,13 +18,13 @@
       <img class="mr-4 object-contain" src="/images/githubmark.svg" width="32" alt="github" />
       <div class="truncate">
         <RepoHeader
-          class="mr-1 hidden md:block"
+          class="mr-1 hidden md:inline-block"
           owner={issue.repository.owner.login}
           repo={issue.repository.name}
           repoLink={issue.repository.url}
         />
         <a
-          class="min-w-0 truncate font-bold transition-all duration-200"
+          class="min-w-0 truncate font-bold transition-all duration-200 hover:text-eddiehub-200 focus:text-eddiehub-200"
           href={issue.url}
           target="_blank"
         >

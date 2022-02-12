@@ -6,4 +6,10 @@
   export { className as class };
 </script>
 
-<a class={className} href={repoLink}>{owner}/{repo}</a>
+<div>
+  <a
+    target="_blank"
+    class="text-neutral-500 transition-all duration-200 hover:text-eddiehub-200 focus:text-eddiehub-200 {className}"
+    href={repoLink}>{owner}/{repo}</a
+  >
+</div>
