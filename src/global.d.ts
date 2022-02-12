@@ -13,6 +13,7 @@ export declare type Repository = {
 export declare type Node = {
   url: string;
   title: string;
+  labels: LabelResponse;
   repository: Repository;
 };
 
@@ -23,4 +24,17 @@ export declare type Edge = {
 export declare type SearchResponse = {
   issueCount: number;
   edges: Edge[];
+};
+
+export declare type LabelResponse = {
+  edges: LabelEdge[];
+};
+
+export declare type LabelEdge = {
+  node: LabelNode;
+};
+
+export declare type LabelNode = {
+  color: string;
+  name: string;
 };
