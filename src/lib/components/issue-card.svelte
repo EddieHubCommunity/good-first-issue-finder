@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Node } from '../../global';
   import Card from './card.svelte';
+  import Outline from './outline.svelte';
 
   export let issue: Node;
 </script>
@@ -24,5 +25,10 @@
     >
       <img class="object-fill" src="/images/open-in-gitpod.svg" alt="open-in-gitpod" /></a
     >
+  </div>
+  <div class="mt-2 space-y-2">
+    {#each issue.labels.edges as label}
+      <Outline text={label.node.name} color={label.node.color} />
+    {/each}
   </div>
 </Card>
