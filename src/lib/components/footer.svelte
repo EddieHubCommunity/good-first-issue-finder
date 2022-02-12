@@ -1,4 +1,4 @@
-<footer class="fixed left-0 bottom-0 w-full bg-gray-50">
+<footer class="mt-auto w-full bg-gray-50">
   <ul class="flex list-none justify-center space-x-4">
     <li>
       <a
