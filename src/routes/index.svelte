@@ -38,7 +38,7 @@
 <div class="mb-4 flex justify-center">
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
 </div>
-<div class="space-y-4">
+<div class="mb-4 space-y-4">
   {#each searchResult as node}
     <IssueCard issue={node.node} />
   {/each}

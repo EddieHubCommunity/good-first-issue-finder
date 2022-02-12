@@ -4,11 +4,13 @@
   import Footer from '$lib/components/footer.svelte';
 </script>
 
-<div class="float-none mx-auto my-0 flex min-h-screen w-[90%] max-w-[1400px] flex-col">
-  <Nav />
-  <div class="mb-8 text-center">
-    Eddiehub Issue-Crawler for finding <b>good-first-issues</b>
+<div class="flex min-h-screen flex-col">
+  <div class="float-none mx-auto my-0 w-[90%] max-w-[1400px]">
+    <Nav />
+    <div class="mb-8 text-center">
+      Eddiehub Issue-Crawler for finding <b>good-first-issues</b>
+    </div>
+    <slot />
   </div>
-  <slot />
   <Footer />
 </div>
