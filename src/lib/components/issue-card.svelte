@@ -24,7 +24,7 @@
           repoLink={issue.repository.url}
         />
         <a
-          class="min-w-0 truncate font-bold transition-all duration-200 hover:text-eddiehub-200 focus:text-eddiehub-200"
+          class="min-w-0 truncate font-bold transition-all duration-200 hover:text-eddiehub-200 active:text-eddiehub-200"
           href={issue.url}
           target="_blank"
         >
