@@ -22,6 +22,7 @@ export declare type Edge = {
 };
 
 export declare type SearchResponse = {
+  labels: string[];
   issueCount: number;
   edges: Edge[];
 };
