@@ -41,6 +41,7 @@
   },
   "type": "module",
   "dependencies": {
+    "font-color-contrast": "^11.1.0",
     "octokit": "^1.7.1"
   },
   "lint-staged": {

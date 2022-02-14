@@ -8,6 +8,7 @@ export declare type Repository = {
   name: string;
   url: string;
   owner: Owner;
+  primaryLanguage: PrimaryLanguage;
 };
 
 export declare type Node = {
@@ -38,4 +39,10 @@ export declare type LabelEdge = {
 export declare type LabelNode = {
   color: string;
   name: string;
+};
+
+export declare type PrimaryLanguage = {
+  color: string;
+  name: string;
+  id: string;
 };

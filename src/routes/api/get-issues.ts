@@ -9,7 +9,7 @@ export const get: RequestHandler = async () => {
   if (!token) return { status: 500, body: { message: 'please provide a token' } };
   const octokit = new Octokit({ auth: token });
   const { search }: Response = await octokit.graphql(
-    `query EddieHubIssues($queryString: String! $skip: Int!) {
+    `query EddieHubIssues($queryString: String!, $skip: Int!) {
       search(first: $skip, query: $queryString, type: ISSUE) {
         issueCount
         edges {
@@ -17,7 +17,7 @@ export const get: RequestHandler = async () => {
             ... on Issue {
               url
               title
-              labels(first:$skip) {
+              labels(first: $skip) {
                 edges {
                   node {
                     color
@@ -28,6 +28,11 @@ export const get: RequestHandler = async () => {
               repository {
                 name
                 url
+                primaryLanguage {
+                  color
+                  name
+                  id
+                }
                 owner {
                   login
                 }

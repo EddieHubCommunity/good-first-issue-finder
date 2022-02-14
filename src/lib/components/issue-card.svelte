@@ -1,8 +1,8 @@
 <script lang="ts">
   import type { Node } from '../../global';
-  import Card from './card.svelte';
-  import Label from './label.svelte';
-  import RepoHeader from './repo-header.svelte';
+  import Card from '$lib/components/card.svelte';
+  import Label from '$lib/components/label.svelte';
+  import RepoHeader from '$lib/components/repo-header.svelte';
 
   export let issue: Node;
   let isToggled = true;
@@ -33,6 +33,12 @@
       </div>
     </div>
     <div class="flex flex-shrink-0">
+      <div class="p mr-2 flex items-center">
+        <Label
+          color={issue.repository.primaryLanguage.color}
+          text={issue.repository.primaryLanguage.name}
+        />
+      </div>
       <a class="hidden sm:block" href={`https://gitpod.io/#${issue.url}`} target="_blank">
         <img class="object-fill" src="/images/open-in-gitpod.svg" alt="open-in-gitpod" /></a
       ><button on:click={() => handleToggle()} class="px-2 md:px-4">
