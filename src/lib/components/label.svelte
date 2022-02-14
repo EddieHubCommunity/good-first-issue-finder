@@ -3,13 +3,6 @@
   export let text: string;
   export let color: string;
 
-  const getColorByBgColor = (bgColor: string) => {
-    if (!bgColor) {
-      return '';
-    }
-    return parseInt(bgColor.replace('#', ''), 16) > 0xffffff / 2 ? '#000' : '#fff';
-  };
-
   $: processedColor = color.startsWith('#') ? color : `#${color}`;
 </script>
 
