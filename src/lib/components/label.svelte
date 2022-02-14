@@ -8,13 +8,17 @@
     }
     return parseInt(bgColor.replace('#', ''), 16) > 0xffffff / 2 ? '#000' : '#fff';
   };
+
+  $: processedColor = color.startsWith('#') ? color : `#${color}`;
 </script>
 
 <div
   class="mr-2 inline-block rounded-2xl border-[1px] py-2 px-4 text-xs font-semibold"
-  style="border-color: #{color === 'ffffff'
-    ? '000'
-    : color}; background-color: #{color}; color: {getColorByBgColor(`#${color}`)}"
+  style="border-color: {processedColor === '#ffffff'
+    ? '#000'
+    : processedColor}; background-color: {processedColor}; color: {getColorByBgColor(
+    processedColor,
+  )}"
 >
   {@html text}
 </div>
