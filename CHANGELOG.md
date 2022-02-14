@@ -1,3 +1,12 @@
+## [0.9.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.9.0...v0.9.1) (2022-02-14)
+
+
+### Bug Fixes
+
+* Dependency-Error ([#74](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/74)) ([59f28dd](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/59f28ddf316125c57a66127eadae8077a5188936))
+
+
+
 # [0.9.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.8.0...v0.9.0) (2022-02-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add footer ([#67](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/67)) ([c8d814d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c8d814d6f067e63c2b33cb23fe80cddf3ca13928))
-
-
-
-# [0.6.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.5.0...v0.6.0) (2022-02-12)
-
-
-### Features
-
-* Display Issue-Labels ([#59](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/59)) ([e6f1fef](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e6f1fef8f9d48d6f830b4ca079250c741e373692))
 
 
 
