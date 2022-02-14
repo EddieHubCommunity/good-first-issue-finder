@@ -1,5 +1,5 @@
 <script lang="ts">
-  import fontColorContrast from 'font-color-contrast';
+  import { calculateFontColor } from '$lib/util/font-color-calculator';
   export let text: string;
   export let color: string;
 
@@ -10,7 +10,7 @@
   class="mr-2 inline-block rounded-2xl border-[1px] py-1 px-3 text-xs font-semibold"
   style="border-color: {processedColor === '#ffffff'
     ? '#000'
-    : processedColor}; background-color: {processedColor}; color: {fontColorContrast(
+    : processedColor}; background-color: {processedColor}; color: {calculateFontColor(
     processedColor,
     0.7,
   )}"

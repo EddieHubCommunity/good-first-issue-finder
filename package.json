@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
-    "@sveltejs/adapter-node": "1.0.0-next.67",
-    "@sveltejs/kit": "1.0.0-next.243",
+    "@sveltejs/adapter-node": "1.0.0-next.68",
+    "@sveltejs/kit": "1.0.0-next.268",
     "@types/cookie": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
@@ -41,7 +41,6 @@
   },
   "type": "module",
   "dependencies": {
-    "font-color-contrast": "^11.1.0",
     "octokit": "^1.7.1"
   },
   "lint-staged": {
