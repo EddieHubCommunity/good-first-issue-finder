@@ -12,7 +12,7 @@ const config = {
   ],
 
   kit: {
-    adapter: adapter({ precompress: false }),
+    adapter: adapter(),
     vite: {
       server: {
         hmr: {
