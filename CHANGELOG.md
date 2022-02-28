@@ -1,3 +1,12 @@
+# [0.10.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.9.1...v0.10.0) (2022-02-28)
+
+
+### Features
+
+* toggle for global query ([#89](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/89)) ([4fea512](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4fea5126ddb52cec486c588a20d976e7db4e1213))
+
+
+
 ## [0.9.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.9.0...v0.9.1) (2022-02-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update footer ([#68](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/68)) ([178d92e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/178d92e01067169ed0f303fab59b4298741d43a1))
-
-
-
-# [0.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.6.0...v0.7.0) (2022-02-12)
-
-
-### Features
-
-* add footer ([#67](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/67)) ([c8d814d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c8d814d6f067e63c2b33cb23fe80cddf3ca13928))
 
 
 
