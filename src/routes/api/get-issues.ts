@@ -4,9 +4,12 @@ import type { SearchResponse } from '../../global';
 
 type Response = { search: SearchResponse };
 
-export const get: RequestHandler = async () => {
+export const post: RequestHandler = async ({ request }) => {
   const token = process.env['VITE_TOKEN'];
   if (!token) return { status: 500, body: { message: 'please provide a token' } };
+
+  const body = await request.json();
+
   const octokit = new Octokit({ auth: token });
   const { search }: Response = await octokit.graphql(
     `query EddieHubIssues($queryString: String!, $skip: Int!) {
@@ -43,7 +46,7 @@ export const get: RequestHandler = async () => {
       }
     }`,
     {
-      queryString: 'is:open label:"good first issue" org:EddieHubCommunity no:assignee',
+      queryString: body.query,
       skip: 50,
     },
   );
@@ -53,10 +56,10 @@ export const get: RequestHandler = async () => {
   const labelSet = new Set<string>(merged);
   const normalizedLabels: string[] = Array.from(labelSet);
 
-  const body = { ...search, ...{ labels: normalizedLabels } };
+  const returnBody = { ...search, ...{ labels: normalizedLabels } };
 
   return {
     status: 200,
-    body: body,
+    body: returnBody,
   };
 };
