@@ -27,7 +27,7 @@ cd good-first-issue-finder
 **4.** Set upstream command:
 
 ```bash
-git remote add upstream https://github.com/EddieHubCommunity/LinkFree.git
+git remote add upstream https://github.com/EddieHubCommunity/good-first-issue-finder.git
 ```
 
 **5.** Create a new branch:
