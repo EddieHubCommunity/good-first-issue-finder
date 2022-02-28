@@ -1,3 +1,12 @@
+## [0.10.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.0...v0.10.1) (2022-02-28)
+
+
+### Bug Fixes
+
+* official email in COC ([#90](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/90)) ([70500a3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/70500a3d820b128378b0644d35b75cf1dc024376))
+
+
+
 # [0.10.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.9.1...v0.10.0) (2022-02-28)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Filter Function for labels ([#70](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/70)) ([121e1d6](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/121e1d68d2944c895c185df5779044fca9494db8))
-
-
-
-## [0.7.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.7.0...v0.7.1) (2022-02-12)
-
-
-### Bug Fixes
-
-* update footer ([#68](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/68)) ([178d92e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/178d92e01067169ed0f303fab59b4298741d43a1))
 
 
 
