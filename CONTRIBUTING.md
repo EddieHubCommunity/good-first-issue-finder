@@ -21,7 +21,7 @@ git clone https://github.com/<your-github-username>/LinkFree
 **3.** Navigate to the new project directory:
 
 ```bash
-cd LinkFree
+cd good-first-issue-finder
 ```
 
 **4.** Set upstream command:
