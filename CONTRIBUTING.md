@@ -62,7 +62,7 @@ git merge upstream/main
 ⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
 
 ```bash
-git add public
+git add <filename>
 ```
 
 ```bash
