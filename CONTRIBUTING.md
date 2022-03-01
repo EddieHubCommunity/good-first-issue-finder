@@ -10,12 +10,12 @@
 
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 
-**1.** Start by making a fork the [**LinkFree**](https://github.com/EddieHubCommunity/good-first-issue-finder) repository. Click on the <a href="https://github.com/EddieHubCommunity/good-first-issue-finder/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+**1.** Start by making a fork of the [**Good First Issue Finder**](https://github.com/EddieHubCommunity/good-first-issue-finder) repository. Click on the <a href="https://github.com/EddieHubCommunity/good-first-issue-finder/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
 
 **2.** Clone your new fork of the repository:
 
 ```bash
-git clone https://github.com/<your-github-username>/LinkFree
+git clone https://github.com/<your-github-username>/good-first-issue-finder
 ```
 
 **3.** Navigate to the new project directory:
@@ -79,7 +79,7 @@ git push origin YourBranchName
 
 **11.** **Congratulations!** You've made your first contribution to [**Good First Issue Finder**](https://github.com/EddieHubCommunity/good-first-issue-finder/graphs/contributors)! 🙌🏼
 
-**_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
+**_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the Good First Issue Finder project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
 ## Run automated tests
 
