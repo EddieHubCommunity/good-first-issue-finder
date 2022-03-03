@@ -78,7 +78,7 @@
   $: intersectedArray = filteredLabels.filter((item) => searchItems.includes(item));
 </script>
 
-<div class="mb-8 flex flex-col items-center justify-center">
+<header class="mb-8 flex flex-col items-center justify-center">
   <div class="mb-4">
     <Toggle
       id="toggle"
@@ -91,7 +91,7 @@
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
 
   <Filter tags={data.labels} />
-</div>
+</header>
 {#if intersectedArray.length > 0}
   <div class="mb-4 space-y-4">
     {#each intersectedArray as node}
