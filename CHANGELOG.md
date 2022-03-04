@@ -1,3 +1,12 @@
+## [0.10.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.1...v0.10.2) (2022-03-04)
+
+
+### Bug Fixes
+
+* added title tag in app.html ([#113](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/113)) ([2fccfce](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/2fccfce1f941cf42478ae404086c165f4c34e4d8))
+
+
+
 ## [0.10.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.0...v0.10.1) (2022-02-28)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Display Primary Language ([#73](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/73)) ([922c3a2](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/922c3a2ea2f8f5c585026f63941ddb2485db945b))
-
-
-
-# [0.8.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.7.1...v0.8.0) (2022-02-13)
-
-
-### Features
-
-* Filter Function for labels ([#70](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/70)) ([121e1d6](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/121e1d68d2944c895c185df5779044fca9494db8))
 
 
 
