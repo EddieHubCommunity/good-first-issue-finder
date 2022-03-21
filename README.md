@@ -1,38 +1,57 @@
-# create-svelte
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+# Good First Issue Finder by EddieHub
 
-## Creating a project
+Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues
 
-If you're seeing this, you've probably already done this step. Congrats!
+![eddiehub issue finder](https://user-images.githubusercontent.com/91655303/159216752-c794b00c-226e-40b1-b626-160878e4f73a.png)
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+<!-- (Can be only done after merged 😅)
+## Example using Gitpod, ephemeral dev environment in the cloud (free)
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+![Gitpod GIF with progress bar](https://user-images.githubusercontent.com/46727048/146048451-ed4ff31a-c178-4713-a9e0-95118be742dc.gif)
+-->
 
-> Note: the `@next` is temporary
+## 👨‍💻 Demo
 
-## Developing
+Check out the website: [Good First Issue Finder](http://finder.eddiehub.org/)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 👇 Prerequisites
 
-```bash
-npm run dev
+Before installation, please make sure you have already installed the following tools:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- [Git](https://git-scm.com/downloads)
+- [NodeJs](https://nodejs.org/en/download/)
 
-## Building
+## 🛠️ Installation Steps
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+1. Fork the project
+2. Clone the project
+3. Navigate to the project directory `cd LinkFree`
+4. Install dependencies with `npm install`
+5. Add a GitHub Token in .env (Copy .env.example and paste credentionals)
+6. Run `npm run dev`
 
-```bash
-npm run build
-```
+Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+## 👨‍💻 Contributing
+
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are **greatly appreciated**.
+<!-- Don't yet have guide, uncomment when we have refer https://github.com/EddieHubCommunity/good-first-issue-finder/issues/79
+- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+-->
+
+## 🛡️ License
+
+Good first issue finder is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 💪 Thanks to all Contributors
+
+Thanks a lot for spending your time helping Good first issue finder grow. Thanks a lot! Keep rocking 🍻
+
+[![Contributors](https://contrib.rocks/image?repo=EddieHubCommunity/good-first-issue-finder)](https://github.com/EddieHubCommunity/good-first-issue-finder/graphs/contributors)
+
+## 🙏 Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
