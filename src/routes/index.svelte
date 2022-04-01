@@ -83,8 +83,8 @@
     <Toggle
       id="toggle"
       bind:checked
-      labelLeft="Organization"
-      labelRight="Global"
+      labelLeft="EddieHub"
+      labelRight="GitHub"
       on:change={onChangeHandler}
     />
   </div>
