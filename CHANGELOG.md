@@ -1,3 +1,12 @@
+## [0.10.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.2...v0.10.3) (2022-04-03)
+
+
+### Bug Fixes
+
+* change switch labels ([#118](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/118)) ([0dc5932](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/0dc5932c0176821885830c1764c910982c9afd82))
+
+
+
 ## [0.10.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.1...v0.10.2) (2022-03-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Dependency-Error ([#74](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/74)) ([59f28dd](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/59f28ddf316125c57a66127eadae8077a5188936))
-
-
-
-# [0.9.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.8.0...v0.9.0) (2022-02-14)
-
-
-### Features
-
-* Display Primary Language ([#73](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/73)) ([922c3a2](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/922c3a2ea2f8f5c585026f63941ddb2485db945b))
 
 
 
