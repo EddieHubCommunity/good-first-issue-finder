@@ -93,11 +93,11 @@
   <Filter tags={data.labels} />
 </header>
 {#if intersectedArray.length > 0}
-  <div class="mb-4 space-y-4">
+  <main class="mb-4 space-y-4">
     {#each intersectedArray as node}
       <IssueCard issue={node.node} />
     {/each}
-  </div>
+  </main>
 {:else}
-  <div class="text-center">Unfortuately there was no issue found</div>
+  <main class="text-center">Unfortuately there was no issue found</main>
 {/if}
