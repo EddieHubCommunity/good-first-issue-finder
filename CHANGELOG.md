@@ -1,3 +1,12 @@
+## [0.10.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.3...v0.10.4) (2022-04-09)
+
+
+### Bug Fixes
+
+* use main tag instead of div tag ([#120](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/120)) ([9398ad0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9398ad01bbd1186ffca082eed7ea323b73e96925))
+
+
+
 ## [0.10.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.2...v0.10.3) (2022-04-03)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * toggle for global query ([#89](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/89)) ([4fea512](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4fea5126ddb52cec486c588a20d976e7db4e1213))
-
-
-
-## [0.9.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.9.0...v0.9.1) (2022-02-14)
-
-
-### Bug Fixes
-
-* Dependency-Error ([#74](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/74)) ([59f28dd](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/59f28ddf316125c57a66127eadae8077a5188936))
 
 
 
