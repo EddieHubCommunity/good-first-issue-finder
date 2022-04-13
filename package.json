@@ -43,6 +43,9 @@
   "dependencies": {
     "octokit": "^1.7.1"
   },
+  {
+  "license" : "MIT"
+  },
   "lint-staged": {
     "*.{cjs,js,ts,css,scss,svelte}": [
       "eslint --fix",
