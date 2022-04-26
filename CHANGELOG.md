@@ -1,3 +1,12 @@
+## [0.10.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.4...v0.10.5) (2022-04-26)
+
+
+### Bug Fixes
+
+* Text cut off on mobile ([#116](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/116)) ([c8b6a0d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c8b6a0d4ca58354f57b3b7c1914ddf60ee651b33))
+
+
+
 ## [0.10.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.3...v0.10.4) (2022-04-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * official email in COC ([#90](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/90)) ([70500a3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/70500a3d820b128378b0644d35b75cf1dc024376))
-
-
-
-# [0.10.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.9.1...v0.10.0) (2022-02-28)
-
-
-### Features
-
-* toggle for global query ([#89](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/89)) ([4fea512](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4fea5126ddb52cec486c588a20d976e7db4e1213))
 
 
 
