@@ -27,7 +27,7 @@ Before installation, please make sure you have already installed the following t
 
 1. Fork the project
 2. Clone the project
-3. Navigate to the project directory `cd LinkFree`
+3. Navigate to the project directory `cd good-first-issue-finder`
 4. Install dependencies with `npm install`
 5. Add a GitHub Token in .env (Copy .env.example and paste credentionals)
 
