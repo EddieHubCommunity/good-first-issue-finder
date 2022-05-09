@@ -26,7 +26,10 @@ Before installation, please make sure you have already installed the following t
 ## 🛠️ Installation Steps
 
 1. Fork the project
-2. Clone the project `git clone https://github.com/{your-username}/good-first-issue-finder.git`
+2. Clone the project 
+    ```bash
+      git clone https://github.com/YOUR_USERNAME/good-first-issue-finder.git
+    ```
 3. Navigate to the project directory `cd good-first-issue-finder`
 4. Install dependencies with `npm install`
 5. Add a GitHub Token in .env (Copy .env.example and paste credentials)
