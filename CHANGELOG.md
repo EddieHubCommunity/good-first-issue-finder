@@ -1,3 +1,12 @@
+# [0.11.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.5...v0.11.0) (2022-05-15)
+
+
+### Features
+
+* io ssl domain ([eb49044](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/eb49044f76ee38cdcce12f8d978f8876e45213ef))
+
+
+
 ## [0.10.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.4...v0.10.5) (2022-04-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * added title tag in app.html ([#113](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/113)) ([2fccfce](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/2fccfce1f941cf42478ae404086c165f4c34e4d8))
-
-
-
-## [0.10.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.0...v0.10.1) (2022-02-28)
-
-
-### Bug Fixes
-
-* official email in COC ([#90](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/90)) ([70500a3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/70500a3d820b128378b0644d35b75cf1dc024376))
 
 
 
