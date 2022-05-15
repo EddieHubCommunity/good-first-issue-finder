@@ -16,3 +16,13 @@ spec:
                 name: eddiehub-finder-service
                 port:
                   number: 3000
+    - host: 'finder.eddiehub.io'
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: eddiehub-finder-service
+                port:
+                  number: 3000
