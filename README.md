@@ -14,7 +14,7 @@ Good First Issue Finder helps new open source contributors pave their path into 
 
 ## 👨‍💻 Live Version
 
-Check out the website: [Good First Issue Finder](http://finder.eddiehub.org/)
+Check out the website: [Good First Issue Finder](https://finder.eddiehub.io)
 
 ## 👇 Prerequisites
 
