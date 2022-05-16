@@ -32,7 +32,14 @@ Before installation, please make sure you have already installed the following t
     ```
 3. Navigate to the project directory `cd good-first-issue-finder`
 4. Install dependencies with `npm install`
-5. Add a GitHub Token in .env (Copy .env.example and paste credentials)
+5. Add secret github token in a .env file:
+
+-Add a .env file int the root directory of the folder
+
+-Paste below code inside the .env file with your secret token
+```bash
+VITE_TOKEN=<Your-Super-Secret-Github-Token>
+```
 
 > **Note:**  A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
