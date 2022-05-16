@@ -2,7 +2,7 @@
 
 ## 💥 How to Contribute
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/LinkFree/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/good-first-issue-finder/pulls)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/EddieHubCommunity/)
 
 - Take a look at the existing [Issues](https://github.com/EddieHubCommunity/good-first-issue-finder/issues) or [create a new issue](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/new/choose)!
@@ -40,7 +40,19 @@ git remote add upstream https://github.com/EddieHubCommunity/good-first-issue-fi
 git checkout -b YourBranchName
 ```
 
-**6.** Sync your fork or your local repository with the origin repository:
+**6.** Add secret github token in a .env file:
+
+
+-Add a .env file int the root directory of the folder
+
+-Paste below code inside the .env file with your secret token
+```bash
+VITE_TOKEN=<Your-Super-Secret-Github-Token>
+```
+
+> **Note:**  A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+**7.** Sync your fork or your local repository with the origin repository:
 
 - In your forked repository, click on "Fetch upstream"
 - Click "Fetch and merge"
@@ -66,7 +78,7 @@ git merge upstream/main
 ⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
 
 ```bash
-git add public
+git add <filename>
 ```
 
 ```bash
