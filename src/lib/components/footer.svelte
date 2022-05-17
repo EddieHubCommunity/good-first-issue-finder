@@ -12,7 +12,7 @@
       <a
         class="transition duration-200 hover:text-eddiehub-200 active:text-eddiehub-200"
         href="http://github.com/EddieHubCommunity"
-        aria-label="GitHub"><i class="fa-brands fa-github" /></a
+        aria-label="Github"><i class="fa-brands fa-github" /></a
       >
     </li>
   </ul>
