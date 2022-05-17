@@ -4,13 +4,15 @@
       <a
         class="transition duration-200 hover:text-eddiehub-200 active:text-eddiehub-200"
         href="https://discord.com/invite/jZQs6Wu"
-        target="_blank"><i class="fa-brands fa-discord" /></a
+        target="_blank"
+        aria-label="Discord"><i class="fa-brands fa-discord" /></a
       >
     </li>
     <li>
       <a
         class="transition duration-200 hover:text-eddiehub-200 active:text-eddiehub-200"
-        href="http://github.com/EddieHubCommunity"><i class="fa-brands fa-github" /></a
+        href="http://github.com/EddieHubCommunity"
+        aria-label="Github"><i class="fa-brands fa-github" /></a
       >
     </li>
   </ul>
