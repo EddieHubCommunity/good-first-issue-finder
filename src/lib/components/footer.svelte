@@ -5,7 +5,7 @@
         class="transition duration-200 hover:text-eddiehub-200 active:text-eddiehub-200"
         href="https://discord.com/invite/jZQs6Wu"
         target="_blank"
-        aria-label="Discord"><i width="24" height="24" class="fa-brands fa-discord fa-xl" /></a
+        aria-label="Discord"><i class="fa-brands fa-discord fa-xl" /></a
       >
     </li>
     <li>
