@@ -26,15 +26,15 @@ Before installation, please make sure you have already installed the following t
 ## 🛠️ Installation Steps
 
 1. Fork the project
-2. Clone the project 
-    ```bash
-      git clone https://github.com/YOUR_USERNAME/good-first-issue-finder.git
-    ```
+2. Clone the project
+   ```bash
+     git clone https://github.com/YOUR_USERNAME/good-first-issue-finder.git
+   ```
 3. Navigate to the project directory `cd good-first-issue-finder`
 4. Install dependencies with `npm install`
 5. Add a GitHub Token in .env (Copy .env.example and paste credentials)
 
-> **Note:**  A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+> **Note:** A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 6. Run `npm run dev`
 
@@ -46,7 +46,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 - Any contributions you make are **greatly appreciated**.
 <!-- Don't yet have guide, uncomment when we have refer https://github.com/EddieHubCommunity/good-first-issue-finder/issues/79
 - Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
--->
+  -->
 
 ## 🛡️ License
 
