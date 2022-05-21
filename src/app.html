@@ -11,8 +11,28 @@
     />
     <title>Good First Issue Finder</title>
     %svelte.head%
+    <style>
+      body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      </style>
   </head>
   <body>
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+}
+</script>
     <div id="svelte">%svelte.body%</div>
   </body>
 </html>
