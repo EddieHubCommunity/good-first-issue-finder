@@ -47,7 +47,7 @@ git checkout -b YourBranchName
 
 -Paste below code inside the .env file with your secret token
 ```bash
-VITE_TOKEN=<Your-Super-Secret-Github-Token>
+GH_TOKEN=<Your-Super-Secret-Github-Token>
 ```
 
 > **Note:**  A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)

@@ -5,7 +5,7 @@ import type { SearchResponse } from '../../global';
 type Response = { search: SearchResponse };
 
 export const post: RequestHandler = async ({ request }) => {
-  const token = process.env['VITE_TOKEN'];
+  const token = process.env['GH_TOKEN'];
   if (!token) return { status: 500, body: { message: 'please provide a token' } };
 
   const body = await request.json();

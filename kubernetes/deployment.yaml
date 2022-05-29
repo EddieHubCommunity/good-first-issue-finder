@@ -20,8 +20,8 @@ spec:
           ports:
             - containerPort: 3000
           env:
-            - name: VITE_TOKEN
+            - name: GH_TOKEN
               valueFrom:
                 secretKeyRef:
                   name: github-token-secret
-                  key: VITE_TOKEN
+                  key: GH_TOKEN
