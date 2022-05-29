@@ -42,15 +42,15 @@ git checkout -b YourBranchName
 
 **6.** Add secret github token in a .env file:
 
-
 -Add a .env file int the root directory of the folder
 
 -Paste below code inside the .env file with your secret token
+
 ```bash
 GH_TOKEN=<Your-Super-Secret-Github-Token>
 ```
 
-> **Note:**  A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+> **Note:** A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 **7.** Sync your fork or your local repository with the origin repository:
 
