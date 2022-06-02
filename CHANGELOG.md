@@ -1,3 +1,12 @@
+## [1.1.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.2...v1.1.3) (2022-06-02)
+
+
+### Bug Fixes
+
+* community action api path ([fdd9cae](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fdd9caefd7474405f588f1c3a8b4ab817415ddc3))
+
+
+
 ## [1.1.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.1...v1.1.2) (2022-06-02)
 
 
@@ -31,20 +40,6 @@
 ### Bug Fixes
 
 * gh token ([#142](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/142)) ([53c8a97](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/53c8a97fd3366177c52987db199954cfab76eca7))
-
-
-
-# [1.0.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.13.0...v1.0.0) (2022-06-02)
-
-
-### Bug Fixes
-
-* changelog ([#141](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/141)) ([6ee1365](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/6ee13651329f961b9d4680e011a3ed9ef022d43a))
-
-
-### BREAKING CHANGES
-
-* envar changes
 
 
 
