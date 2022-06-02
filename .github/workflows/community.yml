@@ -37,4 +37,4 @@ jobs:
       - uses: EddieHubCommunity/gh-action-community/src/statistics@main
         with:
           api-key: ${{ secrets.API_TOKEN }}
-          api-url: ${{ secrets.API_URI }}/github/events
+          api-url: ${{ secrets.API_URL }}/github/events
