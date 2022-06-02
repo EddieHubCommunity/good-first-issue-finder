@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.0.0...v1.0.1) (2022-06-02)
+
+
+### Bug Fixes
+
+* gh token ([#142](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/142)) ([53c8a97](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/53c8a97fd3366177c52987db199954cfab76eca7))
+
+
+
 # [1.0.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.13.0...v1.0.0) (2022-06-02)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * io ssl domain ([eb49044](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/eb49044f76ee38cdcce12f8d978f8876e45213ef))
-
-
-
-## [0.10.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.4...v0.10.5) (2022-04-26)
-
-
-### Bug Fixes
-
-* Text cut off on mobile ([#116](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/116)) ([c8b6a0d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c8b6a0d4ca58354f57b3b7c1914ddf60ee651b33))
 
 
 
