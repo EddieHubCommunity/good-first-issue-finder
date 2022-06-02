@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.1...v1.1.2) (2022-06-02)
+
+
+### Bug Fixes
+
+* gh action triggers ([3c5afb3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/3c5afb35300d68704dc27a2261365759e390953b))
+
+
+
 ## [1.1.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.0...v1.1.1) (2022-06-02)
 
 
@@ -36,15 +45,6 @@
 ### BREAKING CHANGES
 
 * envar changes
-
-
-
-# [0.13.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.12.0...v0.13.0) (2022-05-19)
-
-
-### Features
-
-* add shortcut for search ([#134](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/134)) ([30ae7a0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/30ae7a0b1a9a5371648d28ffa8e8fc64b1b12357))
 
 
 
