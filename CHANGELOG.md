@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.0...v1.1.1) (2022-06-02)
+
+
+### Bug Fixes
+
+* removed gh action trigger ([7f829c7](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/7f829c77b6a5174e672c83db66e3b5a69253d023))
+
+
+
 # [1.1.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.0.1...v1.1.0) (2022-06-02)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * add shortcut for search ([#134](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/134)) ([30ae7a0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/30ae7a0b1a9a5371648d28ffa8e8fc64b1b12357))
-
-
-
-# [0.12.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.11.0...v0.12.0) (2022-05-19)
-
-
-### Features
-
-* Added Discord and GitHub icons in footer instead of the text. ([#130](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/130)) ([72add37](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/72add372f60b16460dec7df298b4fa8e2bbfc673))
 
 
 
