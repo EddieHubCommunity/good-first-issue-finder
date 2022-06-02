@@ -1,3 +1,12 @@
+## [1.1.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.3...v1.1.4) (2022-06-02)
+
+
+### Bug Fixes
+
+* secret usage ([f78a005](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/f78a005956b74a8ff28e0393cd71421933d69195))
+
+
+
 ## [1.1.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.2...v1.1.3) (2022-06-02)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * community gh action ([1fedb54](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/1fedb54f2fa65e39349621289b82fcc7e6c50338))
-
-
-
-## [1.0.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.0.0...v1.0.1) (2022-06-02)
-
-
-### Bug Fixes
-
-* gh token ([#142](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/142)) ([53c8a97](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/53c8a97fd3366177c52987db199954cfab76eca7))
 
 
 
