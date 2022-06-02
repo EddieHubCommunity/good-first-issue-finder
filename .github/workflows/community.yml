@@ -26,7 +26,6 @@ on:
   registry_package:
   release:
   repository_dispatch:
-  schedule:
   status:
   watch:
   workflow_call:
