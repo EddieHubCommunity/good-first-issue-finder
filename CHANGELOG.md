@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.0.1...v1.1.0) (2022-06-02)
+
+
+### Features
+
+* community gh action ([1fedb54](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/1fedb54f2fa65e39349621289b82fcc7e6c50338))
+
+
+
 ## [1.0.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.0.0...v1.0.1) (2022-06-02)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * Added Discord and GitHub icons in footer instead of the text. ([#130](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/130)) ([72add37](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/72add372f60b16460dec7df298b4fa8e2bbfc673))
-
-
-
-# [0.11.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v0.10.5...v0.11.0) (2022-05-15)
-
-
-### Features
-
-* io ssl domain ([eb49044](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/eb49044f76ee38cdcce12f8d978f8876e45213ef))
 
 
 
