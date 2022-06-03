@@ -1,3 +1,4 @@
+name: Community statistics
 on:
   check_run:
   check_suite:
