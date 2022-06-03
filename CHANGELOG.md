@@ -1,3 +1,12 @@
+## [1.1.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.4...v1.1.5) (2022-06-03)
+
+
+### Bug Fixes
+
+* community action on fork ([#146](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/146)) ([ae2591d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/ae2591d5f91aaf3425b4a5a5aa99cac3b673dd38))
+
+
+
 ## [1.1.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.3...v1.1.4) (2022-06-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * removed gh action trigger ([7f829c7](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/7f829c77b6a5174e672c83db66e3b5a69253d023))
-
-
-
-# [1.1.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.0.1...v1.1.0) (2022-06-02)
-
-
-### Features
-
-* community gh action ([1fedb54](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/1fedb54f2fa65e39349621289b82fcc7e6c50338))
 
 
 
