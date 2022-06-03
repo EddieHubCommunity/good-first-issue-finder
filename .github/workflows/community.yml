@@ -18,10 +18,27 @@ on:
   project_card:
   project_column:
   public:
-  pull_request:
+  pull_request_target:
+    types:
+      - assigned
+      - unassigned
+      - labeled
+      - unlabeled
+      - opened
+      - edited
+      - closed
+      - reopened
+      - synchronize
+      - converted_to_draft
+      - ready_for_review
+      - locked
+      - unlocked 
+      - review_requested 
+      - review_request_removed 
+      - auto_merge_enabled 
+      - auto_merge_disabled
   pull_request_review:
   pull_request_review_comment:
-  pull_request_target:
   push:
   registry_package:
   release:
