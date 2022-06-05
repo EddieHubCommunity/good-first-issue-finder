@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.6...v1.2.0) (2022-06-05)
+
+
+### Features
+
+* div inside header ([#144](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/144)) ([c4b1c3e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c4b1c3e1cf7cbcc5689696264855e5dce8c85f98))
+
+
+
 ## [1.1.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.5...v1.1.6) (2022-06-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * community action api path ([fdd9cae](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fdd9caefd7474405f588f1c3a8b4ab817415ddc3))
-
-
-
-## [1.1.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.1...v1.1.2) (2022-06-02)
-
-
-### Bug Fixes
-
-* gh action triggers ([3c5afb3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/3c5afb35300d68704dc27a2261365759e390953b))
 
 
 
