@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="inline-flex items-center justify-center space-x-1 rounded-full bg-white px-2 py-2 shadow-standard transition-all duration-200"
+  class="inline-flex items-center justify-center space-x-1 rounded-full bg-white px-2 py-2 shadow-standard transition-all duration-200" tabindex="0"
 >
   <label
     class="cursor-pointer rounded-full px-2 font-semibold transition-all duration-200"
