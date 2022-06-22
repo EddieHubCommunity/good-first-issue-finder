@@ -60,4 +60,4 @@ Thanks a lot for spending your time helping Good first issue finder grow. Thanks
 
 ## 🙏 Support
 
-This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
