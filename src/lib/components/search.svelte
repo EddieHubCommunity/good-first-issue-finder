@@ -28,3 +28,9 @@
   type="search"
   {placeholder}
 />
+
+<style>
+  input[type='search']::-webkit-search-cancel-button {
+    display: none;
+  }
+</style>
