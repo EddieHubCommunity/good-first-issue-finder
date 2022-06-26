@@ -79,9 +79,9 @@
 </script>
 
 <header class="mb-8 flex flex-col items-center justify-center">
-   <div class="mb-8 text-center">
-      Eddiehub Issue-Crawler for finding <b>good-first-issues</b>
-    </div>
+  <div class="mb-8 text-center">
+    Eddiehub Issue-Crawler for finding <b>good-first-issues</b>
+  </div>
   <div class="mb-4">
     <Toggle
       id="toggle"
