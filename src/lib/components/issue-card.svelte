@@ -33,6 +33,9 @@
       </div>
     </div>
     <div class="flex flex-shrink-0">
+    <span class="flex min-w-0 items-center">
+        {new Date(issue.createdAt).toString().replace(/\S+\s(\S+)\s(\d+)\s(\d+)\s.*/,'$2 $1 $3')}
+      </span>
       <div class="mr-2 flex items-center px-2">
         {#if issue.repository.primaryLanguage}
           <Label
