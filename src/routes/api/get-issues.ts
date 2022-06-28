@@ -20,6 +20,7 @@ export const post: RequestHandler = async ({ request }) => {
             ... on Issue {
               url
               title
+              createdAt
               labels(first: $skip) {
                 edges {
                   node {
