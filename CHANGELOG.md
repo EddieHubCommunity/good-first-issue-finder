@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.2.0...v1.3.0) (2022-06-28)
+
+
+### Features
+
+* added issue creation date ([#156](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/156)) ([e2907f5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e2907f50db909d21c8a2546cafbf93692101afb8))
+
+
+
 # [1.2.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.6...v1.2.0) (2022-06-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * secret usage ([f78a005](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/f78a005956b74a8ff28e0393cd71421933d69195))
-
-
-
-## [1.1.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.2...v1.1.3) (2022-06-02)
-
-
-### Bug Fixes
-
-* community action api path ([fdd9cae](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fdd9caefd7474405f588f1c3a8b4ab817415ddc3))
 
 
 
