@@ -1,4 +1,4 @@
-<footer class="mt-auto w-full py-4 dark:bg-skin-off-background">
+<footer class="mt-auto w-full bg-skin-off-background py-4">
   <ul class="flex list-none items-center justify-center gap-8">
     <li>
       <a
