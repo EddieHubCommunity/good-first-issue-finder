@@ -33,9 +33,6 @@
       </div>
     </div>
     <div class="flex flex-shrink-0">
-    <span class="flex min-w-0 items-center">
-        {new Date(issue.createdAt).toString().replace(/\S+\s(\S+)\s(\d+)\s(\d+)\s.*/,'$2 $1 $3')}
-      </span>
       <div class="mr-2 flex items-center px-2">
         {#if issue.repository.primaryLanguage}
           <Label
@@ -58,6 +55,9 @@
   </div>
   {#if !isToggled}
     <div class="mt-2 space-y-2">
+      <span class="flex">
+        Created at: {new Date(issue.createdAt).toString().replace(/\S+\s(\S+)\s(\d+)\s(\d+)\s.*/,'$2 $1 $3')}
+      </span>
       {#each issue.labels.edges as label}
         <Label text={label.node.name} color={label.node.color} />
       {/each}
