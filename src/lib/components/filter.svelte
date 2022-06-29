@@ -21,6 +21,6 @@
 
 <style lang="postcss">
   input:checked + label {
-    @apply border-eddiehub-200 bg-eddiehub-200 text-white;
+    @apply border-skin-primary bg-skin-primary text-white;
   }
 </style>

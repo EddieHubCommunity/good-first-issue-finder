@@ -1,14 +1,15 @@
 const config = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
-
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        background: '#f5f4f4',
-        eddiehub: {
-          100: '#ffb953',
-          200: '#ff5a00',
-          300: '#c23100',
+        skin: {
+          primary: 'var(--color-primary)',
+          background: 'var(--color-background)',
+          'off-background': 'var(--color-off-background)',
+          text: 'var(--color-text)',
+          'text-highlight': 'var(--color-text-highlight)',
         },
       },
       boxShadow: {

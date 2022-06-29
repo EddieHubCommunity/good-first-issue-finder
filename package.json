@@ -47,7 +47,7 @@
   "lint-staged": {
     "*.{cjs,js,ts,css,scss,svelte}": [
       "eslint --fix",
-      "prettier --write --plugin-search-dir=. ."
+      "prettier --write --plugin-search-dir=."
     ]
   }
 }
