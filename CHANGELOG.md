@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.3.0...v1.4.0) (2022-06-29)
+
+
+### Features
+
+* add darktheme ([#154](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/154)) ([e38780f](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e38780f2ae0eaf668c62aae136b738be7214248d))
+
+
+
 # [1.3.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.2.0...v1.3.0) (2022-06-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * community action on fork ([#146](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/146)) ([ae2591d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/ae2591d5f91aaf3425b4a5a5aa99cac3b673dd38))
-
-
-
-## [1.1.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.3...v1.1.4) (2022-06-02)
-
-
-### Bug Fixes
-
-* secret usage ([f78a005](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/f78a005956b74a8ff28e0393cd71421933d69195))
 
 
 

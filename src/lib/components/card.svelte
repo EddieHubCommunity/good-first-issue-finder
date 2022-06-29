@@ -1,3 +1,3 @@
-<div class="card rounded-xl bg-white p-4 shadow-standard">
+<div class="card rounded-xl bg-skin-off-background p-4 shadow-standard">
   <slot />
 </div>

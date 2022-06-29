@@ -4,7 +4,21 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply bg-background;
+  :root {
+    --color-primary: #ff5a00;
+    --color-background: #f5f4f4;
+    --color-off-background: #ffffff;
+    --color-text: #22272e;
+  }
+
+  .dark {
+    --color-primary: #ff5a00;
+    --color-background: #22272e;
+    --color-off-background: #333a43;
+    --color-text: #dadada99;
+    --color-text-highlight: #dadadade;
+  }
+  body {
+    @apply bg-skin-background text-skin-text;
   }
 }
