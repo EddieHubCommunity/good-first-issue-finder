@@ -12,6 +12,7 @@ export declare type Repository = {
 };
 
 export declare type Node = {
+  createdAt: string;
   url: string;
   title: string;
   labels: LabelResponse;

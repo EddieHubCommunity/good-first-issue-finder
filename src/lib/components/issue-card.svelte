@@ -73,7 +73,9 @@
   {#if !isToggled}
     <div class="mt-2 space-y-2">
       <span class="flex">
-        Created at: {new Date(issue.createdAt).toString().replace(/\S+\s(\S+)\s(\d+)\s(\d+)\s.*/,'$2 $1 $3')}
+        Created at: {new Date(issue.createdAt)
+          .toString()
+          .replace(/\S+\s(\S+)\s(\d+)\s(\d+)\s.*/, '$2 $1 $3')}
       </span>
       {#each issue.labels.edges as label}
         <Label text={label.node.name} color={label.node.color} />
