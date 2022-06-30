@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.4.0...v1.5.0) (2022-06-30)
+
+
+### Features
+
+* adjust favicon ([#158](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/158)) ([db33210](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/db332100f63cc4e9ea2059186fabf3ada20f8892))
+
+
+
 # [1.4.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.3.0...v1.4.0) (2022-06-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * delete community action ([#148](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/148)) ([99e73d4](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/99e73d467052b4e5f67bb04261b5c8be72f66486))
-
-
-
-## [1.1.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.4...v1.1.5) (2022-06-03)
-
-
-### Bug Fixes
-
-* community action on fork ([#146](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/146)) ([ae2591d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/ae2591d5f91aaf3425b4a5a5aa99cac3b673dd38))
 
 
 
