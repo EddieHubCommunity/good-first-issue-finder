@@ -40,6 +40,7 @@
   import Search from '$lib/components/search.svelte';
   import Filter from '$lib/components/filter.svelte';
   import Toggle from '$lib/components/toggle.svelte';
+  import ThemeSwitcher from '../lib/components/theme-switcher.svelte';
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
@@ -78,18 +79,27 @@
   $: intersectedArray = filteredLabels.filter((item) => searchItems.includes(item));
 </script>
 
-<header class="mb-8 flex flex-col items-center justify-center">
-  <div class="mb-8 text-center">
-    Eddiehub Issue-Crawler for finding <b>good-first-issues</b>
+<header class="my-8 flex flex-col items-center justify-center">
+  <div class="mb-8 grid w-full grid-cols-5 items-center gap-3">
+    <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
+    <p class="col-span-3 justify-self-center text-center text-sm md:text-base">
+      Eddiehub Issue-Crawler for finding
+      <strong class="whitespace-nowrap">good-first-issues</strong>
+    </p>
+    <div class="justify-self-end">
+      <ThemeSwitcher />
+    </div>
   </div>
   <div class="mb-4">
-    <Toggle
-      id="toggle"
-      bind:checked
-      labelLeft="EddieHub"
-      labelRight="GitHub"
-      on:change={onChangeHandler}
-    />
+    <div class="justify-self-center">
+      <Toggle
+        id="toggle"
+        bind:checked
+        labelLeft="EddieHub"
+        labelRight="GitHub"
+        on:change={onChangeHandler}
+      />
+    </div>
   </div>
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
 

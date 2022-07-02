@@ -34,23 +34,23 @@
 </script>
 
 <div class="flex divide-x divide-gray-500">
-  <button class="p-2" on:click={setSystem}
+  <button class="p-1 text-xs md:p-2 md:text-base" title="System Theme" on:click={setSystem}
     ><i
       class:active={theme === 'system'}
       class="fa-solid fa-gear text-skin-off mr-1 dark:text-skin-text-highlight"
-    />System</button
+    /></button
   >
-  <button class="p-2" on:click={setLight}
+  <button class="p-1 text-xs md:p-2 md:text-base" title="Light Theme" on:click={setLight}
     ><i
       class:active={theme === 'light'}
       class="fa-solid fa-sun text-skin-off mr-1 dark:text-skin-text-highlight"
-    />Light</button
+    /></button
   >
-  <button class="p-2" on:click={setDark}
+  <button class="p-1 text-xs md:p-2 md:text-base" title="Dark Theme" on:click={setDark}
     ><i
       class:active={theme === 'dark'}
       class="fa-solid fa-moon text-skin-off mr-1 dark:text-skin-text-highlight"
-    />Dark</button
+    /></button
   >
 </div>
 
