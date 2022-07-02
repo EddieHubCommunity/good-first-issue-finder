@@ -82,7 +82,7 @@
 <header class="my-8 flex flex-col items-center justify-center">
   <div class="mb-8 grid w-full grid-cols-5 items-center gap-3">
     <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
-    <p class="col-span-3 justify-self-center text-center text-sm md:text-base">
+    <p class="col-span-3 justify-self-center text-center text-sm md:text-lg">
       Eddiehub Issue-Crawler for finding
       <strong class="whitespace-nowrap">good-first-issues</strong>
     </p>
