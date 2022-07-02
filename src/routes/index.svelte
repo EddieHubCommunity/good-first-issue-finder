@@ -102,5 +102,5 @@
     {/each}
   </main>
 {:else}
-  <main class="text-center">Unfortuately there was no issue found</main>
+  <main class="text-center">Unfortunately, there were no issues found.</main>
 {/if}
