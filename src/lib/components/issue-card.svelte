@@ -16,14 +16,8 @@
   <div class="flex items-center justify-between">
     <div class="flex min-w-0 items-center">
       <img
-        class="mr-4 object-contain dark:hidden"
-        src="/images/githubmark-light.svg"
-        width="32"
-        alt="github"
-      />
-      <img
-        class="mr-4 hidden object-contain dark:block"
-        src="/images/githubmark-dark.svg"
+        class="mr-4 object-contain"
+        src={issue.repository.owner.avatarUrl}
         width="32"
         alt="github"
       />
