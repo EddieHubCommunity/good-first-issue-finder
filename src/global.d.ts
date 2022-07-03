@@ -1,6 +1,7 @@
 /// <reference types="@sveltejs/kit" />
 
 export declare type Owner = {
+  avatarUrl: string;
   login: string;
 };
 
