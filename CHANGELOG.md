@@ -1,3 +1,12 @@
+## [1.5.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.0...v1.5.1) (2022-07-02)
+
+
+### Bug Fixes
+
+* remove navbar ([#165](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/165)) ([866cc5f](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/866cc5f8b55c69415782c2ca6a91c42609676303))
+
+
+
 # [1.5.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.4.0...v1.5.0) (2022-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * div inside header ([#144](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/144)) ([c4b1c3e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c4b1c3e1cf7cbcc5689696264855e5dce8c85f98))
-
-
-
-## [1.1.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.5...v1.1.6) (2022-06-03)
-
-
-### Bug Fixes
-
-* delete community action ([#148](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/148)) ([99e73d4](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/99e73d467052b4e5f67bb04261b5c8be72f66486))
 
 
 
