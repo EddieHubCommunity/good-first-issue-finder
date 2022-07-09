@@ -4,7 +4,7 @@
 
 Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues.
 
-![eddiehub issue finder](https://user-images.githubusercontent.com/64529217/177002832-d17febfc-40cc-4077-a1f5-a4e1ed78d9d3.png)
+![eddiehub issue finder](https://user-images.githubusercontent.com/64529217/177034601-fe8dffce-cfac-4f61-889b-e3fe1ab7497d.png)
 
 <!-- (Can be only done after merged 😅)
 ## Example using Gitpod, ephemeral dev environment in the cloud (free)
