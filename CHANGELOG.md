@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.2...v1.6.0) (2022-07-09)
+
+
+### Features
+
+* display avatars ([#167](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/167)) ([0562825](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/05628250269bdfafe9102fc5f2c75103a6bded3e))
+
+
+
 ## [1.5.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.1...v1.5.2) (2022-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add darktheme ([#154](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/154)) ([e38780f](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e38780f2ae0eaf668c62aae136b738be7214248d))
-
-
-
-# [1.3.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.2.0...v1.3.0) (2022-06-28)
-
-
-### Features
-
-* added issue creation date ([#156](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/156)) ([e2907f5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e2907f50db909d21c8a2546cafbf93692101afb8))
 
 
 
