@@ -1,3 +1,12 @@
+## [1.5.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.1...v1.5.2) (2022-07-06)
+
+
+### Bug Fixes
+
+* add .pretterignore to ignore CHANGELOG.md ([#166](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/166)) ([43e8949](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/43e89492455f56f0b92c5e1fa36f914195e21cee))
+
+
+
 ## [1.5.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.0...v1.5.1) (2022-07-02)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added issue creation date ([#156](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/156)) ([e2907f5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e2907f50db909d21c8a2546cafbf93692101afb8))
-
-
-
-# [1.2.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.1.6...v1.2.0) (2022-06-05)
-
-
-### Features
-
-* div inside header ([#144](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/144)) ([c4b1c3e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c4b1c3e1cf7cbcc5689696264855e5dce8c85f98))
 
 
 
