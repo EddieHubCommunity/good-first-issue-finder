@@ -16,7 +16,7 @@
   <div class="flex items-center justify-between">
     <div class="flex min-w-0 items-center">
       <img
-        class="mr-4 object-contain"
+        class="mr-4 rounded-full object-contain"
         src={issue.repository.owner.avatarUrl}
         width="32"
         alt="github"
