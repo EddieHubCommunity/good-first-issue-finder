@@ -38,6 +38,7 @@ export const post: RequestHandler = async ({ request }) => {
                   id
                 }
                 owner {
+                  avatarUrl
                   login
                 }
               }
