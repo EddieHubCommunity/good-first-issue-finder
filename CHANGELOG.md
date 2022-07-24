@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.0...v1.6.1) (2022-07-24)
+
+
+### Bug Fixes
+
+* search cancel css remove ([#153](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/153)) ([47c96f3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/47c96f390750db47872b84e199c74fc951971d2d))
+
+
+
 # [1.6.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.2...v1.6.0) (2022-07-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * adjust favicon ([#158](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/158)) ([db33210](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/db332100f63cc4e9ea2059186fabf3ada20f8892))
-
-
-
-# [1.4.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.3.0...v1.4.0) (2022-06-29)
-
-
-### Features
-
-* add darktheme ([#154](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/154)) ([e38780f](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e38780f2ae0eaf668c62aae136b738be7214248d))
 
 
 
