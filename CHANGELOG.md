@@ -1,3 +1,12 @@
+## [1.6.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.1...v1.6.2) (2022-07-27)
+
+
+### Bug Fixes
+
+* for newer version of k8s ([3134dc3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/3134dc38883086dcb8b8db0aadde61a6e2e2adf9))
+
+
+
 ## [1.6.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.0...v1.6.1) (2022-07-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove navbar ([#165](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/165)) ([866cc5f](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/866cc5f8b55c69415782c2ca6a91c42609676303))
-
-
-
-# [1.5.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.4.0...v1.5.0) (2022-06-30)
-
-
-### Features
-
-* adjust favicon ([#158](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/158)) ([db33210](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/db332100f63cc4e9ea2059186fabf3ada20f8892))
 
 
 

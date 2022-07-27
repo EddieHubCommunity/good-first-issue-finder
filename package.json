@@ -1,6 +1,6 @@
 {
   "name": "issue-finder",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "scripts": {
     "dev": "env-cmd svelte-kit dev",
     "build": "env-cmd --silent svelte-kit build",
