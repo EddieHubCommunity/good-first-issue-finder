@@ -1,3 +1,12 @@
+## [1.6.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.2...v1.6.3) (2022-08-02)
+
+
+### Bug Fixes
+
+* Typo on the header ([#175](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/175)) ([1808094](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/18080948f89a5d89605b1ee57b2a33170b012d9f))
+
+
+
 ## [1.6.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.1...v1.6.2) (2022-07-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add .pretterignore to ignore CHANGELOG.md ([#166](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/166)) ([43e8949](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/43e89492455f56f0b92c5e1fa36f914195e21cee))
-
-
-
-## [1.5.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.0...v1.5.1) (2022-07-02)
-
-
-### Bug Fixes
-
-* remove navbar ([#165](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/165)) ([866cc5f](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/866cc5f8b55c69415782c2ca6a91c42609676303))
 
 
 
