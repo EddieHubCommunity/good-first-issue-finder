@@ -26,8 +26,8 @@ Before installation, please make sure you have already installed the following t
 
 ## 🛠️ Installation Steps
 
-1. Fork the project
-2. Clone the project
+1. Fork this repository
+2. Clone this respository
    ```bash
      git clone https://github.com/YOUR_USERNAME/good-first-issue-finder.git
    ```
@@ -45,6 +45,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **greatly appreciated**.
+- You make a difference.
 <!-- Don't yet have guide, uncomment when we have refer https://github.com/EddieHubCommunity/good-first-issue-finder/issues/79
 - Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
   -->
@@ -55,7 +56,7 @@ Good first issue finder is licensed under the MIT License - see the [LICENSE](LI
 
 ## 💪 Thanks to all Contributors
 
-Thanks a lot for spending your time helping Good first issue finder grow. Thanks a lot! Keep rocking 🍻
+Thanks a lot for spending your time helping EddieHub's Good First Issue Finder grow. Thanks a lot! Keep rocking 🍻
 
 [![Contributors](https://contrib.rocks/image?repo=EddieHubCommunity/good-first-issue-finder)](https://github.com/EddieHubCommunity/good-first-issue-finder/graphs/contributors)
 
