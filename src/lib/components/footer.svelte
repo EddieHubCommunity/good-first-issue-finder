@@ -17,4 +17,8 @@
       >
     </li>
   </ul>
+  <br />
+  <div class="flex list-none items-center justify-center gap-8">
+    <p>Created with 🤍 by EddieHubCommunity</p>
+  </div>
 </footer>
