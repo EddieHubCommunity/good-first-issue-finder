@@ -1,7 +1,7 @@
 <script lang="ts">
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   export let tags: string[];
-  let selection = [];
+  let selection: string[] = [];
 
   $: selection, run();
   const run = () => {

@@ -1,12 +1,19 @@
+import { json as json$1 } from '@sveltejs/kit';
 import type { RequestHandler } from '@sveltejs/kit';
 import { Octokit } from 'octokit';
-import type { SearchResponse } from '../../global';
+import type { SearchResponse } from '../../../global';
 
 type Response = { search: SearchResponse };
 
-export const post: RequestHandler = async ({ request }) => {
+export const POST: RequestHandler = async ({ request }) => {
   const token = process.env['GH_TOKEN'];
-  if (!token) return { status: 500, body: { message: 'please provide a token' } };
+  if (!token)
+    return json$1(
+      { message: 'please provide a token' },
+      {
+        status: 500,
+      },
+    );
 
   const body = await request.json();
 
@@ -60,8 +67,5 @@ export const post: RequestHandler = async ({ request }) => {
 
   const returnBody = { ...search, ...{ labels: normalizedLabels } };
 
-  return {
-    status: 200,
-    body: returnBody,
-  };
+  return json$1(returnBody, { status: 200 });
 };

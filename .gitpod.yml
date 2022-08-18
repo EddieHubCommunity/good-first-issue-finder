@@ -1,10 +1,10 @@
 tasks:
   - init: npm install # runs during prebuild
     command: |
-      export HMR_HOST=`gp url 3000`
+      export HMR_HOST=`gp url 5173`
 
 ports:
-  - port: 3000
+  - port: 5173
     onOpen: ignore
 
 github:
