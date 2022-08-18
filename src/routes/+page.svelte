@@ -9,7 +9,8 @@
   import { goto } from '$app/navigation';
   export let data: { data: SearchResponse; checked: boolean };
 
-  let { data: githubData, checked } = data;
+  let { checked } = data;
+  $: githubData = data.data;
 
   $: searchString = '';
   $: filteredLabels = githubData.edges;

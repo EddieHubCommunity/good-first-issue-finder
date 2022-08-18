@@ -1,8 +1,8 @@
 import type { PageLoad } from '@sveltejs/kit';
 import { error } from '@sveltejs/kit';
+import type { SearchResponse } from '../global';
 
 export const load: PageLoad = async ({ fetch, url }) => {
-  console.log('run', url.searchParams.get('global'));
   let globalParam = false;
   const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
   const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
@@ -28,5 +28,5 @@ export const load: PageLoad = async ({ fetch, url }) => {
     };
   }
   const data = await res.json();
-  throw new error(data.message);
+  throw error(500, data.message);
 };
