@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.3...v1.7.0) (2022-08-18)
+
+
+### Features
+
+* upgrade Sveltekit Version ([#181](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/181)) ([7908bc9](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/7908bc9ac63c964fe78a32e0ca2a3e86d49a725d))
+
+
+
 ## [1.6.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.2...v1.6.3) (2022-08-02)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * display avatars ([#167](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/167)) ([0562825](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/05628250269bdfafe9102fc5f2c75103a6bded3e))
-
-
-
-## [1.5.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.1...v1.5.2) (2022-07-06)
-
-
-### Bug Fixes
-
-* add .pretterignore to ignore CHANGELOG.md ([#166](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/166)) ([43e8949](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/43e89492455f56f0b92c5e1fa36f914195e21cee))
 
 
 
