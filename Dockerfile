@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --ignore-scripts
+RUN npm ci --ignore-scripts
 
 COPY . .
 
@@ -16,7 +16,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --only=production --ignore-scripts
+RUN npm ci --only=production --ignore-scripts
 
 COPY . .
 

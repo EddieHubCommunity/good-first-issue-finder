@@ -1,7 +1,12 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+import pkg from './package.json';
 
 /** @type {import('vite').UserConfig} */
-const config = {
+const config = ({ command }) => ({
+  ssr: command === 'build' && {
+    external: Object.keys(pkg.dependencies),
+    noExternal: true,
+  },
   plugins: [sveltekit()],
   server: {
     hmr: {
@@ -9,6 +14,6 @@ const config = {
       host: process.env.HMR_HOST ? process.env.HMR_HOST.substring('https://'.length) : 'localhost',
     },
   },
-};
+});
 
 export default config;
