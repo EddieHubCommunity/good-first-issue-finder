@@ -1,40 +1,3 @@
-<script lang="ts" context="module">
-  import type { Load } from '@sveltejs/kit';
-
-  export const load: Load = async ({ fetch, url }) => {
-    let globalParam = false;
-    const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
-    const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
-
-    try {
-      globalParam = JSON.parse(url.searchParams.get('global'));
-    } catch (err) {
-      globalParam = false;
-    }
-
-    const postBody: { query: string } = globalParam ? { query: globalQuery } : { query: orgQuery };
-
-    const res = await fetch('/api/get-issues', {
-      method: 'POST',
-      body: JSON.stringify(postBody),
-    });
-
-    if (res.ok) {
-      const data = await res.json();
-      return {
-        props: {
-          data: data as SearchResponse,
-          checked: globalParam,
-        },
-      };
-    }
-    const data = await res.json();
-    return {
-      error: data.message,
-    };
-  };
-</script>
-
 <script lang="ts">
   import IssueCard from '$lib/components/issue-card.svelte';
   import Search from '$lib/components/search.svelte';
@@ -44,18 +7,19 @@
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
-  export let data: SearchResponse;
-  export let checked: boolean;
+  export let data: { data: SearchResponse; checked: boolean };
+
+  let { data: githubData, checked } = data;
 
   $: searchString = '';
-  $: filteredLabels = data.edges;
-  $: searchItems = data.edges;
+  $: filteredLabels = githubData.edges;
+  $: searchItems = githubData.edges;
 
   $: $selectedLabels, filterLabels();
   const filterLabels = () => {
-    filteredLabels = data.edges.filter((dataset) =>
+    filteredLabels = githubData.edges.filter((githubDataset) =>
       $selectedLabels.every((label) =>
-        dataset.node.labels.edges.some((edge) => edge.node.name === label),
+        githubDataset.node.labels.edges.some((edge) => edge.node.name === label),
       ),
     );
   };
@@ -71,7 +35,7 @@
   };
 
   const performSearch = () => {
-    searchItems = data.edges.filter((el) =>
+    searchItems = githubData.edges.filter((el) =>
       el.node.title.toLowerCase().includes(searchString.toLowerCase()),
     );
   };
@@ -103,7 +67,7 @@
   </div>
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
 
-  <Filter tags={data.labels} />
+  <Filter tags={githubData.labels} />
 </header>
 {#if intersectedArray.length > 0}
   <main class="mb-4 space-y-4">
