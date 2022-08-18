@@ -2,10 +2,10 @@
   "name": "issue-finder",
   "version": "1.6.3",
   "scripts": {
-    "dev": "env-cmd svelte-kit dev",
-    "build": "env-cmd --silent svelte-kit build",
+    "dev": "env-cmd vite dev",
+    "build": "env-cmd --silent vite build",
     "package": "env-cmd svelte-kit package",
-    "preview": "env-cmd svelte-kit preview",
+    "preview": "env-cmd vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -14,9 +14,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "next",
-    "@sveltejs/adapter-node": "1.0.0-next.68",
-    "@sveltejs/kit": "1.0.0-next.268",
+    "@sveltejs/adapter-node": "1.0.0-next.86",
+    "@sveltejs/kit": "1.0.0-next.405",
     "@types/cookie": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
@@ -37,7 +36,8 @@
     "svelte-preprocess": "^4.10.1",
     "tailwindcss": "^3.0.12",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "vite": "^3.0.8"
   },
   "type": "module",
   "dependencies": {
