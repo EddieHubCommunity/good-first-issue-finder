@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.7.0...v1.7.1) (2022-08-18)
+
+
+### Bug Fixes
+
+* deployment ([#184](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/184)) ([11c64ef](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/11c64ef2b6ffcb7b787f1b50674b14d8052ae4ef))
+
+
+
 # [1.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.3...v1.7.0) (2022-08-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * search cancel css remove ([#153](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/153)) ([47c96f3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/47c96f390750db47872b84e199c74fc951971d2d))
-
-
-
-# [1.6.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.5.2...v1.6.0) (2022-07-09)
-
-
-### Features
-
-* display avatars ([#167](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/167)) ([0562825](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/05628250269bdfafe9102fc5f2c75103a6bded3e))
 
 
 

@@ -1,6 +1,6 @@
 {
   "name": "issue-finder",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "scripts": {
     "dev": "env-cmd vite dev",
     "build": "env-cmd --silent vite build",
