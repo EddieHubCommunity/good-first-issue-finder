@@ -1,14 +1,13 @@
-import type { PageLoad } from '@sveltejs/kit';
-import { error } from '@sveltejs/kit';
+import { error, type Load } from '@sveltejs/kit';
 import type { SearchResponse } from '../global';
 
-export const load: PageLoad = async ({ fetch, url }) => {
+export const load: Load = async ({ fetch, url }) => {
   let globalParam = false;
   const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
   const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
 
   try {
-    globalParam = JSON.parse(url.searchParams.get('global'));
+    globalParam = JSON.parse(url.searchParams.get('global') as string);
   } catch (err) {
     globalParam = false;
   }
