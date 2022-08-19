@@ -44,17 +44,7 @@
   $: intersectedArray = filteredLabels.filter((item) => searchItems.includes(item));
 </script>
 
-<header class="my-8 flex flex-col items-center justify-center">
-  <div class="mb-8 grid w-full grid-cols-5 items-center gap-3">
-    <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
-    <p class="col-span-3 justify-self-center text-center text-sm md:text-lg">
-      EddieHub Issue-Crawler for finding
-      <strong class="whitespace-nowrap">good-first-issues</strong>
-    </p>
-    <div class="justify-self-end">
-      <ThemeSwitcher />
-    </div>
-  </div>
+<div class="my-8 flex flex-col items-center justify-center">
   <div class="mb-4">
     <div class="justify-self-center">
       <Toggle
@@ -69,7 +59,7 @@
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
 
   <Filter tags={githubData.labels} />
-</header>
+</div>
 {#if intersectedArray.length > 0}
   <main class="mb-4 space-y-4">
     {#each intersectedArray as node}
