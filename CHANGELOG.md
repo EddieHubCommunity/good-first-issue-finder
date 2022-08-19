@@ -1,3 +1,12 @@
+# [1.8.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.7.1...v1.8.0) (2022-08-19)
+
+
+### Features
+
+* remove env-cmd ([#186](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/186)) ([ba79055](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/ba79055e265ad0746900d5eec4b0927f962c0c21))
+
+
+
 ## [1.7.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.7.0...v1.7.1) (2022-08-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * for newer version of k8s ([3134dc3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/3134dc38883086dcb8b8db0aadde61a6e2e2adf9))
-
-
-
-## [1.6.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.0...v1.6.1) (2022-07-24)
-
-
-### Bug Fixes
-
-* search cancel css remove ([#153](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/153)) ([47c96f3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/47c96f390750db47872b84e199c74fc951971d2d))
 
 
 
