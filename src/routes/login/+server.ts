@@ -11,7 +11,7 @@ export const GET: RequestHandler = async () => {
     httpOnly: true,
   });
 
-  return new Response(JSON.stringify(''), {
+  return new Response(null, {
     status: 302,
     headers: {
       'set-cookie': csrfCookie,
