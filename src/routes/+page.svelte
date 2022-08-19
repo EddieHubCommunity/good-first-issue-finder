@@ -3,7 +3,6 @@
   import Search from '$lib/components/search.svelte';
   import Filter from '$lib/components/filter.svelte';
   import Toggle from '$lib/components/toggle.svelte';
-  import ThemeSwitcher from '../lib/components/theme-switcher.svelte';
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';

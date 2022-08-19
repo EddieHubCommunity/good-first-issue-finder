@@ -3,7 +3,7 @@
   import Footer from '$lib/components/footer.svelte';
   import Header from '$lib/components/header.svelte';
 
-  export let data;
+  // export let data;
 </script>
 
 <div class="flex min-h-screen flex-col">
