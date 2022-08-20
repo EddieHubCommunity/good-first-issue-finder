@@ -22,13 +22,15 @@ export const load: Load = async ({ fetch, url, parent }) => {
     method: 'POST',
     body: JSON.stringify(postBody),
   });
-
   if (res.ok) {
     const data = await res.json();
     return {
       data: data as SearchResponse,
       checked: globalParam,
     };
+  }
+  if (res.status === 401) {
+    throw redirect(307, '/login');
   }
   const data = await res.json();
   throw error(500, data.message);
