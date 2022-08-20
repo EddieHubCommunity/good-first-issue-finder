@@ -7,7 +7,7 @@
   let popperInstance: Instance | null = null;
 
   function createInstance() {
-    popperInstance = createPopper(image, popover, {
+    popperInstance = createPopper(root, popover, {
       placement: 'bottom-end',
       modifiers: [
         {
@@ -37,20 +37,21 @@
     }
   }
 
-  let image: HTMLElement;
+  let root: HTMLElement;
   let popover: HTMLElement;
 </script>
 
 <div>
-  <img
-    on:click={togglePopper}
-    bind:this={image}
-    class="cursor-pointer rounded-full transition-all delay-[50] duration-200 hover:shadow-lg"
-    width="48"
-    height="48"
-    src="https://www.github.com/{username}.png"
-    alt="Github profile picture of {username}"
-  />
+  <button on:click={togglePopper}>
+    <img
+      bind:this={root}
+      class="cursor-pointer rounded-full transition-all delay-[50] duration-200 hover:shadow-lg"
+      width="48"
+      height="48"
+      src="https://www.github.com/{username}.png"
+      alt="Github profile picture of {username}"
+    />
+  </button>
   {#if displayPopover}
     <div
       role="tooltip"
