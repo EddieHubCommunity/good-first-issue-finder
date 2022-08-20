@@ -1,7 +1,11 @@
-import { error, type Load } from '@sveltejs/kit';
+import { error, redirect, type Load } from '@sveltejs/kit';
 import type { SearchResponse } from '../global';
 
-export const load: Load = async ({ fetch, url }) => {
+export const load: Load = async ({ fetch, url, parent }) => {
+  const parentData = await parent();
+  if (!parentData.username) {
+    throw redirect(307, '/login');
+  }
   let globalParam = false;
   const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
   const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
