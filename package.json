@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.25.0",
+    "@popperjs/core": "^2.11.6",
     "@sveltejs/adapter-node": "1.0.0-next.86",
     "@sveltejs/kit": "1.0.0-next.420",
     "@types/cookie": "^0.4.1",

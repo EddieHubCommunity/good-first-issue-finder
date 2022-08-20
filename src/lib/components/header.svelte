@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ProfilePicture from './profile-picture.svelte';
   export let username: string;
 </script>
 
@@ -7,13 +8,6 @@
     <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
   </div>
   {#if username}
-    <div>
-      Welcome {username},
-      <a
-        href="/api/authentication/logout"
-        class="font-semibold underline decoration-skin-primary transition-all delay-[50] duration-200 hover:decoration-transparent"
-        >Sign Out</a
-      >
-    </div>
+    <ProfilePicture {username} />
   {/if}
 </header>
