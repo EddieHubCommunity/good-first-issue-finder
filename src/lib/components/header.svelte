@@ -15,7 +15,5 @@
         >Sign Out</a
       >
     </div>
-  {:else}
-    <a class="rounded-xl bg-skin-primary p-2 text-white" href="/login">Login</a>
   {/if}
 </header>
