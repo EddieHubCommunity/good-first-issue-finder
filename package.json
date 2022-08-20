@@ -11,9 +11,11 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "validate": "npx svelte-check --fail-on-hints",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "playwright test"
   },
   "devDependencies": {
+    "@playwright/test": "^1.25.0",
     "@sveltejs/adapter-node": "1.0.0-next.86",
     "@sveltejs/kit": "1.0.0-next.420",
     "@types/cookie": "^0.4.1",
