@@ -2,10 +2,13 @@ tasks:
   - init: npm install # runs during prebuild
     command: |
       export HMR_HOST=`gp url 5173`
+    before: .gitpod/before.sh
 
 ports:
   - port: 5173
     onOpen: ignore
+
+image: gitpod/workspace-full-vnc
 
 github:
   prebuilds:
