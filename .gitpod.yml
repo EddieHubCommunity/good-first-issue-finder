@@ -2,7 +2,7 @@ tasks:
   - init: npm install # runs during prebuild
     command: |
       export HMR_HOST=`gp url 5173`
-    before: .gitpod/before.sh
+    before: npx playwright install
 
 ports:
   - port: 5173
