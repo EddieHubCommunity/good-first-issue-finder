@@ -1,8 +1,9 @@
 tasks:
-  - init: npm install # runs during prebuild
+  - init: |
+      npm install
+      npx playwright install
     command: |
       export HMR_HOST=`gp url 5173`
-    before: npx playwright install
 
 ports:
   - port: 5173
