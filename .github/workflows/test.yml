@@ -23,7 +23,7 @@ jobs:
       
       - name: Get installed Playwright version
         id: playwright-version
-        run: echo "::set-output name=version::$(yarn why --json @playwright/test | grep -h 'workspace:.' | jq --raw-output '.children[].locator' | sed -e 's/@playwright\/test@.*://')"
+        run: echo -n "::set-output name=version::$(npm ls @playwright/test --json | jq --raw-output '.dependencies["@playwright/test"].version')"
         
       - uses: actions/cache@v3
         id: playwright-cache
