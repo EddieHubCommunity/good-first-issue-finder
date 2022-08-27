@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.0.0...v2.0.1) (2022-08-27)
+
+
+### Bug Fixes
+
+* kubernetes secret name ([#196](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/196)) ([17535b7](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/17535b7d8b081c3e8e9bcb98f5fa5a6db519ac02))
+
+
+
 # [2.0.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.8.0...v2.0.0) (2022-08-27)
 
 
@@ -46,15 +55,6 @@
 ### Features
 
 * upgrade Sveltekit Version ([#181](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/181)) ([7908bc9](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/7908bc9ac63c964fe78a32e0ca2a3e86d49a725d))
-
-
-
-## [1.6.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.2...v1.6.3) (2022-08-02)
-
-
-### Bug Fixes
-
-* Typo on the header ([#175](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/175)) ([1808094](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/18080948f89a5d89605b1ee57b2a33170b012d9f))
 
 
 
