@@ -41,6 +41,21 @@ Before installation, please make sure you have already installed the following t
 
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)
 
+## Running in prod mode
+
+This is optional and not recommended for development
+
+1. `npm install`
+2. `npm run build`
+3. `node build/index.html`
+
+## Running the docker container
+
+This is optional and not recommended for development
+
+1. `docker pull ghcr.io/eddiehubcommunity/finder:latest`
+2. `docker run -d -p 3000:3000 finder`
+
 ## 👨‍💻 Contributing
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
