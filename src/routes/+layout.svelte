@@ -2,8 +2,12 @@
   import '../app.css';
   import Footer from '$lib/components/footer.svelte';
   import Header from '$lib/components/header.svelte';
+  import { setContext } from 'svelte';
+  import { versionKey } from '$lib/util/version';
 
-  export let data: { username: string };
+  export let data: { username: string; version: string };
+
+  setContext(versionKey, data.version);
 </script>
 
 <div class="flex min-h-screen flex-col">
