@@ -3,7 +3,7 @@ import cookie from 'cookie';
 import { env } from '$env/dynamic/private';
 
 const ghAuthURL = 'https://github.com/login/oauth/authorize';
-const clientId = env.GITHUB_CLIENT_ID;
+const clientId = env.FINDER_GITHUB_CLIENT_ID;
 export const GET: RequestHandler = async () => {
   const csrfState = Math.random().toString(36).substring(7);
   const csrfCookie = cookie.serialize('state', csrfState, {

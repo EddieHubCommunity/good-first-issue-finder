@@ -20,8 +20,13 @@ spec:
           ports:
             - containerPort: 3000
           env:
-            - name: GH_TOKEN
+            - name: FINDER_GITHUB_CLIENT_ID
               valueFrom:
                 secretKeyRef:
-                  name: gh-token
-                  key: GH_TOKEN
+                  name: finder-gh-client-id
+                  key: FINDER_GITHUB_CLIENT_ID
+            - name: FINDER_GITHUB_CLIENT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: finder-gh-client-secret
+                  key: FINDER_GITHUB_CLIENT_SECRET

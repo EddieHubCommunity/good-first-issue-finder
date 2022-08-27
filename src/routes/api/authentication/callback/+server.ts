@@ -7,8 +7,8 @@ import cookie from 'cookie';
 const tokenURL = 'https://github.com/login/oauth/access_token';
 const userURL = 'https://api.github.com/user';
 
-const clientId = env.GITHUB_CLIENT_ID;
-const secret = env.GITHUB_CLIENT_SECRET;
+const clientId = env.FINDER_GITHUB_CLIENT_ID;
+const secret = env.FINDER_GITHUB_CLIENT_SECRET;
 
 export const GET: RequestHandler = async ({ url, request }) => {
   const code = url.searchParams.get('code') as string;
