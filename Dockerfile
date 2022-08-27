@@ -24,4 +24,4 @@ COPY --from=dependencies /usr/src/app/build ./build
 
 EXPOSE 3000
 
-CMD ["node", "build/index.js"]
+CMD ["npm", "run", "run:server"]
