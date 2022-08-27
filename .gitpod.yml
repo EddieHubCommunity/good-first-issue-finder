@@ -1,3 +1,5 @@
+image: gitpod/workspace-full-vnc:latest
+
 tasks:
   - init: npm install # runs during prebuild
     command: |

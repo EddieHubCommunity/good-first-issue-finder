@@ -1,20 +1,19 @@
 import { json as json$1 } from '@sveltejs/kit';
 import type { RequestHandler } from '@sveltejs/kit';
 import { Octokit } from 'octokit';
-import { env } from '$env/dynamic/private';
+import cookie from 'cookie';
 import type { SearchResponse } from '../../../global';
 
 type Response = { search: SearchResponse };
 
 export const POST: RequestHandler = async ({ request }) => {
-  const token = env.GH_TOKEN;
-  if (!token)
-    return json$1(
-      { message: 'please provide a token' },
-      {
-        status: 500,
-      },
-    );
+  const token = cookie.parse(request.headers.get('cookie') || '').access_token || '';
+
+  if (!token) {
+    return new Response(JSON.stringify({ message: 'Please authenticate to use this endpoint' }), {
+      status: 401,
+    });
+  }
 
   const body = await request.json();
 
