@@ -1,3 +1,12 @@
+# [2.1.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.0.1...v2.1.0) (2022-08-27)
+
+
+### Features
+
+* display version number ([#197](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/197)) ([1ce8e7c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/1ce8e7ccd19b14d858675ed6c3b7a82596c494aa))
+
+
+
 ## [2.0.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.0.0...v2.0.1) (2022-08-27)
 
 
@@ -46,15 +55,6 @@
 ### Bug Fixes
 
 * deployment ([#184](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/184)) ([11c64ef](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/11c64ef2b6ffcb7b787f1b50674b14d8052ae4ef))
-
-
-
-# [1.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.6.3...v1.7.0) (2022-08-18)
-
-
-### Features
-
-* upgrade Sveltekit Version ([#181](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/181)) ([7908bc9](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/7908bc9ac63c964fe78a32e0ca2a3e86d49a725d))
 
 
 
