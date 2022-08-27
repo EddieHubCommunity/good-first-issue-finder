@@ -31,7 +31,7 @@ jobs:
           path: '~/.cache/ms-playwright'
           key: '${{ runner.os }}-playwright-${{ steps.playwright-version.outputs.version }}'
           restore-keys: |
-            ${{ runner.os }}-playwright-
+            ${{ runner.os }}-playwright-${{ steps.playwright-version.outputs.version }}
 
       - name: Install Playwright's dependencies
         if: steps.playwright-cache.outputs.cache-hit != 'true'
