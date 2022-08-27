@@ -2,6 +2,7 @@
   import IssueCard from '$lib/components/issue-card.svelte';
   import Search from '$lib/components/search.svelte';
   import Filter from '$lib/components/filter.svelte';
+  import LoadMore from '$lib/components/load-more.svelte';
   import Toggle from '$lib/components/toggle.svelte';
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
@@ -64,6 +65,11 @@
     {#each intersectedArray as node}
       <IssueCard issue={node.node} />
     {/each}
+    <!-- {#if githubData.pageInfo.hasNextPage} -->
+    <div class="flex items-center justify-center">
+      <LoadMore />
+    </div>
+    <!-- {/if} -->
   </main>
 {:else}
   <main class="text-center">Unfortunately, there were no issues found.</main>

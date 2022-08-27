@@ -8,6 +8,10 @@ export declare type Owner = {
 export declare type Repository = {
   name: string;
   url: string;
+  forkCount: number;
+  nameWithOwner: string;
+  stargazerCount: number;
+  description: string;
   owner: Owner;
   primaryLanguage: PrimaryLanguage;
 };
@@ -16,6 +20,7 @@ export declare type Node = {
   createdAt: string;
   url: string;
   title: string;
+  body: string;
   labels: LabelResponse;
   repository: Repository;
 };
@@ -24,9 +29,15 @@ export declare type Edge = {
   node: Node;
 };
 
+export declare type pageInfo = {
+  hasNextPage: boolean;
+  endCursor: string;
+};
+
 export declare type SearchResponse = {
   labels: string[];
   issueCount: number;
+  pageInfo: pageInfo;
   edges: Edge[];
 };
 
