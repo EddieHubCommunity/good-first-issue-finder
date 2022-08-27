@@ -1,3 +1,12 @@
+## [2.1.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.1.0...v2.1.1) (2022-08-27)
+
+
+### Bug Fixes
+
+* version number display ([#198](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/198)) ([b541f72](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/b541f7288ae9550ccf4ec0eee95d4bbe41aab178))
+
+
+
 # [2.1.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.0.1...v2.1.0) (2022-08-27)
 
 
@@ -46,15 +55,6 @@
 ### Features
 
 * remove env-cmd ([#186](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/186)) ([ba79055](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/ba79055e265ad0746900d5eec4b0927f962c0c21))
-
-
-
-## [1.7.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.7.0...v1.7.1) (2022-08-18)
-
-
-### Bug Fixes
-
-* deployment ([#184](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/184)) ([11c64ef](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/11c64ef2b6ffcb7b787f1b50674b14d8052ae4ef))
 
 
 
