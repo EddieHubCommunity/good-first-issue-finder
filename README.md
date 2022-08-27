@@ -33,13 +33,23 @@ Before installation, please make sure you have already installed the following t
    ```
 3. Navigate to the project directory `cd good-first-issue-finder`
 4. Install dependencies with `npm install`
-5. Create a `.env` file in the root of the project. Then add your GitHub token (see example in `.env.example` file)
+5. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
 
-> **Note:** A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+> **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).  
+> The Callback Url needs to point to the endpoint `/api/authentication/callback` of the baseURL the app should run on.
 
 6. Run `npm run dev`
 
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)
+
+## 🧪 Testing
+
+We're using [Playwright](https://playwright.dev/) for running End-To-End Tests.
+For running the tests you would need to install the playwright dependencies by running
+
+```bash
+npx playwright install --with-deps
+```
 
 ## 👨‍💻 Contributing
 
