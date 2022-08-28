@@ -30,7 +30,6 @@ export const POST: RequestHandler = async ({ request }) => {
           node {
             ... on Issue {
               url
-              body
               title
               createdAt
               labels(first: $skip) {
@@ -44,10 +43,6 @@ export const POST: RequestHandler = async ({ request }) => {
               repository {
                 name
                 url
-                forkCount
-                nameWithOwner
-                stargazerCount
-                description
                 primaryLanguage {
                   color
                   name
@@ -65,7 +60,7 @@ export const POST: RequestHandler = async ({ request }) => {
     }`,
     {
       queryString: body.query,
-      skip: 50,
+      skip: 10,
       after: body.after,
     },
   );

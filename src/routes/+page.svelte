@@ -25,6 +25,22 @@
     );
   };
 
+  const fetchMore = async () => {
+    const res = await fetch('/api/get-issues', {
+      method: 'POST',
+      body: JSON.stringify({
+        after: githubData.pageInfo.endCursor,
+        query: 'is:open label:"good first issue" org:EddieHubCommunity no:assignee',
+      }),
+    });
+    if (res.ok) {
+      const respData = (await res.json()) as SearchResponse;
+      githubData.edges = [...githubData.edges, ...respData.edges];
+      githubData.pageInfo = respData.pageInfo;
+      githubData.labels = [...githubData.labels, ...respData.labels];
+    }
+  };
+
   const onChangeHandler = async () => {
     if (checked) {
       await goto('?global=true');
@@ -65,11 +81,11 @@
     {#each intersectedArray as node}
       <IssueCard issue={node.node} />
     {/each}
-    <!-- {#if githubData.pageInfo.hasNextPage} -->
-    <div class="flex items-center justify-center">
-      <LoadMore />
-    </div>
-    <!-- {/if} -->
+    {#if githubData.pageInfo.hasNextPage}
+      <div class="flex items-center justify-center">
+        <LoadMore on:load={fetchMore} />
+      </div>
+    {/if}
   </main>
 {:else}
   <main class="text-center">Unfortunately, there were no issues found.</main>

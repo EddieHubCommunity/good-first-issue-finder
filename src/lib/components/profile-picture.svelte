@@ -60,6 +60,7 @@
     >
       <div class="flex flex-col items-center justify-center gap-4">
         <img
+          class="rounded-full"
           alt="Github profile picture of {username}"
           src="https://www.github.com/{username}.png"
           width="96"
