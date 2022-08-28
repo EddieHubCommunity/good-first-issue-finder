@@ -13,6 +13,7 @@
   const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
 
   let { checked } = data;
+  let loadDisabled = false;
   $: githubData = data.data;
 
   $: searchString = '';
@@ -29,6 +30,7 @@
   };
 
   const fetchMore = async () => {
+    loadDisabled = true;
     const res = await fetch('/api/get-issues', {
       method: 'POST',
       body: JSON.stringify({
@@ -43,6 +45,7 @@
       const uniqueLabels = [...githubData.labels, ...respData.labels];
       githubData.labels = [...new Set(uniqueLabels)];
     }
+    loadDisabled = false;
   };
 
   const onChangeHandler = async () => {
@@ -87,7 +90,7 @@
     {/each}
     {#if githubData.pageInfo.hasNextPage}
       <div class="flex items-center justify-center">
-        <LoadMore on:load={fetchMore} />
+        <LoadMore isDisabled={loadDisabled} on:load={fetchMore} />
       </div>
     {/if}
   </main>
