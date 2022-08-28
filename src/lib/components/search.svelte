@@ -23,7 +23,7 @@
   bind:this={element}
   on:change
   on:keyup
-  class="rounded-xl bg-skin-off-background py-2 px-4 leading-4 shadow-standard"
+  class="rounded-xl bg-skin-off-background py-2 px-4 leading-4 shadow-standard dark:shadow-dark"
   bind:value={searchTerm}
   type="search"
   {placeholder}

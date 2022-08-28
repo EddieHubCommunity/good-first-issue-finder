@@ -9,6 +9,9 @@
   import { goto } from '$app/navigation';
   export let data: { data: SearchResponse; checked: boolean };
 
+  const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
+  const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
+
   let { checked } = data;
   $: githubData = data.data;
 
@@ -30,14 +33,15 @@
       method: 'POST',
       body: JSON.stringify({
         after: githubData.pageInfo.endCursor,
-        query: 'is:open label:"good first issue" org:EddieHubCommunity no:assignee',
+        query: checked ? globalQuery : orgQuery,
       }),
     });
     if (res.ok) {
       const respData = (await res.json()) as SearchResponse;
       githubData.edges = [...githubData.edges, ...respData.edges];
       githubData.pageInfo = respData.pageInfo;
-      githubData.labels = [...githubData.labels, ...respData.labels];
+      const uniqueLabels = [...githubData.labels, ...respData.labels];
+      githubData.labels = [...new Set(uniqueLabels)];
     }
   };
 
