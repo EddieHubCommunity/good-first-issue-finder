@@ -3,8 +3,8 @@
 <style lang="postcss">
   .loader {
     @apply rounded-full;
-    border: 5px solid #f5f4f4; /* Light grey */
-    border-top: 5px solid var(--color-primary); /* Blue */
+    border: 5px solid #f5f4f4;
+    border-top: 5px solid var(--color-primary);
     width: 2rem;
     height: 2rem;
     animation: spin 2s linear infinite;
