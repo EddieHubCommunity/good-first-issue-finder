@@ -24,9 +24,15 @@ export declare type Edge = {
   node: Node;
 };
 
+export declare type pageInfo = {
+  hasNextPage: boolean;
+  endCursor: string;
+};
+
 export declare type SearchResponse = {
   labels: string[];
   issueCount: number;
+  pageInfo: pageInfo;
   edges: Edge[];
 };
 

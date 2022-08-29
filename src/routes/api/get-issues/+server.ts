@@ -2,7 +2,7 @@ import { json as json$1 } from '@sveltejs/kit';
 import type { RequestHandler } from '@sveltejs/kit';
 import { Octokit } from 'octokit';
 import cookie from 'cookie';
-import type { SearchResponse } from '../../../global';
+import type { SearchResponse } from 'src/global';
 
 type Response = { search: SearchResponse };
 
@@ -15,13 +15,17 @@ export const POST: RequestHandler = async ({ request }) => {
     });
   }
 
-  const body = await request.json();
+  const body = (await request.json()) as { query: string; after?: string };
 
   const octokit = new Octokit({ auth: token });
   const { search }: Response = await octokit.graphql(
-    `query EddieHubIssues($queryString: String!, $skip: Int!) {
-      search(first: $skip, query: $queryString, type: ISSUE) {
+    `query EddieHubIssues($queryString: String!, $skip: Int!, $after:String) {
+      search(first: $skip, query: $queryString, type: ISSUE, after: $after) {
         issueCount
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
         edges {
           node {
             ... on Issue {
@@ -56,10 +60,10 @@ export const POST: RequestHandler = async ({ request }) => {
     }`,
     {
       queryString: body.query,
-      skip: 50,
+      skip: 10,
+      after: body.after,
     },
   );
-
   const labels = search.edges.map((el) => el.node.labels.edges.map((label) => label.node.name));
   const merged = [].concat(...labels);
   const labelSet = new Set<string>(merged);

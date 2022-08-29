@@ -45,7 +45,7 @@
   <button on:click={togglePopper}>
     <img
       bind:this={root}
-      class="cursor-pointer rounded-full transition-all delay-[50] duration-200 hover:shadow-lg"
+      class="cursor-pointer rounded-full transition-all delay-[50] duration-200 hover:shadow-lg dark:hover:shadow-dark"
       width="48"
       height="48"
       src="https://www.github.com/{username}.png"
@@ -60,6 +60,7 @@
     >
       <div class="flex flex-col items-center justify-center gap-4">
         <img
+          class="rounded-full"
           alt="Github profile picture of {username}"
           src="https://www.github.com/{username}.png"
           width="96"

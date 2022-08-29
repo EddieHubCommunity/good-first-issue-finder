@@ -14,6 +14,7 @@ const config = {
       },
       boxShadow: {
         standard: 'rgba(0, 0, 0, 0.05) 0px 1rem 2rem',
+        dark: 'rgba(10, 12, 14, 0.9) 0px 1rem 2rem',
       },
     },
   },
