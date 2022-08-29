@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.1.1...v2.2.0) (2022-08-29)
+
+
+### Features
+
+* add pageination ([#199](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/199)) ([a417025](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a41702594358ccdbcb96f2607ccf529d58cb70f0))
+
+
+
 ## [2.1.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.1.0...v2.1.1) (2022-08-27)
 
 
@@ -46,15 +55,6 @@
 * display login state ([fb09397](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fb09397b57396d2ee6a6fb88ebd9bc78bab7fdf2))
 * init oauth logic ([5f66286](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/5f66286151a598e5f5634255ac36ff9c65d9075a))
 * kubernetes secrets ([66e7819](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/66e7819423387d31e82edf1bb059ed18d462f505))
-
-
-
-# [1.8.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v1.7.1...v1.8.0) (2022-08-19)
-
-
-### Features
-
-* remove env-cmd ([#186](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/186)) ([ba79055](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/ba79055e265ad0746900d5eec4b0927f962c0c21))
 
 
 
