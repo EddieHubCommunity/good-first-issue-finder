@@ -19,13 +19,24 @@
   $: searchString = '';
   $: filteredLabels = githubData.edges;
   $: searchItems = githubData.edges;
+  $: filteredLang = githubData.edges;
+  $: searchLang = githubData.edges;
 
-  $: $selectedLabels, filterLabels();
+  $: $selectedLabels, filterLabels(), filterLang();
   const filterLabels = () => {
     filteredLabels = githubData.edges.filter((githubDataset) =>
       $selectedLabels.every((label) =>
         githubDataset.node.labels.edges.some((edge) => edge.node.name === label),
       ),
+    );
+  };
+  const filterLang = () => {
+    filteredLang = githubData.edges.filter((githubDataset) =>
+      githubDataset.node.repository.primaryLanguage !== null
+        ? $selectedLabels.every(
+            (label) => githubDataset.node.repository.primaryLanguage.name === label,
+          )
+        : '',
     );
   };
 
@@ -62,9 +73,14 @@
     searchItems = githubData.edges.filter((el) =>
       el.node.title.toLowerCase().includes(searchString.toLowerCase()),
     );
+    searchLang = githubData.edges.filter((el) =>
+      el.node.repository.primaryLanguage.name.toLowerCase().includes(searchString.toLowerCase()),
+    );
   };
 
   $: intersectedArray = filteredLabels.filter((item) => searchItems.includes(item));
+  $: intersectedLangArray = filteredLang.filter((item) => searchLang.includes(item));
+  $: intersectedArrays = intersectedArray.concat(intersectedLangArray);
 </script>
 
 <div class="my-8 flex flex-col items-center justify-center">
@@ -81,11 +97,11 @@
   </div>
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
 
-  <Filter tags={githubData.labels} />
+  <Filter tags={githubData.labels} lang={githubData.edges} />
 </div>
-{#if intersectedArray.length > 0}
+{#if intersectedArrays.length > 0}
   <main class="mb-4 space-y-4">
-    {#each intersectedArray as node}
+    {#each intersectedArrays as node}
       <IssueCard issue={node.node} />
     {/each}
     {#if githubData.pageInfo.hasNextPage}
