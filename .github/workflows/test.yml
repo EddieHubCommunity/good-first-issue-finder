@@ -1,7 +1,11 @@
-
+name: Tests
 on:
   push:
-  pull_request:
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - edited
     branches: 
       - main
 
