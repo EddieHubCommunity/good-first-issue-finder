@@ -16,10 +16,38 @@ const config = {
         standard: 'rgba(0, 0, 0, 0.05) 0px 1rem 2rem',
         dark: 'rgba(10, 12, 14, 0.9) 0px 1rem 2rem',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            code: {
+              color: 'var(--text)',
+            },
+            color: 'var(--text)',
+            h1: {
+              color: 'var(--color-text-highlight)',
+            },
+            h2: {
+              color: 'var(--color-text-highlight)',
+            },
+            h3: {
+              color: 'var(--color-text-highlight)',
+            },
+            h4: {
+              color: 'var(--color-text-highlight)',
+            },
+            h5: {
+              color: 'var(--color-text-highlight)',
+            },
+            h6: {
+              color: 'var(--color-text-highlight)',
+            },
+          },
+        },
+      },
     },
   },
 
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
 
 module.exports = config;
