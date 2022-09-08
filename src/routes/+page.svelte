@@ -84,7 +84,7 @@
   <Filter tags={githubData.labels} />
 </div>
 {#if intersectedArray.length > 0}
-  <main class="mb-4 space-y-4">
+  <div class="mb-4 space-y-4">
     {#each intersectedArray as node}
       <IssueCard issue={node.node} />
     {/each}
@@ -93,7 +93,7 @@
         <LoadMore isDisabled={loadDisabled} on:load={fetchMore} />
       </div>
     {/if}
-  </main>
+  </div>
 {:else}
-  <main class="text-center">Unfortunately, there were no issues found.</main>
+  <div class="text-center">Unfortunately, there were no issues found.</div>
 {/if}

@@ -13,7 +13,9 @@
 <div class="flex min-h-screen flex-col">
   <div class="float-none mx-auto my-0 w-[90%] max-w-[1440px] pb-8">
     <Header username={data.username} />
-    <slot />
+    <main>
+      <slot />
+    </main>
   </div>
   <Footer />
 </div>
