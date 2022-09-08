@@ -22,6 +22,13 @@ test.describe('Login Card', () => {
   });
 });
 
+test.describe('Header', () => {
+  test.fixme('Header contains Login Button', async () => {
+    //navigate to the docs page
+    //check if the header contains a link that redirects to the login page
+  });
+});
+
 test.describe('Footer', () => {
   test.fixme('Footer contains a working Github Link', async () => {
     // navigate to the login page
