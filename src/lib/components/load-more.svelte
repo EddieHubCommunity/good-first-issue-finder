@@ -9,7 +9,7 @@
 <button
   disabled={isDisabled}
   on:click={() => dispatch('load')}
-  class="flex items-center justify-center gap-4 rounded-lg bg-skin-off-background p-2 transition-all delay-[50] duration-200 hover:shadow-lg dark:hover:shadow-dark"
+  class="default-transition flex items-center justify-center gap-4 rounded-lg bg-skin-off-background p-2 hover:shadow-lg dark:hover:shadow-dark"
   >{#if isDisabled}
     <Loader /> Loading...
   {:else}

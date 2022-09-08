@@ -45,7 +45,7 @@
   <button on:click={togglePopper}>
     <img
       bind:this={root}
-      class="cursor-pointer rounded-full transition-all delay-[50] duration-200 hover:shadow-lg dark:hover:shadow-dark"
+      class="rounded-full hover:shadow-lg dark:hover:shadow-dark"
       width="48"
       height="48"
       src="https://www.github.com/{username}.png"
@@ -71,7 +71,7 @@
       <div class="my-2 w-full border-[0.5px] border-skin-text-highlight" />
       <a
         href="/api/authentication/logout"
-        class="underline decoration-skin-primary transition-all delay-[50] duration-200 hover:decoration-transparent"
+        class="default-transition underline decoration-skin-primary hover:decoration-transparent"
         >Sign out</a
       >
     </div>

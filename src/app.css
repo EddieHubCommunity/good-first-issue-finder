@@ -22,3 +22,9 @@
     @apply bg-skin-background text-skin-text;
   }
 }
+
+@layer utilities {
+  .default-transition {
+    @apply transition-all delay-[50ms] duration-200;
+  }
+}
