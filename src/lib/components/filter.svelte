@@ -4,6 +4,8 @@
   export let tags: string[];
   let selection: string[] = [];
 
+  $: tags = tags.sort((a, b) => a.localeCompare(b));
+
   $: selection, run();
   const run = () => {
     selectedLabels.set(selection);
