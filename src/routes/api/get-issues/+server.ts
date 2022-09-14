@@ -64,22 +64,12 @@ export const POST: RequestHandler = async ({ request }) => {
       after: body.after,
     },
   );
-  const languages = search.edges
-    .map((edge) => edge.node.repository.primaryLanguage?.name)
-    .filter((edge) => edge);
-  const uniqueLanguages = [...new Set(languages)];
   const labels = search.edges.map((el) => el.node.labels.edges.map((label) => label.node.name));
-  const merged = labels.reduce((prev, next) => {
-    return prev.concat(next);
-  });
+  const merged = [].concat(...labels);
   const labelSet = new Set<string>(merged);
   const normalizedLabels: string[] = Array.from(labelSet);
 
-  const returnBody = {
-    ...search,
-    ...{ labels: normalizedLabels },
-    ...{ languages: uniqueLanguages },
-  };
+  const returnBody = { ...search, ...{ labels: normalizedLabels } };
 
   return json$1(returnBody, { status: 200 });
 };

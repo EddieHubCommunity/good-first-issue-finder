@@ -4,6 +4,7 @@
   import Filter from '$lib/components/filter.svelte';
   import LoadMore from '$lib/components/load-more.svelte';
   import Toggle from '$lib/components/toggle.svelte';
+  import Checkbox from '$lib/components/checkbox.svelte';
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
@@ -80,22 +81,20 @@
     </div>
   </div>
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
+  <Checkbox label="Test" />
+  <input type="checkbox" />
+  <Filter tags={githubData.labels} />
 </div>
 {#if intersectedArray.length > 0}
-  <div class="flex w-full gap-4">
-    <div class="w-1/6">
-      <Filter data={githubData} />
-    </div>
-    <div class="mb-4 w-5/6 space-y-4">
-      {#each intersectedArray as node}
-        <IssueCard issue={node.node} />
-      {/each}
-      {#if githubData.pageInfo.hasNextPage}
-        <div class="flex items-center justify-center">
-          <LoadMore isDisabled={loadDisabled} on:load={fetchMore} />
-        </div>
-      {/if}
-    </div>
+  <div class="mb-4 space-y-4">
+    {#each intersectedArray as node}
+      <IssueCard issue={node.node} />
+    {/each}
+    {#if githubData.pageInfo.hasNextPage}
+      <div class="flex items-center justify-center">
+        <LoadMore isDisabled={loadDisabled} on:load={fetchMore} />
+      </div>
+    {/if}
   </div>
 {:else}
   <div class="text-center">Unfortunately, there were no issues found.</div>

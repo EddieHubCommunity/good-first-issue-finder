@@ -31,7 +31,6 @@ export declare type pageInfo = {
 
 export declare type SearchResponse = {
   labels: string[];
-  languages: string[];
   issueCount: number;
   pageInfo: pageInfo;
   edges: Edge[];
