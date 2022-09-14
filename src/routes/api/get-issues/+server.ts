@@ -65,7 +65,9 @@ export const POST: RequestHandler = async ({ request }) => {
     },
   );
   const labels = search.edges.map((el) => el.node.labels.edges.map((label) => label.node.name));
-  const merged = [].concat(...labels);
+  const merged = labels.reduce((acc, val) => {
+    return acc.concat(val);
+  });
   const labelSet = new Set<string>(merged);
   const normalizedLabels: string[] = Array.from(labelSet);
 

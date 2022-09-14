@@ -4,7 +4,6 @@
   import Filter from '$lib/components/filter.svelte';
   import LoadMore from '$lib/components/load-more.svelte';
   import Toggle from '$lib/components/toggle.svelte';
-  import Checkbox from '$lib/components/checkbox.svelte';
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
@@ -81,8 +80,6 @@
     </div>
   </div>
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
-  <Checkbox label="Test" />
-  <input type="checkbox" />
   <Filter tags={githubData.labels} />
 </div>
 {#if intersectedArray.length > 0}
