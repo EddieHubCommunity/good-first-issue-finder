@@ -1,26 +1,59 @@
 <script lang="ts">
+  import Checkbox from './checkbox.svelte';
   import { selectedLabels } from '$lib/stores/selected-labels.store';
-  export let tags: string[];
-  let selection: string[] = [];
+  import type { SearchResponse } from '../../global';
+  let labelSelection: string[] = [];
+  let languageSelection: string[] = [];
 
-  $: selection, run();
+  let showMoreLabels = false;
+
+  export let data: SearchResponse;
+
+  $: labels = data.labels;
+  $: languages = data.languages;
+  $: labels, resetLabels();
+
+  const resetLabels = () => {
+    showMoreLabels = false;
+  };
+
+  $: labelSelection, run();
   const run = () => {
-    selectedLabels.set(selection);
+    selectedLabels.set(labelSelection);
   };
 </script>
 
-<div class="mt-4 text-center">
-  {#each tags as tag}
-    <input class="hidden" value={tag} bind:group={selection} type="checkbox" id={tag} />
-    <label
-      class="my-1 mr-2 inline-block cursor-pointer select-none rounded-xl border-[1px] border-gray-500 py-1 px-2 text-sm transition-all duration-200"
-      for={tag}>{@html tag}</label
-    >
-  {/each}
-</div>
+<div>
+  <div class="mt-4">
+    <h2>Labels</h2>
+    {#if !showMoreLabels}
+      <ul>
+        {#each labels.slice(0, 4) as tag}
+          <li>
+            <Checkbox bind:group={labelSelection} value={tag} label={tag} />
+          </li>
+        {/each}
+      </ul>
+      <button on:click={() => (showMoreLabels = !showMoreLabels)}>Show more</button>
+    {:else}
+      <ul>
+        {#each labels as tag}
+          <li>
+            <Checkbox bind:group={labelSelection} value={tag} label={tag} />
+          </li>
+        {/each}
+      </ul>
+    {/if}
+  </div>
 
-<style lang="postcss">
-  input:checked + label {
-    @apply border-skin-primary bg-skin-primary text-white;
-  }
-</style>
+  <div class="mt-4">
+    <h2>Languages</h2>
+    <ul>
+      {#each languages as language}
+        <li>
+          <Checkbox bind:group={languageSelection} label={language} value={language} />
+        </li>
+      {/each}
+    </ul>
+  </div>
+</div>
