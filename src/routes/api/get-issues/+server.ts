@@ -65,11 +65,11 @@ export const POST: RequestHandler = async ({ request }) => {
     },
   );
   const labels = search.edges.map((el) => el.node.labels.edges.map((label) => label.node.name));
-  const merged = [].concat(...labels);
-  const labelSet = new Set<string>(merged);
-  const normalizedLabels: string[] = Array.from(labelSet);
-
-  const returnBody = { ...search, ...{ labels: normalizedLabels } };
+  const merged = labels.reduce((acc, val) => {
+    return acc.concat(val);
+  });
+  const uniqueLabels = [...new Set(merged)];
+  const returnBody = { ...search, ...{ labels: uniqueLabels } };
 
   return json$1(returnBody, { status: 200 });
 };

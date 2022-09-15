@@ -80,7 +80,6 @@
     </div>
   </div>
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
-
   <Filter tags={githubData.labels} />
 </div>
 {#if intersectedArray.length > 0}
