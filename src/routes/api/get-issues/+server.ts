@@ -68,10 +68,8 @@ export const POST: RequestHandler = async ({ request }) => {
   const merged = labels.reduce((acc, val) => {
     return acc.concat(val);
   });
-  const labelSet = new Set<string>(merged);
-  const normalizedLabels: string[] = Array.from(labelSet);
-
-  const returnBody = { ...search, ...{ labels: normalizedLabels } };
+  const uniqueLabels = [...new Set(merged)];
+  const returnBody = { ...search, ...{ labels: uniqueLabels } };
 
   return json$1(returnBody, { status: 200 });
 };
