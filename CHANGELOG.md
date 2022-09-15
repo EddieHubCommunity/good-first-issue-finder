@@ -1,3 +1,12 @@
+# [2.4.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.3.1...v2.4.0) (2022-09-15)
+
+
+### Features
+
+* add accessible checkboxes ([#214](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/214)) ([9f3b01c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f3b01cd3108ef21e9b7c687bdf8adae1ac8e3aa))
+
+
+
 ## [2.3.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.3.0...v2.3.1) (2022-09-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add pageination ([#199](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/199)) ([a417025](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a41702594358ccdbcb96f2607ccf529d58cb70f0))
-
-
-
-## [2.1.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.1.0...v2.1.1) (2022-08-27)
-
-
-### Bug Fixes
-
-* version number display ([#198](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/198)) ([b541f72](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/b541f7288ae9550ccf4ec0eee95d4bbe41aab178))
 
 
 
