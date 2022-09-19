@@ -1,4 +1,4 @@
-<div class="prose mx-auto dark:prose-invert">
+<div class="prose max-w-none dark:prose-invert">
   <slot />
 </div>
 
