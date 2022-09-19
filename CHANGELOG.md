@@ -1,3 +1,12 @@
+# [2.5.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.4.0...v2.5.0) (2022-09-19)
+
+
+### Features
+
+* update sveltekit & add small documentation ([#219](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/219)) ([e1e903c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e1e903cdcbc5d0be306c855e5f800db7e20afa5e))
+
+
+
 # [2.4.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.3.1...v2.4.0) (2022-09-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dependency update ([#206](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/206)) ([0f98d0a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/0f98d0ab2c788673d617b4234bca5798ebd17b27))
-
-
-
-# [2.2.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.1.1...v2.2.0) (2022-08-29)
-
-
-### Features
-
-* add pageination ([#199](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/199)) ([a417025](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a41702594358ccdbcb96f2607ccf529d58cb70f0))
 
 
 
