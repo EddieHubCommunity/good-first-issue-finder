@@ -1,49 +1,20 @@
-# Finder Documentation
+---
+title: Introduction
+---
 
-## Testing
+Welcome developers! This docs should be the entry point to the documentation. In case things remain unclear about it, feel free to raise an issue in the [Finder-Project](https://github.com/EddieHubCommunity/good-first-issue-finder).
 
-This project uses [Playwright](https://playwright.dev/) as testing library for running End-To-End tests.
+## Key Features
 
-### Adding skeleton tests
+Very technically spoken, this project uses the GitHub-API for crawling issues, that are labeled with a specific label:
 
-New tests are added in the `tests` directory of the project. Currently the tests are strucutured by pages, e.g `login.spec.ts`.
+- You can either crawl the [EddieHubCommunity](https://github.com/EddieHubCommunity) for issues that are labled with `good-first-issue`
+- or entire Github for the label `EddieHub:good-first-issue`
 
-Test files always need to have the ending of `.spec.ts` in order to get picked up the Playwright. You don't always need to create a new file. It's very likely that an existing one can be used.
+## Technologies
 
-To make it easier for others to contribute, Playwright offers the possiblity to initialize skeleton-tests. The important part is, that the `test`-function calls `fixme`.
-
-Once this is in place, please add comments to describe the required steps that the test needs to do, in order to be seen as successful. These comments can be written in plain English.
-
-The following code snippet shows an example for a skeleton test.
-
-```ts
-test.fixme('<Please describe the test here>', async () => {
-  // navigate to example page
-  // check if the page contains element <xy>
-});
-```
-
-### Filling out skeleton tests
-
-We highly encourage people to only fill out one test per Pull Request, so other people are also having the chance to contribute to this initiaive.
-
-To fill out a test, pick one, that has the prefix `test.fixme`.
-
-Ideally you can take other, existing tests as a reference for your test to get started.
-
-Every skeleton contains a couple of comments telling you the steps that are required for the test to be seen as successful.
-
-Once you're ready with filling out the skeleton, rename `test.fixme` to `test`.
-
-A filled out skeleton may look like the following example:
-
-```ts
-test.describe('Login Card', () => {
-  test('h2 contains desired text', async ({ page }) => {
-    // navigate to the login page
-    await page.goto('/login');
-
-    //check if the h2 element contains the desired text
-    expect(await page.textContent('h2')).toBe('Login');
-  });
-```
+- [Sveltekit](https://kit.svelte.dev/) - as app-framework for the frontend
+- [Tailwind](https://tailwindcss.com/) - as css-framework to get consistent stylings
+- [Playwright](https://playwright.dev/) - for running end-to-end tests
+- [GitHub](https://www.github.com) - as identity provider for the login, and API
+- [GitHub GraphQL API](https://docs.github.com/en/graphql) - for crawling the GitHub API

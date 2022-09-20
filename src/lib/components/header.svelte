@@ -17,7 +17,7 @@
           <a
             class="default-transition text-skin-text-highlight decoration-transparent hover:underline hover:decoration-inherit"
             data-sveltekit-prefetch
-            class:active={$page.url.pathname === item.path}
+            class:active={$page.url.pathname.includes(item.path)}
             href={item.path}>{item.name}</a
           >
         </li>
