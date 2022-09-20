@@ -37,6 +37,9 @@
         >
       </div>
     </div>
+    {#if `https://github.com/${issue.repository.owner.login}/${issue.repository.name}/blob/main/LICENSE`}
+      <span>True</span>
+    {/if}
     <div class="flex flex-shrink-0">
       <div class="mr-2 flex items-center px-2">
         {#if issue.repository.primaryLanguage}
