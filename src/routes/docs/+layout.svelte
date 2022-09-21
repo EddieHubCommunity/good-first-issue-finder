@@ -1,6 +1,6 @@
 <script lang="ts">
   import Menu from '$lib/components/docs/menu.svelte';
-  import MobileMenu from '../../lib/components/docs/mobile-menu.svelte';
+  import MobileMenu from '$lib/components/docs/mobile-menu.svelte';
 </script>
 
 <div class="flex flex-col lg:flex-row">

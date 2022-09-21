@@ -33,7 +33,7 @@ Ideally you can take other, existing tests as a reference for your test to get s
 
 Every skeleton contains a couple of comments telling you the steps that are required for the test to be seen as successful.
 
-Once you're ready with filling out the skeleton, rename `test.fixme` to `test`.
+Once you're ready with filling out the skeleton, rename `test.fixme` to `test.describe`.
 
 A filled out skeleton may look like the following example:
 
