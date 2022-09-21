@@ -8,7 +8,7 @@ Welcome developers! This docs should be the entry point to the documentation. In
 
 Very technically spoken, this project uses the GitHub-API for crawling issues, that are labeled with a specific label:
 
-- You can either crawl the [EddieHubCommunity](https://github.com/EddieHubCommunity) for issues that are labled with `good-first-issue`
+- You can either crawl the [EddieHubCommunity](https://github.com/EddieHubCommunity) for issues that are labeled with `good-first-issue`
 - or entire Github for the label `EddieHub:good-first-issue`
 
 ## Technologies

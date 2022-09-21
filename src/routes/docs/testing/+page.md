@@ -6,11 +6,11 @@ This project uses [Playwright](https://playwright.dev/) as testing library for r
 
 ## Adding skeleton tests
 
-New tests are added in the `tests` directory of the project. Currently the tests are strucutured by pages, e.g `login.spec.ts`.
+New tests are added in the `tests` directory of the project. Currently the tests are structured by pages, e.g `login.spec.ts`.
 
 Test files always need to have the ending of `.spec.ts` in order to get picked up the Playwright. You don't always need to create a new file. It's very likely that an existing one can be used.
 
-To make it easier for others to contribute, Playwright offers the possiblity to initialize skeleton-tests. The important part is, that the `test`-function calls `fixme`.
+To make it easier for others to contribute, Playwright offers the possibility to initialize skeleton-tests. The important part is, that the `test`-function calls `fixme`.
 
 Once this is in place, please add comments to describe the required steps that the test needs to do, in order to be seen as successful. These comments can be written in plain English.
 
@@ -25,7 +25,7 @@ test.fixme('<Please describe the test here>', async () => {
 
 ## Filling out skeleton tests
 
-We highly encourage people to only fill out one test per Pull Request, so other people are also having the chance to contribute to this initiaive.
+We highly encourage people to only fill out one test per Pull Request, so other people are also having the chance to contribute to this initiative.
 
 To fill out a test, pick one, that has the prefix `test.fixme`.
 
@@ -33,7 +33,7 @@ Ideally you can take other, existing tests as a reference for your test to get s
 
 Every skeleton contains a couple of comments telling you the steps that are required for the test to be seen as successful.
 
-Once you're ready with filling out the skeleton, rename `test.fixme` to `test.describe`.
+Once you're ready with filling out the skeleton, rename `test.fixme` to `test`.
 
 A filled out skeleton may look like the following example:
 
