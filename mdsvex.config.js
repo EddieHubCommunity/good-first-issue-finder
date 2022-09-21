@@ -1,4 +1,6 @@
 import { defineMDSveXConfig as defineConfig } from 'mdsvex';
+import autolinkHeadings from 'rehype-autolink-headings';
+import slugPlugin from 'rehype-slug';
 
 const config = defineConfig({
   extensions: ['.md'],
@@ -11,7 +13,7 @@ const config = defineConfig({
   },
 
   remarkPlugins: [],
-  rehypePlugins: [],
+  rehypePlugins: [slugPlugin, [autolinkHeadings, { behavior: 'append' }]],
 });
 
 export default config;
