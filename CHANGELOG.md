@@ -1,3 +1,12 @@
+## [2.6.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.6.0...v2.6.1) (2022-09-21)
+
+
+### Bug Fixes
+
+* typos ([#228](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/228)) ([8f9b972](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/8f9b972cc562079737583721e00072f18642a468))
+
+
+
 # [2.6.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.5.0...v2.6.0) (2022-09-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * minor ui tweaks ([#210](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/210)) ([607eb58](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/607eb585e1b5379b9a8c3209f0429f8ba89de291))
-
-
-
-# [2.3.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.2.1...v2.3.0) (2022-09-08)
-
-
-### Features
-
-* init documentation infrastructure ([#208](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/208)) ([536f773](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/536f77319bb8812208a31bb5805b3096f270708d))
 
 
 
