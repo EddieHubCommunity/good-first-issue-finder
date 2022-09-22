@@ -44,6 +44,11 @@
           <Label color="black" text={issue.repository.codeOfConduct.name} />
         {/if}
       </div>
+      <div>
+        {#if issue.repository.licenseInfo}
+          <Label color="black" text={issue.repository.licenseInfo.name} />
+        {/if}
+      </div>
       <div class="mr-2 flex items-center px-2">
         {#if issue.repository.primaryLanguage}
           <Label
