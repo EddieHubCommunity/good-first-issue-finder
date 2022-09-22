@@ -52,6 +52,11 @@ export const POST: RequestHandler = async ({ request }) => {
                   avatarUrl
                   login
                 }
+                codeOfConduct {
+                  id
+                  name
+                  url
+                }
               }
             }
           }

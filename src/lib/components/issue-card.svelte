@@ -3,6 +3,7 @@
   import Card from '$lib/components/card.svelte';
   import Label from '$lib/components/label.svelte';
   import RepoHeader from '$lib/components/repo-header.svelte';
+  import { text } from 'svelte/internal';
 
   export let issue: Node;
   let isToggled = true;
@@ -38,6 +39,11 @@
       </div>
     </div>
     <div class="flex flex-shrink-0">
+      <div>
+        {#if issue.repository.codeOfConduct}
+          <Label color="black" text={issue.repository.codeOfConduct.name} />
+        {/if}
+      </div>
       <div class="mr-2 flex items-center px-2">
         {#if issue.repository.primaryLanguage}
           <Label
