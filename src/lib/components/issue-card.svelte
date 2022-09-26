@@ -39,14 +39,14 @@
       </div>
     </div>
     <div class="flex flex-shrink-0">
-      <div class="mr-2 flex items-center px-2">
+      <div class="mr-2 flex items-center px-2 text-black">
         {#if issue.repository.codeOfConduct}
-          <Label color="black" text={issue.repository.codeOfConduct.name} />
+          <Label color="#4267B2" text={issue.repository.codeOfConduct.name} />
         {/if}
       </div>
       <div class="mr-2 flex items-center px-2">
         {#if issue.repository.licenseInfo}
-          <Label color="black" text={issue.repository.licenseInfo.name} />
+          <Label color="#4267B2" text={issue.repository.licenseInfo.name} />
         {/if}
       </div>
       <div class="mr-2 flex items-center px-2">
