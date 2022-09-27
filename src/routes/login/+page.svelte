@@ -8,7 +8,7 @@
     <p>Please Login with your Github Account</p>
     <a href="/api/authentication/login" class="flex gap-4 rounded-lg bg-[#171515] p-2">
       <img width="20" height="20" src="/images/githubmark-dark.svg" alt="Github Icon" />
-      <div id="github-login-btn" class="text-[#dadadade]">Login with Github</div>
+      <div data-test-id="github-login-btn" class="text-[#dadadade]">Login with Github</div>
     </a>
   </Card>
 </div>

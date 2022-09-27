@@ -15,7 +15,8 @@ test.describe('Login Card', () => {
     await page.goto('/login');
 
     // check if the button contains the text
-    expect(await page.textContent('#github-login-btn')).toBe('Login with Github');
+    const githubLoginBtn = await page.locator('data-test-id=github-login-btn');
+    expect(await githubLoginBtn.textContent()).toBe('Login with Github');
   });
 
   test('Login Button takes you to a Github Login Page', async ({ page }) => {
@@ -23,7 +24,7 @@ test.describe('Login Card', () => {
     await page.goto('/login');
 
     // click on the login button
-    await page.click('#github-login-btn');
+    await page.locator('data-test-id=github-login-btn').click();
     await page.waitForLoadState('networkidle');
 
     // check if its a github url after the redirect
@@ -37,7 +38,7 @@ test.describe('Header', () => {
     await page.goto('/docs');
 
     //check if the header contains a link that redirects to the login page
-    await page.click('#login-btn');
+    await page.locator('data-test-id=login-btn').click();
     await page.waitForLoadState('networkidle');
 
     expect(await page.url()).toContain('/login');
@@ -50,7 +51,8 @@ test.describe('Footer', () => {
     await page.goto('/login');
 
     // check if the github icon links to a github link
-    const [popup] = await Promise.all([page.waitForEvent('popup'), page.click('#github-btn')]);
+    const githubBtn = await page.locator('data-test-id=github-btn');
+    const [popup] = await Promise.all([page.waitForEvent('popup'), githubBtn.click()]);
     await popup.waitForLoadState();
 
     expect(await popup.url()).toContain('https://github.com/EddieHubCommunity');
@@ -61,7 +63,8 @@ test.describe('Footer', () => {
     await page.goto('/login');
 
     // check if the discord icon links to a discord link
-    const [popup] = await Promise.all([page.waitForEvent('popup'), page.click('#discord-btn')]);
+    const discordBtn = await page.locator('data-test-id=discord-btn');
+    const [popup] = await Promise.all([page.waitForEvent('popup'), discordBtn.click()]);
     await popup.waitForLoadState();
 
     expect(await popup.url()).toContain('https://discord.com/invite/jZQs6Wu');
@@ -72,6 +75,6 @@ test.describe('Footer', () => {
     await page.goto('/login');
 
     // check if the footer contains the theme switcher
-    expect(await page.locator('#theme-switch')).toBeTruthy();
+    expect(await page.locator('data-test-id=theme-switch')).toBeTruthy();
   });
 });
