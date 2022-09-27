@@ -7,6 +7,7 @@
 
   export let issue: Node;
   let isToggled = true;
+  // var deviceWidth = window.matchMedia("(max-width: 744px)")
 
   const handleToggle = () => {
     isToggled = !isToggled;
@@ -39,14 +40,30 @@
       </div>
     </div>
     <div class="flex flex-shrink-0">
-      <div class="mr-2 flex items-center px-2 text-black">
-        {#if issue.repository.codeOfConduct}
-          <Label color="#4267B2" text={issue.repository.codeOfConduct.name} />
-        {/if}
+      <div class="on-bigscreen flex flex-shrink-0">
+        <div class="mt-2 space-y-2">
+          {#if issue.repository.codeOfConduct}
+            <Label color="#4267B2" text={issue.repository.codeOfConduct.name} />
+          {/if}
+        </div>
+        <div class="mt-2 space-y-2">
+          {#if issue.repository.licenseInfo}
+            <Label color="#4267B2" text={issue.repository.licenseInfo.name} />
+          {/if}
+        </div>
       </div>
-      <div class="mr-2 flex items-center px-2">
-        {#if issue.repository.licenseInfo}
-          <Label color="#4267B2" text={issue.repository.licenseInfo.name} />
+      <div class="on-smallscreen">
+        {#if !isToggled}
+          <div class="mt-2 space-y-2">
+            {#if issue.repository.codeOfConduct}
+              <Label color="#4267B2" text={issue.repository.codeOfConduct.name} />
+            {/if}
+          </div>
+          <div class="mt-2 space-y-2">
+            {#if issue.repository.licenseInfo}
+              <Label color="#4267B2" text={issue.repository.licenseInfo.name} />
+            {/if}
+          </div>
         {/if}
       </div>
       <div class="mr-2 flex items-center px-2">
@@ -92,5 +109,15 @@
 <style lang="postcss">
   .rotate {
     @apply rotate-180;
+  }
+  @media (max-width: 744px) {
+    .on-bigscreen {
+      display: none;
+    }
+  }
+  @media (min-width: 745px) {
+    .on-smallscreen {
+      display: none;
+    }
   }
 </style>
