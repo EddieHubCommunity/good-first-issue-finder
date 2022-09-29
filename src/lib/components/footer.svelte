@@ -10,6 +10,7 @@
     <ul class="flex list-none items-center justify-center gap-8">
       <li>
         <a
+          data-test-id="discord-btn"
           class="transition duration-200 hover:text-skin-primary active:text-skin-primary"
           href="http://discord.eddiehub.org"
           target="_blank"
@@ -18,6 +19,7 @@
       </li>
       <li>
         <a
+          data-test-id="github-btn"
           target="_blank"
           class="transition duration-200 hover:text-skin-primary active:text-skin-primary"
           href="http://github.eddiehub.org"

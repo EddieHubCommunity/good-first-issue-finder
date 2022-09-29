@@ -33,7 +33,7 @@
   };
 </script>
 
-<div class="flex flex-col sm:flex-row">
+<div data-test-id="theme-switch" class="flex flex-col sm:flex-row">
   <button
     class="border-b border-black p-2 text-xs dark:border-white sm:border-b-0 sm:border-r md:p-3 md:text-base"
     title="System Theme"
