@@ -3,11 +3,9 @@
   import Card from '$lib/components/card.svelte';
   import Label from '$lib/components/label.svelte';
   import RepoHeader from '$lib/components/repo-header.svelte';
-  import { text } from 'svelte/internal';
 
   export let issue: Node;
   let isToggled = true;
-  // var deviceWidth = window.matchMedia("(max-width: 744px)")
 
   const handleToggle = () => {
     isToggled = !isToggled;
@@ -40,7 +38,7 @@
       </div>
     </div>
     <div class="flex flex-shrink-0">
-      <div class="on-bigscreen flex flex-shrink-0">
+      <div class="hidden flex-shrink-0 xl:flex">
         <div class="mt-2 space-y-2">
           {#if issue.repository.codeOfConduct}
             <Label color="#4267B2" text={issue.repository.codeOfConduct.name} />
@@ -89,7 +87,7 @@
         <Label text={label.node.name} color={label.node.color} />
       {/each}
     </div>
-    <div class="on-smallscreen flex">
+    <div class="flex xl:hidden">
       <div class="mt-2 space-y-2">
         {#if issue.repository.codeOfConduct}
           <Label color="#4267B2" text={issue.repository.codeOfConduct.name} />
@@ -107,15 +105,5 @@
 <style lang="postcss">
   .rotate {
     @apply rotate-180;
-  }
-  @media (max-width: 744px) {
-    .on-bigscreen {
-      display: none;
-    }
-  }
-  @media (min-width: 745px) {
-    .on-smallscreen {
-      display: none;
-    }
   }
 </style>

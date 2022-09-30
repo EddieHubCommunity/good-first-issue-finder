@@ -10,6 +10,16 @@ export declare type Repository = {
   url: string;
   owner: Owner;
   primaryLanguage: PrimaryLanguage;
+  codeOfConduct: CodeOfConduct;
+  licenseInfo: LicenseInfo;
+};
+
+export declare type CodeOfConduct = {
+  name: string;
+};
+
+export declare type LicenseInfo = {
+  name: string;
 };
 
 export declare type Node = {
