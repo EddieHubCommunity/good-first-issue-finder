@@ -38,6 +38,18 @@
       </div>
     </div>
     <div class="flex flex-shrink-0">
+      <div class="hidden flex-shrink-0 xl:flex">
+        <div class="mt-2 space-y-2">
+          {#if issue.repository.codeOfConduct}
+            <Label color="#4267B2" text={issue.repository.codeOfConduct.name} />
+          {/if}
+        </div>
+        <div class="mt-2 space-y-2">
+          {#if issue.repository.licenseInfo}
+            <Label color="#4267B2" text={issue.repository.licenseInfo.name} />
+          {/if}
+        </div>
+      </div>
       <div class="mr-2 flex items-center px-2">
         {#if issue.repository.primaryLanguage}
           <Label
@@ -74,6 +86,18 @@
       {#each issue.labels.edges as label}
         <Label text={label.node.name} color={label.node.color} />
       {/each}
+    </div>
+    <div class="flex xl:hidden">
+      <div class="mt-2 space-y-2">
+        {#if issue.repository.codeOfConduct}
+          <Label color="#4267B2" text={issue.repository.codeOfConduct.name} />
+        {/if}
+      </div>
+      <div class="mt-2 space-y-2">
+        {#if issue.repository.licenseInfo}
+          <Label color="#4267B2" text={issue.repository.licenseInfo.name} />
+        {/if}
+      </div>
     </div>
   {/if}
 </Card>

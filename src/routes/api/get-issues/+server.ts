@@ -19,45 +19,54 @@ export const POST: RequestHandler = async ({ request }) => {
 
   const octokit = new Octokit({ auth: token });
   const { search }: Response = await octokit.graphql(
-    `query EddieHubIssues($queryString: String!, $skip: Int!, $after:String) {
-      search(first: $skip, query: $queryString, type: ISSUE, after: $after) {
-        issueCount
-        pageInfo {
-          hasNextPage
-          endCursor
-        }
-        edges {
-          node {
-            ... on Issue {
-              url
-              title
-              createdAt
-              labels(first: $skip) {
-                edges {
-                  node {
-                    color
-                    name
-                  }
-                }
-              }
-              repository {
+    `query EddieHubIssues($queryString: String!, $skip: Int!, $after: String) {
+  search(first: $skip, query: $queryString, type: ISSUE, after: $after) {
+    issueCount
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+    edges {
+      node {
+        ... on Issue {
+          url
+          title
+          createdAt
+          labels(first: $skip) {
+            edges {
+              node {
+                color
                 name
-                url
-                primaryLanguage {
-                  color
-                  name
-                  id
-                }
-                owner {
-                  avatarUrl
-                  login
-                }
               }
+            }
+          }
+          repository {
+            name
+            url
+            primaryLanguage {
+              color
+              name
+              id
+            }
+            owner {
+              avatarUrl
+              login
+            }
+            codeOfConduct {
+              id
+              name
+              url
+            }
+            licenseInfo {
+              name
+              id
             }
           }
         }
       }
-    }`,
+    }
+  }
+}`,
     {
       queryString: body.query,
       skip: 10,
