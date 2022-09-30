@@ -1,3 +1,12 @@
+# [2.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.6.1...v2.7.0) (2022-09-30)
+
+
+### Features
+
+* Display Code of Conduct & License ([#229](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/229)) ([c51ab21](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c51ab218833738b445b8f0a93c0458c0d704a8d9))
+
+
+
 ## [2.6.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.6.0...v2.6.1) (2022-09-21)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add accessible checkboxes ([#214](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/214)) ([9f3b01c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f3b01cd3108ef21e9b7c687bdf8adae1ac8e3aa))
-
-
-
-## [2.3.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.3.0...v2.3.1) (2022-09-08)
-
-
-### Bug Fixes
-
-* minor ui tweaks ([#210](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/210)) ([607eb58](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/607eb585e1b5379b9a8c3209f0429f8ba89de291))
 
 
 
