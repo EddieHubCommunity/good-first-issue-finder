@@ -1,0 +1,10 @@
+node_modules
+.git
+.github
+.gitignore
+Dockerfile
+CHANGELOG.md
+SECURITY.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+kubernetes
