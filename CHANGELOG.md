@@ -1,3 +1,12 @@
+## [2.7.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.7.0...v2.7.1) (2022-10-03)
+
+
+### Bug Fixes
+
+* added `.dockerignore` file ([#232](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/232)) ([fcfbd42](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fcfbd420a1cc71b8ac2252f046405632f94928b9))
+
+
+
 # [2.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.6.1...v2.7.0) (2022-09-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * update sveltekit & add small documentation ([#219](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/219)) ([e1e903c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e1e903cdcbc5d0be306c855e5f800db7e20afa5e))
-
-
-
-# [2.4.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.3.1...v2.4.0) (2022-09-15)
-
-
-### Features
-
-* add accessible checkboxes ([#214](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/214)) ([9f3b01c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f3b01cd3108ef21e9b7c687bdf8adae1ac8e3aa))
 
 
 
