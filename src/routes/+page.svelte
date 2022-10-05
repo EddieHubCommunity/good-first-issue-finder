@@ -4,6 +4,8 @@
   import Filter from '$lib/components/filter.svelte';
   import LoadMore from '$lib/components/load-more.svelte';
   import Toggle from '$lib/components/toggle.svelte';
+  import Seo from '$lib/components/seo.svelte';
+
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
@@ -65,7 +67,14 @@
   };
 
   $: intersectedArray = filteredLabels.filter((item) => searchItems.includes(item));
+
+  // SEO Parameters
+  const title = 'Good First Issue Finder by EddieHub';
+  const metadescription =
+    'Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues.';
 </script>
+
+<Seo {title} {metadescription} />
 
 <div class="my-8 flex flex-col items-center justify-center">
   <div class="mb-4">
