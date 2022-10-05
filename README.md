@@ -40,6 +40,8 @@ Before installation, please make sure you have already installed the following t
    OR
    
    By following commands from [Here](https://www.geeksforgeeks.org/how-to-update-node-js-and-npm-to-next-version/)
+   
+   We highly recommend you to install current LTS version of node.
 6. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
 
 > **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).  
