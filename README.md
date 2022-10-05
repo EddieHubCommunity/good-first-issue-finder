@@ -35,7 +35,7 @@ Before installation, please make sure you have already installed the following t
 4. Install dependencies with `npm install`
 5. If you encountered error like `engine not compatible with your version on node/npm`
    
-   upgrade your npm version from [Here](https://nodejs.org/en/) 
+   upgrade your node version from [Here](https://nodejs.org/en/) 
    
    OR
    
