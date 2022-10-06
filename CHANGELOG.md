@@ -1,3 +1,12 @@
+# [2.8.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.7.1...v2.8.0) (2022-10-06)
+
+
+### Features
+
+* seo component [#220](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/220) ([#235](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/235)) ([aad3de0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/aad3de0ec65ba9ef8b906822da2da209c6ed9bc7))
+
+
+
 ## [2.7.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.7.0...v2.7.1) (2022-10-03)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add docs layout ([#222](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/222)) ([d8a2143](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/d8a214385141f219c218eaa24b4479485d3c6833))
-
-
-
-# [2.5.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.4.0...v2.5.0) (2022-09-19)
-
-
-### Features
-
-* update sveltekit & add small documentation ([#219](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/219)) ([e1e903c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e1e903cdcbc5d0be306c855e5f800db7e20afa5e))
 
 
 
