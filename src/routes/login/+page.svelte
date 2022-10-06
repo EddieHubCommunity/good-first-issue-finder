@@ -1,6 +1,14 @@
 <script lang="ts">
   import Card from '$lib/components/card.svelte';
+  import Seo from '$lib/components/seo.svelte';
+
+  // SEO Parameters
+  const title = 'Login | Good First Issue Finder';
+  const metadescription =
+    'Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues.';
 </script>
+
+<Seo {title} {metadescription} />
 
 <div class="flex w-full items-center justify-center">
   <Card class="flex w-full max-w-md flex-col items-center gap-4">
