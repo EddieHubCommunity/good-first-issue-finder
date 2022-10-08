@@ -1,7 +1,9 @@
 const path = require('path');
 const { loadConfigFromFile, mergeConfig } = require('vite');
+const preprocess = require('svelte-preprocess');
 
 module.exports = {
+  staticDirs: ['../static'],
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx|svelte)'],
   addons: [
     '@storybook/addon-links',
@@ -18,7 +20,11 @@ module.exports = {
   ],
   framework: '@storybook/svelte',
   svelteOptions: {
-    preprocess: import('../svelte.config.js').preprocess,
+    preprocess: [
+      preprocess({
+        postcss: true,
+      }),
+    ],
   },
   async viteFinal(config) {
     const { config: userConfig } = await loadConfigFromFile(
