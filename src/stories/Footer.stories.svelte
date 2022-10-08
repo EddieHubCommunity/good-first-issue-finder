@@ -4,9 +4,8 @@
   import Footer from '$lib/components/footer.svelte';
 </script>
 
-<Meta title="Footer" component={Footer} />
+<Meta title="Composed/Footer" component={Footer} />
 
-<!-- Dynamic snippet should be disabled for this story -->
-<Story name="Regular Card">
+<Story name="Default">
   <Footer />
 </Story>
