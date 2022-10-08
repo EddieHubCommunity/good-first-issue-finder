@@ -7,6 +7,15 @@
 <Meta title="Card" component={Card} />
 
 <!-- Dynamic snippet should be disabled for this story -->
-<Story name="Regular Card">
+<Story
+  argTypes={{
+    class: {
+      description: 'CSS classes that are applied to the card',
+      name: 'class',
+      type: 'string',
+    },
+  }}
+  name="Regular Card"
+>
   <Card>This is a regular card component</Card>
 </Story>
