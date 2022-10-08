@@ -1,4 +1,5 @@
 const path = require('path');
+const { loadConfigFromFile, mergeConfig } = require('vite');
 
 module.exports = {
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx|svelte)'],
@@ -19,19 +20,21 @@ module.exports = {
   svelteOptions: {
     preprocess: import('../svelte.config.js').preprocess,
   },
-  webpackFinal: async (config) => {
-    config.module.rules.push({
-      test: [/\.stories\.js$/, /index\.js$/],
-      use: [require.resolve('@storybook/source-loader')],
-      include: [path.resolve(__dirname, '../src')],
-      enforce: 'pre',
+  async viteFinal(config) {
+    const { config: userConfig } = await loadConfigFromFile(
+      path.resolve(__dirname, '../vite.config.js'),
+    );
+
+    return mergeConfig(config, {
+      ...userConfig,
+      resolve: {
+        alias: {
+          $lib: path.resolve('./src/lib'),
+        },
+      },
+      // manually specify plugins to avoid conflict
+      plugins: [],
     });
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      $lib: path.resolve(__dirname, '../src/lib'),
-      $components: path.resolve(__dirname, '../src/lib/components'),
-    };
-    return config;
   },
   core: {
     builder: '@storybook/builder-vite',
