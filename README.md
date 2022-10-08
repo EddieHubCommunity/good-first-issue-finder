@@ -34,14 +34,15 @@ Before installation, please make sure you have already installed the following t
 3. Navigate to the project directory `cd good-first-issue-finder`
 4. Install dependencies with `npm install`
 5. If you encountered error like `engine not compatible with your version on node/npm`
-   
-   upgrade your node version from [Here](https://nodejs.org/en/) 
-   
+
+   upgrade your node version from [Here](https://nodejs.org/en/)
+
    OR
-   
+
    By following commands from [Here](https://www.geeksforgeeks.org/how-to-update-node-js-and-npm-to-next-version/)
-   
-   We highly recommend you to install current LTS version of node.
+
+   We highly recommend installing the current LTS version of node.
+
 6. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
 
 > **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).  
