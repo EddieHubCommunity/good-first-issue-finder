@@ -12,9 +12,9 @@ export default defineConfig({
     },
     server: {
       hmr: {
-        clientPort: process.env.HMR_HOST ? 443 : 5173,
-        host: process.env.HMR_HOST
-          ? process.env.HMR_HOST.substring('https://'.length)
+        clientPort: process.env.HMR_HOST ? 443 : 6006,
+        host: process.env.HISTOIRE_HOST
+          ? process.env.HISTOIRE_HOST.substring('https://'.length)
           : 'localhost',
       },
     },
