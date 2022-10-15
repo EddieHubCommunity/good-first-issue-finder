@@ -16,6 +16,7 @@ export default defineConfig({
   setupFile: 'src/histoire-setup.ts',
   plugins: [HstSvelte()],
   vite: {
+    publicDir: 'static',
     resolve: {
       alias: {
         $lib: path.resolve('./src/lib'),
