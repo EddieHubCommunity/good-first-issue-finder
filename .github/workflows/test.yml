@@ -2,7 +2,7 @@ name: Tests
 on:
   push:
   pull_request:
-    branches: 
+    branches:
       - main
 
 jobs:
@@ -20,11 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      
+
       # - name: Get installed Playwright version
       #   id: playwright-version
       #   run: echo -n "::set-output name=version::$(npm ls @playwright/test --json | jq --raw-output '.dependencies["@playwright/test"].version')"
-        
+
       # - uses: actions/cache@v3
       #   id: playwright-cache
       #   with:
@@ -36,6 +36,6 @@ jobs:
       - name: Install Playwright's dependencies
         # if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps
-        
+
       - name: Run tests
         run: npm run test
