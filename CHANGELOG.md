@@ -1,3 +1,12 @@
+## [2.8.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.0...v2.8.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* bump sveltekit ([#243](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/243)) ([20e3127](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/20e3127d7e235e2e759ed3fe316c1181674464e6))
+
+
+
 # [2.8.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.7.1...v2.8.0) (2022-10-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typos ([#228](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/228)) ([8f9b972](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/8f9b972cc562079737583721e00072f18642a468))
-
-
-
-# [2.6.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.5.0...v2.6.0) (2022-09-21)
-
-
-### Features
-
-* add docs layout ([#222](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/222)) ([d8a2143](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/d8a214385141f219c218eaa24b4479485d3c6833))
 
 
 
