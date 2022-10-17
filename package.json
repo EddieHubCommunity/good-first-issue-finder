@@ -18,8 +18,8 @@
   "devDependencies": {
     "@playwright/test": "^1.25.2",
     "@popperjs/core": "^2.11.6",
-    "@sveltejs/adapter-node": "1.0.0-next.92",
-    "@sveltejs/kit": "1.0.0-next.485",
+    "@sveltejs/adapter-node": "1.0.0-next.98",
+    "@sveltejs/kit": "1.0.0-next.516",
     "@tailwindcss/typography": "^0.5.7",
     "@types/cookie": "^0.5.1",
     "@typescript-eslint/eslint-plugin": "^4.31.1",

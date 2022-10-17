@@ -13,9 +13,7 @@
     <ul class="divide-y divide-gray-300 dark:divide-gray-700">
       {#each menu as item}
         <li class="py-4">
-          <a class="flex h-full w-full items-center" data-sveltekit-prefetch href={item.href}
-            >{item.name}</a
-          >
+          <a class="flex h-full w-full items-center" href={item.href}>{item.name}</a>
         </li>
       {/each}
     </ul>
