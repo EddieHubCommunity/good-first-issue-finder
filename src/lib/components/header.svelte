@@ -7,7 +7,7 @@
 </script>
 
 <header class="my-8 flex flex-wrap items-center justify-between">
-  <a data-sveltekit-prefetch href="/">
+  <a href="/">
     <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
   </a>
   <div class="flex items-center gap-4 lg:gap-8">
@@ -16,7 +16,6 @@
         <li>
           <a
             class="default-transition text-skin-text-highlight decoration-transparent hover:underline hover:decoration-inherit"
-            data-sveltekit-prefetch
             class:active={$page.url.pathname.includes(item.path)}
             href={item.path}>{item.name}</a
           >
@@ -27,7 +26,6 @@
       <ProfilePicture {username} />
     {:else}
       <a
-        data-sveltekit-prefetch
         data-test-id="login-btn"
         class="default-transition rounded-xl bg-skin-text px-4 py-2 text-skin-off-background hover:bg-skin-primary dark:bg-skin-text-highlight dark:text-skin-background dark:hover:bg-skin-primary"
         href="/login">Login</a
