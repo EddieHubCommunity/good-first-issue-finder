@@ -1,3 +1,12 @@
+## [2.8.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.2...v2.8.3) (2022-10-18)
+
+
+### Bug Fixes
+
+* add documentation for custom label([#248](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/248)) ([c2cbf56](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c2cbf56efec2d481949e3084dc4c6466b0039133))
+
+
+
 ## [2.8.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.1...v2.8.2) (2022-10-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * added `.dockerignore` file ([#232](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/232)) ([fcfbd42](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fcfbd420a1cc71b8ac2252f046405632f94928b9))
-
-
-
-# [2.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.6.1...v2.7.0) (2022-09-30)
-
-
-### Features
-
-* Display Code of Conduct & License ([#229](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/229)) ([c51ab21](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c51ab218833738b445b8f0a93c0458c0d704a8d9))
 
 
 
