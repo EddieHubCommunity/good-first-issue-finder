@@ -40,7 +40,7 @@
     on:click={setSystem}
     ><i
       class:active={theme === 'system'}
-      class="fa-solid fa-gear text-skin-off mr-1 dark:text-skin-text-highlight"
+      class="fa-solid fa-gear text-skin-off dark:text-skin-text-highlight"
     /></button
   >
   <button
@@ -49,13 +49,13 @@
     on:click={setLight}
     ><i
       class:active={theme === 'light'}
-      class="fa-solid fa-sun text-skin-off mr-1 dark:text-skin-text-highlight"
+      class="fa-solid fa-sun text-skin-off dark:text-skin-text-highlight"
     /></button
   >
   <button class="p-2 text-xs md:p-3 md:text-base" title="Dark Theme" on:click={setDark}
     ><i
       class:active={theme === 'dark'}
-      class="fa-solid fa-moon text-skin-off mr-1 dark:text-skin-text-highlight"
+      class="fa-solid fa-moon text-skin-off dark:text-skin-text-highlight"
     /></button
   >
 </div>

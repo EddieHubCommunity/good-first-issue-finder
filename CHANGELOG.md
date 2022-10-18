@@ -1,3 +1,12 @@
+## [2.8.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.1...v2.8.2) (2022-10-18)
+
+
+### Bug Fixes
+
+* theme switcher icons margin ([#249](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/249)) ([63e6266](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/63e62665513c306c6f3038d8ad02db3f22c7bcdd))
+
+
+
 ## [2.8.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.0...v2.8.1) (2022-10-17)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Display Code of Conduct & License ([#229](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/229)) ([c51ab21](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c51ab218833738b445b8f0a93c0458c0d704a8d9))
-
-
-
-## [2.6.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.6.0...v2.6.1) (2022-09-21)
-
-
-### Bug Fixes
-
-* typos ([#228](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/228)) ([8f9b972](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/8f9b972cc562079737583721e00072f18642a468))
 
 
 
