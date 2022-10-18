@@ -1,5 +1,5 @@
 <script lang="ts">
-  import IssueCard from '../lib/components/issue-card.svelte';
+  import IssueCard from '$lib/components/issue-card.svelte';
   import type { Node } from '../global';
   import type { Hst as HstType } from '@histoire/plugin-svelte';
   export let Hst: HstType;

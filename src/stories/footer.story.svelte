@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Footer from '../lib/components/footer.svelte';
+  import Footer from '$lib/components/footer.svelte';
   import type { Hst as HstType } from '@histoire/plugin-svelte';
   export let Hst: HstType;
   import { versionKey } from '$lib/util/version';

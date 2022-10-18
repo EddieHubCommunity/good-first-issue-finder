@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Loader from '../lib/components/loader.svelte';
+  import Loader from '$lib/components/loader.svelte';
   import type { Hst as HstType } from '@histoire/plugin-svelte';
   export let Hst: HstType;
 

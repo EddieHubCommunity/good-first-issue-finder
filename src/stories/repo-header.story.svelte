@@ -1,5 +1,5 @@
 <script lang="ts">
-  import RepoHeader from '../lib/components/repo-header.svelte';
+  import RepoHeader from '$lib/components/repo-header.svelte';
   import type { Hst as HstType } from '@histoire/plugin-svelte';
   export let Hst: HstType;
 
