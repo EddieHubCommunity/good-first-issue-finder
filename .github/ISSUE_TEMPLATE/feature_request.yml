@@ -1,7 +1,7 @@
 name: 💡 General Feature Request
 description: Have a new idea/feature for Finder? Please suggest!
-title: "[FEATURE] <description>"
-labels: ["✨ goal: improvement"]
+title: '[FEATURE] <description>'
+labels: ['✨ goal: improvement']
 body:
   - type: textarea
     id: description
