@@ -6,9 +6,11 @@ test.fixme('docs header element is active', async ({ page }) => {
   // check if the docs link in the page header is having the active class
 });
 
-test.fixme('Correct Page Heading', async ({ page }) => {
+test('Correct Page Heading', async ({ page }) => {
   // navigate to the docs landing page /docs
+  await page.goto('/docs');
   // check if the heading contains Introduction
+  expect(await page.textContent('h1')).toBe('Introduction');
 });
 
 test.fixme(

@@ -8,6 +8,7 @@
 
 <div>
   <a
+    rel="noreferrer"
     target="_blank"
     class="text-neutral-500 transition-all duration-200 hover:text-skin-primary active:text-skin-primary {className}"
     href={repoLink}>{owner}/{repo}</a

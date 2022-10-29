@@ -1,3 +1,21 @@
+## [2.8.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.3...v2.8.4) (2022-10-29)
+
+
+### Bug Fixes
+
+* housekeeping updates ([#253](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/253)) ([e176157](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e17615716686b27bb14fe8ae15065690beec5948))
+
+
+
+## [2.8.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.2...v2.8.3) (2022-10-18)
+
+
+### Bug Fixes
+
+* add documentation for custom label([#248](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/248)) ([c2cbf56](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c2cbf56efec2d481949e3084dc4c6466b0039133))
+
+
+
 ## [2.8.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.1...v2.8.2) (2022-10-18)
 
 
@@ -22,24 +40,6 @@
 ### Features
 
 * seo component [#220](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/220) ([#235](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/235)) ([aad3de0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/aad3de0ec65ba9ef8b906822da2da209c6ed9bc7))
-
-
-
-## [2.7.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.7.0...v2.7.1) (2022-10-03)
-
-
-### Bug Fixes
-
-* added `.dockerignore` file ([#232](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/232)) ([fcfbd42](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fcfbd420a1cc71b8ac2252f046405632f94928b9))
-
-
-
-# [2.7.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.6.1...v2.7.0) (2022-09-30)
-
-
-### Features
-
-* Display Code of Conduct & License ([#229](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/229)) ([c51ab21](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c51ab218833738b445b8f0a93c0458c0d704a8d9))
 
 
 
