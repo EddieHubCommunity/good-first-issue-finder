@@ -32,6 +32,7 @@
           class="min-w-0 whitespace-normal text-sm font-bold text-skin-text-highlight transition-all duration-200 hover:text-skin-primary active:text-skin-primary md:text-lg md:leading-6"
           href={issue.url}
           target="_blank"
+          rel="noreferrer"
         >
           {issue.title}</a
         >
@@ -58,7 +59,12 @@
           />
         {/if}
       </div>
-      <a class="hidden sm:block" href={`https://gitpod.io/#${issue.url}`} target="_blank">
+      <a
+        class="hidden sm:block"
+        href={`https://gitpod.io/#${issue.url}`}
+        rel="noreferrer"
+        target="_blank"
+      >
         <img class="object-fill" src="/images/open-in-gitpod.svg" alt="open-in-gitpod" /></a
       ><button on:click={() => handleToggle()} class="px-2 md:px-4">
         <img
