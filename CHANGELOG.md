@@ -1,3 +1,12 @@
+# [2.9.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.4...v2.9.0) (2022-10-30)
+
+
+### Features
+
+* add Histoire ([#242](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/242)) ([52a2fc5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/52a2fc501acce5d5bf97e22e5faef35e5fe4cffa))
+
+
+
 ## [2.8.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.3...v2.8.4) (2022-10-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * bump sveltekit ([#243](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/243)) ([20e3127](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/20e3127d7e235e2e759ed3fe316c1181674464e6))
-
-
-
-# [2.8.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.7.1...v2.8.0) (2022-10-06)
-
-
-### Features
-
-* seo component [#220](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/220) ([#235](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/235)) ([aad3de0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/aad3de0ec65ba9ef8b906822da2da209c6ed9bc7))
 
 
 
