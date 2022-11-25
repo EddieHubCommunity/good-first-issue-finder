@@ -1,3 +1,12 @@
+## [2.9.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.9.0...v2.9.1) (2022-11-25)
+
+
+### Bug Fixes
+
+* space issue ([#256](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/256)) ([533a736](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/533a73671b32bba50a673a16e336e1c645d92cf0))
+
+
+
 # [2.9.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.4...v2.9.0) (2022-10-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * theme switcher icons margin ([#249](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/249)) ([63e6266](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/63e62665513c306c6f3038d8ad02db3f22c7bcdd))
-
-
-
-## [2.8.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.0...v2.8.1) (2022-10-17)
-
-
-### Bug Fixes
-
-* bump sveltekit ([#243](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/243)) ([20e3127](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/20e3127d7e235e2e759ed3fe316c1181674464e6))
 
 
 
