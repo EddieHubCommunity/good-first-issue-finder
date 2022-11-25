@@ -42,9 +42,9 @@ git checkout -b YourBranchName
 
 **6.** Add secret github token in a .env file:
 
--Add a .env file int the root directory of the folder
+- Add a `.env` file in the root directory of the folder
 
--Paste below code inside the .env file with your secret token
+- Paste the code below inside the `.env` file with your secret token
 
 ```bash
 GH_TOKEN=<Your-Super-Secret-Github-Token>
