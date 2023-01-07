@@ -1,5 +1,12 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)\
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/EddieHubCommunity/good-first-issue-finder/blob/main/LICENSE)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EddieHubCommunity/good-first-issue-finder?style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/EddieHubCommunity/good-first-issue-finder)
+![GitHub issues](https://img.shields.io/github/issues-raw/EddieHubCommunity/good-first-issue-finder) 
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/EddieHubCommunity/good-first-issue-finder)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/EddieHubCommunity/good-first-issue-finder)
+![GitHub forks](https://img.shields.io/github/forks/EddieHubCommunity/good-first-issue-finder?style=social)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/good-first-issue-finder)
 
 # Good First Issue Finder by EddieHub
 
