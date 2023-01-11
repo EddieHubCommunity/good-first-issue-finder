@@ -78,12 +78,8 @@ export const POST: RequestHandler = async ({ request }) => {
   // filter out archived (read-only) repositories
   search = { ...search, edges: search.edges.filter((edge) => !edge.node.repository.isArchived) };
 
-  const labels = search.edges.map((el) => el.node.labels.edges.map((label) => label.node.name));
-  const merged = labels.reduce((acc, val) => {
-    return acc.concat(val);
-  });
-  const uniqueLabels = [...new Set(merged)];
-  const returnBody = { ...search, ...{ labels: uniqueLabels } };
+  const labels = search.edges.flatMap((el) => el.node.labels.edges.map((label) => label.node.name));
+  const returnBody = { ...search, labels: [...new Set(labels)] };
 
   return json$1(returnBody, { status: 200 });
 };
