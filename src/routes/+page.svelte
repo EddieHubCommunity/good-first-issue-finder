@@ -9,7 +9,8 @@
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
-  export let data: { data: SearchResponse; checked: boolean };
+  import type { PageData } from './$types';
+  export let data: PageData;
 
   const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
   const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';

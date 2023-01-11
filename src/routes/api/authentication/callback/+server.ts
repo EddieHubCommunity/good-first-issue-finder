@@ -1,5 +1,5 @@
 import { env } from '$env/dynamic/private';
-import type { RequestHandler } from '@sveltejs/kit';
+import type { RequestHandler } from './$types';
 import { error } from '@sveltejs/kit';
 import fetch from 'node-fetch';
 import cookie from 'cookie';
