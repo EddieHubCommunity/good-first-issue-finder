@@ -9,11 +9,9 @@
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
-  export let data: { data: SearchResponse; checked: boolean };
+  import { query } from '$lib/constants.json';
 
-  const globalQuery = 'is:open archived:false label:"EddieHub:good-first-issue" no:assignee';
-  const orgQuery =
-    'is:open archived:false label:"good first issue" org:EddieHubCommunity no:assignee';
+  export let data: { data: SearchResponse; checked: boolean };
 
   let { checked } = data;
   let loadDisabled = false;
@@ -38,7 +36,7 @@
       method: 'POST',
       body: JSON.stringify({
         after: githubData.pageInfo.endCursor,
-        query: checked ? globalQuery : orgQuery,
+        query: checked ? query.global : query.org,
       }),
     });
     if (res.ok) {
