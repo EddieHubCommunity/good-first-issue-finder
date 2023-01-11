@@ -11,8 +11,9 @@
   import { goto } from '$app/navigation';
   export let data: { data: SearchResponse; checked: boolean };
 
-  const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
-  const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
+  const globalQuery = 'is:open archived:false label:"EddieHub:good-first-issue" no:assignee';
+  const orgQuery =
+    'is:open archived:false label:"good first issue" org:EddieHubCommunity no:assignee';
 
   let { checked } = data;
   let loadDisabled = false;
