@@ -1,3 +1,12 @@
+# [2.10.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.9.1...v2.10.0) (2023-01-11)
+
+
+### Features
+
+* filter out archived repositories ([#261](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/261)) ([e03eaed](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e03eaedd52eb1c83280bf81e9145b0da00767163))
+
+
+
 ## [2.9.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.9.0...v2.9.1) (2022-11-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add documentation for custom label([#248](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/248)) ([c2cbf56](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c2cbf56efec2d481949e3084dc4c6466b0039133))
-
-
-
-## [2.8.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.1...v2.8.2) (2022-10-18)
-
-
-### Bug Fixes
-
-* theme switcher icons margin ([#249](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/249)) ([63e6266](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/63e62665513c306c6f3038d8ad02db3f22c7bcdd))
 
 
 
