@@ -8,7 +8,6 @@
 <svelte:head>
   <title>{title}</title>
   <meta name="description" content={metadescription} />
-  <html lang="en" />
 
   <!-- OG Tags -->
   <meta property="og:title" content={title} />

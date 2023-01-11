@@ -3,6 +3,7 @@ import type { RequestHandler } from '@sveltejs/kit';
 import { error } from '@sveltejs/kit';
 import fetch from 'node-fetch';
 import cookie from 'cookie';
+import type { GithubUser } from '../../../../global';
 
 const tokenURL = 'https://github.com/login/oauth/access_token';
 const userURL = 'https://api.github.com/user';
@@ -15,7 +16,7 @@ export const GET: RequestHandler = async ({ url, request }) => {
   const state = url.searchParams.get('state') as string;
 
   const token = await getAccessToken(code);
-  const user = await getUser(token);
+  const user = (await getUser(token)) as GithubUser;
 
   const csrfToken = cookie.parse(request.headers.get('cookie') || '').state || '';
 
@@ -58,7 +59,7 @@ async function getAccessToken(code: string) {
   return r_1.access_token;
 }
 
-async function getUser(accessToken: string) {
+async function getUser(accessToken: string): Promise<unknown> {
   const r = await fetch(userURL, {
     headers: {
       Accept: 'application/json',
