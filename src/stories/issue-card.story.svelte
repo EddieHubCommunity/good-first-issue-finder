@@ -53,6 +53,7 @@
     repository: {
       name: 'LinkFree',
       url: 'https://github.com/EddieHubCommunity/LinkFree',
+      isArchived: false,
       primaryLanguage: {
         color: '#f1e05a',
         name: 'JavaScript',
