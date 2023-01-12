@@ -10,10 +10,8 @@
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
   import type { PageData } from './$types';
+  import { query } from '$lib/constants.json';
   export let data: PageData;
-
-  const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
-  const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
 
   let { checked } = data;
   let loadDisabled = false;
@@ -38,7 +36,7 @@
       method: 'POST',
       body: JSON.stringify({
         after: githubData.pageInfo.endCursor,
-        query: checked ? globalQuery : orgQuery,
+        query: checked ? query.global : query.org,
       }),
     });
     if (res.ok) {

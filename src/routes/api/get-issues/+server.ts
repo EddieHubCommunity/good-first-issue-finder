@@ -18,7 +18,7 @@ export const POST: RequestHandler = async ({ request }) => {
   const body = (await request.json()) as { query: string; after?: string };
 
   const octokit = new Octokit({ auth: token });
-  let { search }: Response = await octokit.graphql(
+  const { search }: Response = await octokit.graphql(
     `query EddieHubIssues($queryString: String!, $skip: Int!, $after: String) {
   search(first: $skip, query: $queryString, type: ISSUE, after: $after) {
     issueCount
@@ -43,7 +43,6 @@ export const POST: RequestHandler = async ({ request }) => {
           repository {
             name
             url
-            isArchived
             primaryLanguage {
               color
               name
@@ -74,9 +73,6 @@ export const POST: RequestHandler = async ({ request }) => {
       after: body.after,
     },
   );
-
-  // filter out archived (read-only) repositories
-  search = { ...search, edges: search.edges.filter((edge) => !edge.node.repository.isArchived) };
 
   const labels = search.edges.flatMap((el) => el.node.labels.edges.map((label) => label.node.name));
 
