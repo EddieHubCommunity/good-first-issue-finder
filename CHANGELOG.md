@@ -1,3 +1,12 @@
+# [2.11.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.2...v2.11.0) (2023-01-12)
+
+
+### Features
+
+* loading indicator & bring project to sveltekit stable ([#264](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/264)) ([d8c06df](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/d8c06df3947d090770e56fb965dc688c22753e89))
+
+
+
 ## [2.10.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.1...v2.10.2) (2023-01-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * space issue ([#256](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/256)) ([533a736](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/533a73671b32bba50a673a16e336e1c645d92cf0))
-
-
-
-# [2.9.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.4...v2.9.0) (2022-10-30)
-
-
-### Features
-
-* add Histoire ([#242](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/242)) ([52a2fc5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/52a2fc501acce5d5bf97e22e5faef35e5fe4cffa))
 
 
 
