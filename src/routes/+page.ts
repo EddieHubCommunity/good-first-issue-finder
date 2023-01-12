@@ -7,8 +7,9 @@ export const load: Load = async ({ fetch, url, parent }) => {
     throw redirect(307, '/login');
   }
   let globalParam = false;
-  const globalQuery = 'is:open label:"EddieHub:good-first-issue" no:assignee';
-  const orgQuery = 'is:open label:"good first issue" org:EddieHubCommunity no:assignee';
+  const globalQuery = 'is:open archived:false label:"EddieHub:good-first-issue" no:assignee';
+  const orgQuery =
+    'is:open archived:false label:"good first issue" org:EddieHubCommunity no:assignee';
 
   try {
     globalParam = JSON.parse(url.searchParams.get('global') as string);

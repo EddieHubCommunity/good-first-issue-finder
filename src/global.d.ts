@@ -9,7 +9,6 @@ export declare type Repository = {
   name: string;
   url: string;
   owner: Owner;
-  isArchived: boolean;
   primaryLanguage: PrimaryLanguage;
   codeOfConduct: CodeOfConduct;
   licenseInfo: LicenseInfo;
