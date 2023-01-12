@@ -12,7 +12,7 @@
 
 Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues.
 
-![eddiehub issue finder](https://user-images.githubusercontent.com/64529217/177034601-fe8dffce-cfac-4f61-889b-e3fe1ab7497d.png)
+![eddiehub issue finder](https://user-images.githubusercontent.com/64529217/177034601-fe8dffce-cfac-4f61-889b-e3fe1ab7497d.png){:target="_blank"}
 
 <!-- (Can be only done after merged 😅)
 ## Example using Gitpod, ephemeral dev environment in the cloud (free)
@@ -22,14 +22,14 @@ Good First Issue Finder helps new open source contributors pave their path into 
 
 ## 👨‍💻 Live Version
 
-Check out the website: [Good First Issue Finder](https://finder.eddiehub.io)
+Check out the website: [Good First Issue Finder](https://finder.eddiehub.io){:target="_blank"}
 
 ## 👇 Prerequisites
 
 Before installation, please make sure you have already installed the following tools:
 
-- [Git](https://git-scm.com/downloads)
-- [NodeJs](https://nodejs.org/en/download/)
+- [Git](https://git-scm.com/downloads){:target="_blank"}
+- [NodeJs](https://nodejs.org/en/download/){:target="_blank"}
 
 ## 🛠️ Installation Steps
 
@@ -42,28 +42,28 @@ Before installation, please make sure you have already installed the following t
 4. Install dependencies with `npm install`
 5. If you encountered error like `engine not compatible with your version on node/npm`
 
-   upgrade your node version from [Here](https://nodejs.org/en/)
+   upgrade your node version from [Here](https://nodejs.org/en/){:target="_blank"}
 
    OR
 
-   By following commands from [Here](https://www.geeksforgeeks.org/how-to-update-node-js-and-npm-to-next-version/)
+   By following commands from [Here](https://www.geeksforgeeks.org/how-to-update-node-js-and-npm-to-next-version/){:target="_blank"}
 
    We highly recommend installing the current LTS version of node.
 
 6. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
 
-> **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).  
+> **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app){:target="_blank"}.  
 > The Callback Url needs to point to the endpoint `http://localhost:5173/api/authentication/callback` of the baseURL the app should run on.
 
 <img width=450 alt="callback url" src="https://user-images.githubusercontent.com/75534912/191059977-48962f25-4a83-4564-9a17-019ab0783a40.jpg" />
 
 7. Run `npm run dev`
 
-Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)
+Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod){:target="_blank"}](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder){:target="_blank"}
 
 ## 🧪 Testing
 
-We're using [Playwright](https://playwright.dev/) for running End-To-End Tests.
+We're using [Playwright](https://playwright.dev/){:target="_blank"} for running End-To-End Tests.
 For running the tests you would need to install the playwright dependencies by running
 
 ```bash
