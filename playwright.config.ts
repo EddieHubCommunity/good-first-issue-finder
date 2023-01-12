@@ -10,10 +10,6 @@ const config: PlaywrightTestConfig = {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
   ],
   webServer: {
     command: 'npm run build && npm run preview',

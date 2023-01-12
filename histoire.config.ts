@@ -22,13 +22,5 @@ export default defineConfig({
         $lib: path.resolve('./src/lib'),
       },
     },
-    server: {
-      hmr: {
-        clientPort: process.env.HISTOIRE_HOST ? 443 : 6006,
-        host: process.env.HISTOIRE_HOST
-          ? process.env.HISTOIRE_HOST.substring('https://'.length)
-          : 'localhost',
-      },
-    },
   },
 });

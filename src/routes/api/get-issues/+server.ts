@@ -1,5 +1,5 @@
 import { json as json$1 } from '@sveltejs/kit';
-import type { RequestHandler } from '@sveltejs/kit';
+import type { RequestHandler } from './$types';
 import { Octokit } from 'octokit';
 import cookie from 'cookie';
 import type { SearchResponse } from 'src/global';
@@ -73,11 +73,10 @@ export const POST: RequestHandler = async ({ request }) => {
       after: body.after,
     },
   );
-  const labels = search.edges.map((el) => el.node.labels.edges.map((label) => label.node.name));
-  const merged = labels.reduce((acc, val) => {
-    return acc.concat(val);
-  });
-  const uniqueLabels = [...new Set(merged)];
+
+  const labels = search.edges.flatMap((el) => el.node.labels.edges.map((label) => label.node.name));
+
+  const uniqueLabels = [...new Set(labels)];
   const returnBody = { ...search, ...{ labels: uniqueLabels } };
 
   return json$1(returnBody, { status: 200 });

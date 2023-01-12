@@ -29,7 +29,7 @@
   {placeholder}
 />
 
-<style>
+<style lang="postcss">
   input[type='search']::-webkit-search-cancel-button {
     display: none;
   }

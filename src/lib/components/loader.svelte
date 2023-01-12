@@ -1,9 +1,17 @@
-<div class="loader" />
+<script lang="ts">
+  export let background: 'background' | 'off-background' = 'background';
+
+  const backgroundMap = {
+    background: 'border-skin-background',
+    'off-background': 'border-skin-off-background',
+  };
+</script>
+
+<div class="loader {backgroundMap[background]}" />
 
 <style lang="postcss">
   .loader {
-    @apply rounded-full;
-    border: 5px solid #f5f4f4;
+    @apply rounded-full border-[5px];
     border-top: 5px solid var(--color-primary);
     width: 2rem;
     height: 2rem;

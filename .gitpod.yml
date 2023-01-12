@@ -2,9 +2,6 @@ image: gitpod/workspace-full-vnc:latest
 
 tasks:
   - init: npm install # runs during prebuild
-    command: |
-      export HMR_HOST=`gp url 5173`
-      export HISTOIRE_HOST=`gp url 6006`
 
 ports:
   - port: 5173

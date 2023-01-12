@@ -9,9 +9,11 @@
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import type { SearchResponse } from '../global';
   import { goto } from '$app/navigation';
+  import type { PageData } from './$types';
   import { query } from '$lib/constants.json';
-
-  export let data: { data: SearchResponse; checked: boolean };
+  import { navigating } from '$app/stores';
+  import Loader from '$lib/components/loader.svelte';
+  export let data: PageData;
 
   let { checked } = data;
   let loadDisabled = false;
@@ -75,7 +77,7 @@
 
 <Seo {title} {metadescription} />
 
-<div class="my-8 flex flex-col items-center justify-center">
+<div class="flex flex-col items-center justify-center">
   <div class="mb-4">
     <div class="justify-self-center">
       <Toggle
@@ -88,9 +90,15 @@
     </div>
   </div>
   <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
-  <Filter tags={githubData.labels} />
 </div>
-{#if intersectedArray.length > 0}
+{#if $navigating}
+  <div class="mt-8 flex items-center justify-center gap-4">
+    <Loader background="off-background" /> Loading...
+  </div>
+{:else if intersectedArray.length > 0}
+  <div class="mb-8 flex flex-col items-center">
+    <Filter tags={githubData.labels} />
+  </div>
   <div class="mb-4 space-y-4">
     {#each intersectedArray as node}
       <IssueCard issue={node.node} />
