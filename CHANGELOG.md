@@ -1,3 +1,12 @@
+## [2.10.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.0...v2.10.1) (2023-01-12)
+
+
+### Bug Fixes
+
+* the internal server on load more and implement archive filter in query ([#266](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/266)) ([48529ee](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/48529ee3058fbdd3114b6ca716308c0236859652))
+
+
+
 # [2.10.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.9.1...v2.10.0) (2023-01-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * housekeeping updates ([#253](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/253)) ([e176157](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e17615716686b27bb14fe8ae15065690beec5948))
-
-
-
-## [2.8.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.8.2...v2.8.3) (2022-10-18)
-
-
-### Bug Fixes
-
-* add documentation for custom label([#248](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/248)) ([c2cbf56](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c2cbf56efec2d481949e3084dc4c6466b0039133))
 
 
 
