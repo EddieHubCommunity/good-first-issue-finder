@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="card relative z-10 flex min-h-[300px] w-full max-w-[300px] flex-col items-center justify-center gap-4 overflow-hidden rounded-2xl border border-skin-off-background bg-skin-off-background shadow-xl"
+  class="card relative z-10 flex min-h-[300px] w-full max-w-[300px] flex-col items-center justify-center gap-4 justify-self-center overflow-hidden rounded-2xl bg-skin-off-background shadow-xl"
 >
   <svg class="h-auto w-14" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path

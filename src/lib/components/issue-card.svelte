@@ -29,7 +29,7 @@
           repoLink={issue.repository.url}
         />
         <a
-          class="min-w-0 whitespace-normal text-sm font-bold text-skin-text-highlight transition-all duration-200 hover:text-skin-primary active:text-skin-primary md:text-lg md:leading-6"
+          class="min-w-0 whitespace-normal text-sm font-bold text-skin-text-highlight transition-all duration-200 hover:text-primary-100 active:text-primary-100 md:text-lg md:leading-6"
           href={issue.url}
           target="_blank"
           rel="noreferrer"

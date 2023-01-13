@@ -71,7 +71,7 @@
       <div class="my-2 w-full border-[0.5px] border-skin-text-highlight" />
       <a
         href="/api/authentication/logout"
-        class="default-transition underline decoration-skin-primary hover:decoration-transparent"
+        class="default-transition underline decoration-primary-100 hover:decoration-transparent"
         >Sign out</a
       >
     </div>

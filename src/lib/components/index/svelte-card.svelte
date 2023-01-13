@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="card relative z-10 flex min-h-[300px] w-full max-w-[300px] flex-col items-center justify-center gap-4 overflow-hidden rounded-2xl border border-skin-off-background bg-skin-off-background shadow-xl"
+  class="card relative z-10 flex min-h-[300px] w-full max-w-[300px] flex-col items-center justify-center gap-4 justify-self-center overflow-hidden rounded-2xl bg-skin-off-background shadow-xl"
 >
   <svg
     version="1.1"
@@ -43,7 +43,7 @@
 
 <style lang="postcss">
   .card:hover::before {
-    @apply absolute -z-10 h-[500px] w-[100px] bg-skin-primary;
+    @apply absolute -z-10 h-[500px] w-[100px] bg-primary-100;
     content: '';
     animation: animate-circle 5s linear infinite;
   }

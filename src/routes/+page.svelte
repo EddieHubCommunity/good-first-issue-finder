@@ -9,7 +9,7 @@
 <div class="mt-12 flex flex-col items-center gap-16 px-4">
   <div class="space-y-8">
     <h1
-      class="mx-auto bg-gradient-to-r from-skin-primary via-[#ff00ff] to-cyan-400 bg-clip-text text-center text-3xl font-bold text-transparent dark:to-[#e3ff00] md:text-6xl"
+      class="mx-auto bg-gradient-to-r from-primary-100 via-accent-magenta to-accent-cyan bg-clip-text text-center text-3xl font-bold text-transparent dark:to-primary-400 md:text-6xl"
     >
       Good-first-issue-finder
     </h1>

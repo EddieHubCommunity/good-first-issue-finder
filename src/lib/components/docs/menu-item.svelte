@@ -9,6 +9,6 @@
 
 <style lang="postcss">
   .active {
-    @apply text-skin-primary;
+    @apply text-primary-100;
   }
 </style>

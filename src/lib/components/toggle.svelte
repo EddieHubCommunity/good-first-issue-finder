@@ -23,6 +23,6 @@
 
 <style lang="postcss">
   .inversed {
-    @apply bg-skin-primary text-white;
+    @apply bg-primary-100 text-white;
   }
 </style>
