@@ -14,6 +14,18 @@ const config = {
           cyan: 'var(--accent-1)',
           magenta: 'var(--accent-2)',
         },
+        neutral: {
+          000: 'var(--neutral-000)',
+          100: 'var(--neutral-100)',
+          200: 'var(--neutral-200)',
+          300: 'var(--neutral-300)',
+          400: 'var(--neutral-400)',
+          500: 'var(--neutral-500)',
+          600: 'var(--neutral-600)',
+          700: 'var(--neutral-700)',
+          800: 'var(--neutral-800)',
+          900: 'var(--neutral-900)',
+        },
         skin: {
           primary: 'var(--color-primary)',
           background: 'var(--color-background)',
