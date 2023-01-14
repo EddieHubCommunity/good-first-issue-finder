@@ -1,9 +1,6 @@
-<script lang="ts">
-  import Link from './link.svelte';
-</script>
-
-<div
-  class="card relative z-10 flex min-h-[300px] w-full max-w-[300px] flex-col items-center justify-center gap-4 justify-self-center overflow-hidden rounded-2xl bg-skin-off-background shadow-xl"
+<a
+  href="https://kit.svelte.dev/"
+  class="card relative z-10 flex min-h-[250px] w-full max-w-[300px] flex-col items-center justify-center gap-4 justify-self-center overflow-hidden rounded-2xl bg-skin-off-background shadow-xl"
 >
   <svg
     version="1.1"
@@ -36,10 +33,9 @@
   </svg>
   <div class="flex flex-col items-center justify-center gap-4 transition duration-200">
     <h3 class="text-xl font-bold text-skin-text-highlight ">Sveltekit</h3>
-    <p class="text-center">a framework for building Frontend applications using Svelte</p>
-    <Link variant="primary" href="/app">Learn more</Link>
+    <p class="px-8 text-center">a framework for building Frontend applications using Svelte</p>
   </div>
-</div>
+</a>
 
 <style lang="postcss">
   .card:hover::before {

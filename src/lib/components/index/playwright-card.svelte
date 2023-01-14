@@ -1,9 +1,6 @@
-<script lang="ts">
-  import Link from './link.svelte';
-</script>
-
-<div
-  class="card relative z-10 flex min-h-[300px] w-full max-w-[300px] flex-col items-center justify-center gap-4 justify-self-center overflow-hidden rounded-2xl bg-skin-off-background shadow-xl"
+<a
+  href="https://playwright.dev/"
+  class="card relative z-10 flex min-h-[250px] w-full max-w-[300px] flex-col items-center justify-center gap-4 justify-self-center overflow-hidden rounded-2xl bg-skin-off-background shadow-xl"
 >
   <svg class="h-auto w-14" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
@@ -39,8 +36,7 @@
     <h3 class="text-xl font-bold text-skin-text-highlight ">Playwright</h3>
     <p class="px-8 text-center">a test runner for running automated e2e tests</p>
   </div>
-  <Link variant="primary" href="/app">Learn more</Link>
-</div>
+</a>
 
 <style lang="postcss">
   .card:hover::before {

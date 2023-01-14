@@ -1,9 +1,6 @@
-<script lang="ts">
-  import Link from './link.svelte';
-</script>
-
-<div
-  class="card relative z-10 flex min-h-[300px] w-full max-w-[300px] flex-col items-center justify-center gap-4 justify-self-center overflow-hidden rounded-2xl bg-skin-off-background shadow-xl"
+<a
+  href="https://graphql.org/"
+  class="card relative z-10 flex min-h-[250px] w-full max-w-[300px] flex-col items-center justify-center gap-4 justify-self-center overflow-hidden rounded-2xl bg-skin-off-background shadow-xl"
 >
   <svg class="h-auto w-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="#e10098"
     ><style>
@@ -28,8 +25,7 @@
     <h3 class="text-xl font-bold text-skin-text-highlight ">GraphQL</h3>
     <p class="px-8 text-center">a query and manipulation language for APIs</p>
   </div>
-  <Link variant="primary" href="/app">Learn more</Link>
-</div>
+</a>
 
 <style lang="postcss">
   .card:hover::before {
