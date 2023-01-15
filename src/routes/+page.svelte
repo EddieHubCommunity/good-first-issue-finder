@@ -7,7 +7,14 @@
   import TailwindCard from '$lib/components/index/tailwind-card.svelte';
   import GithubCard from '$lib/components/index/github-card.svelte';
   import OverviewCard from '$lib/components/index/overview-card.svelte';
+  import Seo from '$lib/components/seo.svelte';
+
+  const title = 'Good First Issue Finder by EddieHub';
+  const metadescription =
+    'Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues.';
 </script>
+
+<Seo {title} {metadescription} />
 
 <div class="mt-16 flex flex-col items-center gap-16 px-4 lg:mt-32 lg:gap-32">
   <Hero />

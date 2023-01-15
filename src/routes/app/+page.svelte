@@ -70,9 +70,9 @@
   $: intersectedArray = filteredLabels.filter((item) => searchItems.includes(item));
 
   // SEO Parameters
-  const title = 'Good First Issue Finder by EddieHub';
+  const title = 'Dashboard | Good First Issue Finder';
   const metadescription =
-    'Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues.';
+    'Find good first issues by either querying the EddieHub organization or the community';
 </script>
 
 <Seo {title} {metadescription} />
