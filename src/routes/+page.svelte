@@ -14,10 +14,10 @@
   <HeroImage />
 </div>
 <section
-  class="section-full mt-20 flex flex-col items-center bg-white pt-20 pb-40 dark:bg-neutral-0 lg:mt-40"
+  class="section-full mt-12 flex flex-col items-center bg-white pt-12 pb-12 dark:bg-neutral-0 lg:mt-40 lg:pt-20 lg:pb-40"
 >
   <h2
-    class="mb-4 bg-gradient-to-r from-primary-100 via-accent-magenta to-accent-cyan bg-clip-text text-2xl font-bold text-transparent dark:to-primary-400 lg:mb-8 lg:text-4xl"
+    class="mb-4 bg-gradient-to-r from-primary-100 via-accent-magenta to-accent-cyan bg-clip-text text-3xl font-bold text-transparent dark:to-primary-400 lg:mb-8 lg:text-4xl"
   >
     Features
   </h2>
@@ -65,9 +65,9 @@
     </OverviewCard>
   </div>
 </section>
-<section class="mt-20 flex flex-col items-center space-y-8 lg:mt-20">
+<section class="mt-12 mb-12 flex flex-col items-center space-y-8 lg:mt-20 lg:mb-20">
   <h2
-    class="bg-gradient-to-r from-primary-100 via-accent-magenta to-accent-cyan bg-clip-text text-2xl font-bold text-transparent dark:to-primary-400 lg:text-4xl"
+    class="bg-gradient-to-r from-primary-100 via-accent-magenta to-accent-cyan bg-clip-text text-3xl font-bold text-transparent dark:to-primary-400 lg:text-4xl"
   >
     Techstack
   </h2>
