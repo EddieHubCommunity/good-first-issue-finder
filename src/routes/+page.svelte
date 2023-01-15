@@ -25,29 +25,44 @@
     <OverviewCard
       heading="Find Good first issues"
       description="in the Eddiehub Github Organization or in the entire Eddiehub organization"
-    />
+    >
+      <svg
+        class="h-[50px] w-[50px] lg:h-[100px] lg:w-[100px]"
+        slot="image"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <defs>
+          <linearGradient id="0" x1="0" y1="0.51" x2="1" y2="0.49">
+            <stop offset="0%" stop-color="#ff5a00" />
+            <stop offset="100%" stop-color="#eb00eb" />
+          </linearGradient>
+        </defs>
+        <path
+          fill="url(#0)"
+          d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"
+        /></svg
+      >
+    </OverviewCard>
     <OverviewCard
       textFieldAlignment="right"
       heading="Filter by labels"
       description="Filter the returned data by labels, to specify and narrow down the search even more"
-    />
+    >
+      <i
+        slot="image"
+        class="fa-solid fa-filter bg-gradient-to-tr from-primary-100 via-accent-magenta to-primary-200 bg-clip-text text-5xl text-transparent lg:text-8xl"
+      />
+    </OverviewCard>
     <OverviewCard
       heading="Serach"
       description="Search the Github Issues for specific words or phrases"
-    />
-
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100"
-      ><path
-        d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"
-      /></svg
     >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100"
-      ><path
-        d="M16 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm-14.5 0a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM4.75 3a1.75 1.75 0 1 0 .001 3.501A1.75 1.75 0 0 0 4.75 3Zm0 14.5a1.75 1.75 0 1 0 .001 3.501A1.75 1.75 0 0 0 4.75 17.5Zm14.5 0a1.75 1.75 0 1 0 .001 3.501 1.75 1.75 0 0 0-.001-3.501Z"
-      /><path
-        d="M13.405 1.72a.75.75 0 0 1 0 1.06L12.185 4h4.065A3.75 3.75 0 0 1 20 7.75v8.75a.75.75 0 0 1-1.5 0V7.75a2.25 2.25 0 0 0-2.25-2.25h-4.064l1.22 1.22a.75.75 0 0 1-1.061 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM4.75 7.25A.75.75 0 0 1 5.5 8v8A.75.75 0 0 1 4 16V8a.75.75 0 0 1 .75-.75Z"
-      /></svg
-    > -->
+      <i
+        slot="image"
+        class="fa-solid fa-magnifying-glass bg-gradient-to-r from-primary-100 to-accent-magenta bg-clip-text text-5xl text-transparent lg:text-8xl"
+      />
+    </OverviewCard>
   </div>
 </section>
 <section class="mt-20 flex flex-col items-center space-y-8 lg:mt-20">
