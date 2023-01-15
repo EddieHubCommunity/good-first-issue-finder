@@ -1,3 +1,12 @@
+## [2.12.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.0...v2.12.1) (2023-01-15)
+
+
+### Bug Fixes
+
+* typo in 'search' ([#274](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/274)) ([9daa15e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9daa15e9ee6a63726135765c4dc2237ddbfc7f9c))
+
+
+
 # [2.12.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.11.0...v2.12.0) (2023-01-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * the internal server on load more and implement archive filter in query ([#266](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/266)) ([48529ee](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/48529ee3058fbdd3114b6ca716308c0236859652))
-
-
-
-# [2.10.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.9.1...v2.10.0) (2023-01-11)
-
-
-### Features
-
-* filter out archived repositories ([#261](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/261)) ([e03eaed](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e03eaedd52eb1c83280bf81e9145b0da00767163))
 
 
 
