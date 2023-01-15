@@ -1,3 +1,12 @@
+# [2.12.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.11.0...v2.12.0) (2023-01-15)
+
+
+### Features
+
+* revamp Index Page ([#271](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/271)) ([26f95a0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/26f95a029961ba54946235c7f1f77d6517442e26))
+
+
+
 # [2.11.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.2...v2.11.0) (2023-01-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * filter out archived repositories ([#261](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/261)) ([e03eaed](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e03eaedd52eb1c83280bf81e9145b0da00767163))
-
-
-
-## [2.9.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.9.0...v2.9.1) (2022-11-25)
-
-
-### Bug Fixes
-
-* space issue ([#256](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/256)) ([533a736](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/533a73671b32bba50a673a16e336e1c645d92cf0))
 
 
 
