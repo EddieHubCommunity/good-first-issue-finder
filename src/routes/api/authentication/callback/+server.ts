@@ -28,7 +28,7 @@ export const GET: RequestHandler = async ({ url, request }) => {
   const userCookie = cookie.serialize('user', user.login || '', { httpOnly: true, path: '/' });
 
   const headers = new Headers();
-  headers.append('location', '/');
+  headers.append('location', '/app');
   headers.append('set-cookie', tokenCookie);
   headers.append('set-cookie', userCookie);
 

@@ -54,7 +54,7 @@
   }
 
   input[type='checkbox']:checked + label::before {
-    @apply flex items-center justify-center bg-skin-primary text-white;
+    @apply flex items-center justify-center bg-primary-100 text-white;
     content: '\002713';
   }
 </style>

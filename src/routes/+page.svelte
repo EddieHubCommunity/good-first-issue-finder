@@ -1,75 +1,14 @@
-<script lang="ts">
-  import IssueCard from '$lib/components/issue-card.svelte';
-  import Search from '$lib/components/search.svelte';
-  import Filter from '$lib/components/filter.svelte';
-  import LoadMore from '$lib/components/load-more.svelte';
-  import Toggle from '$lib/components/toggle.svelte';
+<script>
+  import SvelteCard from '$lib/components/index/svelte-card.svelte';
+  import GraphqlCard from '$lib/components/index/graphql-card.svelte';
+  import PlaywrightCard from '$lib/components/index/playwright-card.svelte';
+  import HeroImage from '$lib/components/index/hero-image.svelte';
+  import Hero from '$lib/components/index/hero.svelte';
+  import TailwindCard from '$lib/components/index/tailwind-card.svelte';
+  import GithubCard from '$lib/components/index/github-card.svelte';
+  import OverviewCard from '$lib/components/index/overview-card.svelte';
   import Seo from '$lib/components/seo.svelte';
 
-  import { selectedLabels } from '$lib/stores/selected-labels.store';
-  import type { SearchResponse } from '../global';
-  import { goto } from '$app/navigation';
-  import type { PageData } from './$types';
-  import { query } from '$lib/constants.json';
-  import { navigating } from '$app/stores';
-  import Loader from '$lib/components/loader.svelte';
-  export let data: PageData;
-
-  let { checked } = data;
-  let loadDisabled = false;
-  $: githubData = data.data;
-
-  $: searchString = '';
-  $: filteredLabels = githubData.edges;
-  $: searchItems = githubData.edges;
-
-  $: $selectedLabels, filterLabels();
-  const filterLabels = () => {
-    filteredLabels = githubData.edges.filter((githubDataset) =>
-      $selectedLabels.every((label) =>
-        githubDataset.node.labels.edges.some((edge) => edge.node.name === label),
-      ),
-    );
-  };
-
-  const fetchMore = async () => {
-    loadDisabled = true;
-    const res = await fetch('/api/get-issues', {
-      method: 'POST',
-      body: JSON.stringify({
-        after: githubData.pageInfo.endCursor,
-        query: checked ? query.global : query.org,
-      }),
-    });
-    if (res.ok) {
-      const respData = (await res.json()) as SearchResponse;
-      githubData.edges = [...githubData.edges, ...respData.edges];
-      githubData.pageInfo = respData.pageInfo;
-      const uniqueLabels = [...githubData.labels, ...respData.labels];
-      githubData.labels = [...new Set(uniqueLabels)];
-    }
-    loadDisabled = false;
-  };
-
-  const onChangeHandler = async () => {
-    if (checked) {
-      await goto('?global=true');
-      performSearch();
-      return;
-    }
-    await goto('?global=false');
-    performSearch();
-  };
-
-  const performSearch = () => {
-    searchItems = githubData.edges.filter((el) =>
-      el.node.title.toLowerCase().includes(searchString.toLowerCase()),
-    );
-  };
-
-  $: intersectedArray = filteredLabels.filter((item) => searchItems.includes(item));
-
-  // SEO Parameters
   const title = 'Good First Issue Finder by EddieHub';
   const metadescription =
     'Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues.';
@@ -77,38 +16,81 @@
 
 <Seo {title} {metadescription} />
 
-<div class="flex flex-col items-center justify-center">
-  <div class="mb-4">
-    <div class="justify-self-center">
-      <Toggle
-        id="toggle"
-        bind:checked
-        labelLeft="EddieHub"
-        labelRight="GitHub"
-        on:change={onChangeHandler}
-      />
-    </div>
-  </div>
-  <Search bind:searchTerm={searchString} on:keyup={() => performSearch()} />
+<div class="mt-16 flex flex-col items-center gap-16 px-4 lg:mt-32 lg:gap-32">
+  <Hero />
+  <HeroImage />
 </div>
-{#if $navigating}
-  <div class="mt-8 flex items-center justify-center gap-4">
-    <Loader background="off-background" /> Loading...
+<section
+  class="section-full mt-12 flex flex-col items-center bg-white pt-12 pb-12 dark:bg-neutral-0 lg:mt-40 lg:pt-20 lg:pb-40"
+>
+  <h2
+    class="mb-4 bg-gradient-to-r from-primary-100 via-accent-magenta to-accent-cyan bg-clip-text text-3xl font-bold text-transparent dark:to-primary-400 lg:mb-8 lg:text-4xl"
+  >
+    Features
+  </h2>
+  <div class="mx-auto flex w-[90%] max-w-5xl flex-col items-center gap-4 lg:gap-32">
+    <OverviewCard
+      heading="Find Good first issues"
+      description="in the Eddiehub Github Organization or in the entire Eddiehub organization"
+    >
+      <svg
+        class="h-[50px] w-[50px] lg:h-[100px] lg:w-[100px]"
+        slot="image"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <defs>
+          <linearGradient id="0" x1="0" y1="0.51" x2="1" y2="0.49">
+            <stop offset="0%" stop-color="#ff5a00" />
+            <stop offset="100%" stop-color="#eb00eb" />
+          </linearGradient>
+        </defs>
+        <path
+          fill="url(#0)"
+          d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"
+        /></svg
+      >
+    </OverviewCard>
+    <OverviewCard
+      textFieldAlignment="right"
+      heading="Filter by labels"
+      description="Filter the returned data by labels, to specify and narrow down the search even more"
+    >
+      <i
+        slot="image"
+        class="fa-solid fa-filter bg-gradient-to-tr from-primary-100 via-accent-magenta to-primary-200 bg-clip-text text-5xl text-transparent lg:text-8xl"
+      />
+    </OverviewCard>
+    <OverviewCard
+      heading="Serach"
+      description="Search the Github Issues for specific words or phrases"
+    >
+      <i
+        slot="image"
+        class="fa-solid fa-magnifying-glass bg-gradient-to-r from-primary-100 to-accent-magenta bg-clip-text text-5xl text-transparent lg:text-8xl"
+      />
+    </OverviewCard>
   </div>
-{:else if intersectedArray.length > 0}
-  <div class="mb-8 flex flex-col items-center">
-    <Filter tags={githubData.labels} />
+</section>
+<section class="mt-12 mb-12 flex flex-col items-center space-y-8 lg:mt-20 lg:mb-20">
+  <h2
+    class="bg-gradient-to-r from-primary-100 via-accent-magenta to-accent-cyan bg-clip-text text-3xl font-bold text-transparent dark:to-primary-400 lg:text-4xl"
+  >
+    Techstack
+  </h2>
+  <p>The tools used in this application</p>
+  <div class="mx-auto flex w-full max-w-5xl flex-wrap justify-center gap-8">
+    <SvelteCard />
+    <GraphqlCard />
+    <TailwindCard />
+    <GithubCard />
+    <PlaywrightCard />
   </div>
-  <div class="mb-4 space-y-4">
-    {#each intersectedArray as node}
-      <IssueCard issue={node.node} />
-    {/each}
-    {#if githubData.pageInfo.hasNextPage}
-      <div class="flex items-center justify-center">
-        <LoadMore isDisabled={loadDisabled} on:load={fetchMore} />
-      </div>
-    {/if}
-  </div>
-{:else}
-  <div class="text-center">Unfortunately, there were no issues found.</div>
-{/if}
+</section>
+
+<style>
+  .section-full {
+    margin-left: calc(-49.5vw + 50%);
+    width: 99vw;
+  }
+</style>

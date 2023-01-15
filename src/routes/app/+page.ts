@@ -1,6 +1,6 @@
 import { error, redirect, type Load } from '@sveltejs/kit';
 import { query } from '$lib/constants.json';
-import type { SearchResponse } from '../global';
+import type { SearchResponse } from '../../global';
 
 export const load: Load = async ({ fetch, url, parent }) => {
   const parentData = await parent();
