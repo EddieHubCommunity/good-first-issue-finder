@@ -62,7 +62,7 @@
       />
     </OverviewCard>
     <OverviewCard
-      heading="Serach"
+      heading="Search"
       description="Search the Github Issues for specific words or phrases"
     >
       <i
