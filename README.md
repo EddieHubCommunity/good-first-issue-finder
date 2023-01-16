@@ -2,11 +2,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/EddieHubCommunity/good-first-issue-finder/blob/main/LICENSE)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EddieHubCommunity/good-first-issue-finder?style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/EddieHubCommunity/good-first-issue-finder)
-![GitHub issues](https://img.shields.io/github/issues-raw/EddieHubCommunity/good-first-issue-finder) 
+![GitHub issues](https://img.shields.io/github/issues-raw/EddieHubCommunity/good-first-issue-finder)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/EddieHubCommunity/good-first-issue-finder)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/EddieHubCommunity/good-first-issue-finder)
 ![GitHub forks](https://img.shields.io/github/forks/EddieHubCommunity/good-first-issue-finder?style=social)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/good-first-issue-finder)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=plastic&logo=discord&logoColor=white)](https://discord.com/invite/jZQs6Wu)
 
 # Good First Issue Finder by EddieHub
 
@@ -52,7 +53,7 @@ Before installation, please make sure you have already installed the following t
 
 6. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
 
-> **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).  
+> **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).
 > The Callback Url needs to point to the endpoint `http://localhost:5173/api/authentication/callback` of the baseURL the app should run on.
 
 <img width=450 alt="callback url" src="https://user-images.githubusercontent.com/75534912/191059977-48962f25-4a83-4564-9a17-019ab0783a40.jpg" />
