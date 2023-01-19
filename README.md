@@ -11,7 +11,7 @@
 
 # Good First Issue Finder by EddieHub
 
-Good First Issue Finder helps new open source contributors pave their path into the world of open source through good first issues.
+Good First Issue Finder helps new open source contributors to make it easy to get into the world of open source through good first issues.
 
 ![eddiehub issue finder](https://user-images.githubusercontent.com/64529217/177034601-fe8dffce-cfac-4f61-889b-e3fe1ab7497d.png)
 
