@@ -5,16 +5,18 @@
   export let username: string;
 
   const navItems = [{ name: 'Docs', path: '/docs' }];
+  let closeHamburgerMenu: () => void;
 
   onMount(() => {
     const burger = document.querySelector('.navbar-burger');
     const menu = document.querySelector('.navbar-menu');
     const closeButton = document.querySelector('.navbar-close');
-    const closeHamburgerMenu = () => {
+    closeHamburgerMenu = () => {
       menu?.classList.add('hidden');
     };
 
     burger?.addEventListener('click', () => {
+      console.log('here i am');
       menu?.classList.toggle('hidden');
     });
 
@@ -68,7 +70,7 @@
       class="fixed top-0 left-0 bottom-0 flex w-5/6 max-w-sm flex-col overflow-y-auto bg-neutral-100 py-6 px-6"
     >
       <div class="mb-8 flex items-center justify-between">
-        <a href="/">
+        <a href="/" on:click={closeHamburgerMenu}>
           <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
         </a>
         <button class="navbar-close">
@@ -89,24 +91,28 @@
         </button>
       </div>
       <div class="flex flex-col items-center gap-4 gap-8 ">
+        {#if username}
+          <ProfilePicture {username} />
+        {/if}
         <ul>
           {#each navItems as item}
             <li>
               <a
+                on:click={closeHamburgerMenu}
                 class="default-transition text-skin-text-highlight decoration-transparent hover:underline hover:decoration-inherit"
                 class:active={$page.url.pathname.includes(item.path)}
-                href={item.path}>{item.name}</a
-              >
+                href={item.path}
+                >{item.name}
+              </a>
             </li>
           {/each}
         </ul>
-        {#if username}
-          <ProfilePicture {username} />
-        {:else}
+        {#if !username}
           <a
             data-test-id="login-btn"
             class="default-transition rounded-xl bg-skin-text px-4 py-2 text-skin-off-background hover:bg-primary-100 dark:bg-skin-text-highlight dark:text-skin-background dark:hover:bg-primary-100"
-            href="/login">Login</a
+            href="/login"
+            on:click={closeHamburgerMenu}>Login</a
           >
         {/if}
       </div>
