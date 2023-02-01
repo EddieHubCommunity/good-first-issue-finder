@@ -6,17 +6,16 @@
 
   const navItems = [{ name: 'Docs', path: '/docs' }];
   let closeHamburgerMenu: () => void;
+  let burger: Element;
+  let menu: Element;
+  let closeButton: Element;
 
   onMount(() => {
-    const burger = document.querySelector('.navbar-burger');
-    const menu = document.querySelector('.navbar-menu');
-    const closeButton = document.querySelector('.navbar-close');
     closeHamburgerMenu = () => {
       menu?.classList.add('hidden');
     };
 
     burger?.addEventListener('click', () => {
-      console.log('here i am');
       menu?.classList.toggle('hidden');
     });
 
@@ -29,7 +28,7 @@
     <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
   </a>
   <div class="lg:hidden">
-    <button class="navbar-burger flex items-center p-3 text-neutral-900">
+    <button class="navbar-burger flex items-center p-3 text-neutral-900" bind:this={burger}>
       <svg
         class="block h-4 w-4 fill-current"
         viewBox="0 0 20 20"
@@ -64,7 +63,7 @@
   </div>
 
   <!-- hamburger menu for smaller devices(below lg)-->
-  <div class="navbar-menu absolute z-50 hidden">
+  <div class="navbar-menu absolute z-50 hidden" bind:this={menu}>
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-50" />
     <nav
       class="fixed top-0 left-0 bottom-0 flex w-5/6 max-w-sm flex-col overflow-y-auto bg-neutral-100 py-6 px-6"
@@ -73,7 +72,7 @@
         <a href="/" on:click={closeHamburgerMenu}>
           <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
         </a>
-        <button class="navbar-close">
+        <button class="navbar-close" bind:this={closeButton}>
           <svg
             class="h-6 w-6 cursor-pointer text-gray-400 text-neutral-900"
             xmlns="http://www.w3.org/2000/svg"
