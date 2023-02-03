@@ -33,6 +33,7 @@
         class="block h-4 w-4 fill-current"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
+        color="green"
       >
         <title>Mobile menu</title>
         <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -74,7 +75,21 @@
         </a>
         <button class="navbar-close" bind:this={closeButton}>
           <svg
-            class="h-6 w-6 cursor-pointer text-gray-400 text-neutral-900"
+            class="h-6 w-6 cursor-pointer text-gray-400 text-neutral-900 dark:hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+          <svg
+            class="hidden h-6 w-6 cursor-pointer text-gray-400 text-neutral-900 dark:block"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
