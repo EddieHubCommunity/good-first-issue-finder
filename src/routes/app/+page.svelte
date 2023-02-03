@@ -95,20 +95,22 @@
   <div class="mt-8 flex items-center justify-center gap-4">
     <Loader background="off-background" /> Loading...
   </div>
-{:else if intersectedArray.length > 0}
+{:else}
   <div class="mb-8 flex flex-col items-center">
     <Filter tags={githubData.labels} />
   </div>
-  <div class="mb-4 space-y-4">
-    {#each intersectedArray as node}
-      <IssueCard issue={node.node} />
-    {/each}
-    {#if githubData.pageInfo.hasNextPage}
-      <div class="flex items-center justify-center">
-        <LoadMore isDisabled={loadDisabled} on:load={fetchMore} />
-      </div>
-    {/if}
-  </div>
-{:else}
-  <div class="text-center">Unfortunately, there were no issues found.</div>
+  {#if intersectedArray.length > 0}
+    <div class="mb-4 space-y-4">
+      {#each intersectedArray as node}
+        <IssueCard issue={node.node} />
+      {/each}
+      {#if githubData.pageInfo.hasNextPage}
+        <div class="flex items-center justify-center">
+          <LoadMore isDisabled={loadDisabled} on:load={fetchMore} />
+        </div>
+      {/if}
+    </div>
+  {:else}
+    <div class="text-center">Unfortunately, there were no issues found.</div>
+  {/if}
 {/if}
