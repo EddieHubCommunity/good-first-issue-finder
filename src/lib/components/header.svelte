@@ -30,10 +30,18 @@
   <div class="lg:hidden">
     <button class="navbar-burger flex items-center p-3 text-neutral-900" bind:this={burger}>
       <svg
-        class="block h-4 w-4 fill-current"
+        class="block h-4 w-4 fill-current dark:hidden"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
-        color="green"
+        color="black"
+      >
+        <title>Mobile menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+      </svg>
+      <svg
+        class="block hidden h-4 w-4 fill-current dark:block"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
       >
         <title>Mobile menu</title>
         <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -67,7 +75,7 @@
   <div class="navbar-menu absolute z-50 hidden" bind:this={menu}>
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-50" />
     <nav
-      class="fixed top-0 left-0 bottom-0 flex w-5/6 max-w-sm flex-col overflow-y-auto bg-neutral-100 py-6 px-6"
+      class="fixed top-0 left-0 bottom-0 flex w-5/6 max-w-sm flex-col overflow-y-auto bg-neutral-900 py-6 px-6 dark:bg-neutral-100"
     >
       <div class="mb-8 flex items-center justify-between">
         <a href="/" on:click={closeHamburgerMenu}>
@@ -75,21 +83,7 @@
         </a>
         <button class="navbar-close" bind:this={closeButton}>
           <svg
-            class="h-6 w-6 cursor-pointer text-gray-400 text-neutral-900 dark:hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-          <svg
-            class="hidden h-6 w-6 cursor-pointer text-gray-400 text-neutral-900 dark:block"
+            class="h-6 w-6 cursor-pointer text-gray-400 text-neutral-900"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"

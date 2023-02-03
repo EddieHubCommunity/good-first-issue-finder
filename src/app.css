@@ -1,8 +1,8 @@
 /* Write your global styles here, in PostCSS syntax */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
   :root {
     --neutral-000: #141414;
@@ -15,21 +15,17 @@
     --neutral-700: #babfbf;
     --neutral-800: #d3d9dc;
     --neutral-900: #f5f4f4;
-
     --primary-100: #ff5a00;
     --primary-200: #ff9d00;
     --primary-300: #ffbf00;
     --primary-400: #e3ff00;
-
     --accent-1: #22d3ee;
     --accent-2: #eb00eb;
-
     --color-primary: var(--primary-100);
     --color-background: var(--neutral-900);
     --color-off-background: #ffffff;
     --color-text: var(--neutral-100);
   }
-
   .dark {
     --color-primary: var(--primary-100);
     --color-background: var(--neutral-100);
