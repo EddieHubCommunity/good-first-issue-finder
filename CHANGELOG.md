@@ -1,3 +1,12 @@
+## [2.12.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.1...v2.12.2) (2023-02-03)
+
+
+### Bug Fixes
+
+* filter hiding on no results issue ([#287](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/287)) ([05af46c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/05af46c73bea9cb66cf9fa5223675e4fc638ddea))
+
+
+
 ## [2.12.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.0...v2.12.1) (2023-01-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * use the constant globals for the repeated variables ([#267](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/267)) ([4ce7b9c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4ce7b9c98d6342c149bf8af72be1ea53c30f8ccc))
-
-
-
-## [2.10.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.0...v2.10.1) (2023-01-12)
-
-
-### Bug Fixes
-
-* the internal server on load more and implement archive filter in query ([#266](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/266)) ([48529ee](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/48529ee3058fbdd3114b6ca716308c0236859652))
 
 
 
