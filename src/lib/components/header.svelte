@@ -28,7 +28,11 @@
     <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
   </a>
   <div class="lg:hidden">
-    <button class="navbar-burger flex items-center p-3 text-neutral-900" bind:this={burger}>
+    <button
+      class="navbar-burger flex items-center p-3 text-neutral-900"
+      bind:this={burger}
+      data-test-id="hamburger-btn"
+    >
       <svg
         class="block h-4 w-4 fill-current dark:hidden"
         viewBox="0 0 20 20"
@@ -64,7 +68,7 @@
       <ProfilePicture {username} />
     {:else}
       <a
-        data-test-id="login-btn"
+        data-test-id="login-btn-lg"
         class="default-transition rounded-xl bg-skin-text px-4 py-2 text-skin-off-background hover:bg-primary-100 dark:bg-skin-text-highlight dark:text-skin-background dark:hover:bg-primary-100"
         href="/login">Login</a
       >
