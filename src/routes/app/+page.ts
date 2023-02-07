@@ -19,7 +19,7 @@ export const load: PageLoad = async ({ fetch, url, parent }) => {
   const postBody: { query: string } = globalParam ? { query: query.global } : { query: query.org };
 
   await queryClient.prefetchQuery({
-    queryKey: ['issues', globalParam ? query.global : query.org],
+    queryKey: ['issues', { global: globalParam }],
     queryFn: () => fetchIssuesLoad(postBody, fetch),
   });
 

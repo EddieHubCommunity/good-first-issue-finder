@@ -20,7 +20,7 @@
   let searchString = '';
 
   $: issues = createInfiniteQuery({
-    queryKey: ['issues', checked ? query.global : query.org],
+    queryKey: ['issues', { global: checked }],
     queryFn: ({ pageParam }) => fetchIssues(checked ? query.global : query.org, pageParam),
     getNextPageParam: (lastPage) => {
       if (lastPage.pageInfo.hasNextPage) return lastPage.pageInfo.endCursor;
