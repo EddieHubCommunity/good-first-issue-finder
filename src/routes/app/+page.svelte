@@ -22,7 +22,10 @@
   $: issues = createInfiniteQuery({
     queryKey: ['issues', checked ? query.global : query.org],
     queryFn: ({ pageParam }) => fetchIssues(checked ? query.global : query.org, pageParam),
-    getNextPageParam: (lastPage) => lastPage.pageInfo.endCursor,
+    getNextPageParam: (lastPage) => {
+      if (lastPage.pageInfo.hasNextPage) return lastPage.pageInfo.endCursor;
+      return undefined;
+    },
   });
 
   const onChangeHandler = async () => {
@@ -84,17 +87,21 @@
     <Loader background="off-background" /> Loading...
   </div>
 {:else if filteredResponse}
-  <div class="mb-8 flex flex-col items-center">
-    <Filter tags={uniqueTags || []} />
-  </div>
-  <div class="mb-4 space-y-4">
-    {#each filteredResponse as edge}
-      <IssueCard issue={edge.node} />
-    {/each}
-  </div>
-  {#if $issues.hasNextPage}
-    <div class="flex items-center justify-center">
-      <LoadMore isDisabled={$issues.isFetchingNextPage} on:load={() => $issues.fetchNextPage()} />
+  {#if filteredResponse.length < 1}
+    <div class="mt-4 text-center">Unfortunately, there were no issues found.</div>
+  {:else}
+    <div class="mb-8 flex flex-col items-center">
+      <Filter tags={uniqueTags || []} />
     </div>
+    <div class="mb-4 space-y-4">
+      {#each filteredResponse as edge}
+        <IssueCard issue={edge.node} />
+      {/each}
+    </div>
+    {#if $issues.hasNextPage}
+      <div class="flex items-center justify-center">
+        <LoadMore isDisabled={$issues.isFetchingNextPage} on:load={() => $issues.fetchNextPage()} />
+      </div>
+    {/if}
   {/if}
 {/if}
