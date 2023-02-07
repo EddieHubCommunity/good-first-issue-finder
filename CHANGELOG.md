@@ -1,3 +1,12 @@
+# [2.13.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.2...v2.13.0) (2023-02-07)
+
+
+### Features
+
+* add Hamburger menu ([#277](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/277)) ([4f8493a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4f8493a24a7675d27d42509ea9a51674d5e8ad0f))
+
+
+
 ## [2.12.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.1...v2.12.2) (2023-02-03)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * loading indicator & bring project to sveltekit stable ([#264](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/264)) ([d8c06df](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/d8c06df3947d090770e56fb965dc688c22753e89))
-
-
-
-## [2.10.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.1...v2.10.2) (2023-01-12)
-
-
-### Bug Fixes
-
-* use the constant globals for the repeated variables ([#267](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/267)) ([4ce7b9c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4ce7b9c98d6342c149bf8af72be1ea53c30f8ccc))
 
 
 
