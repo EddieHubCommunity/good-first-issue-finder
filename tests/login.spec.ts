@@ -33,9 +33,28 @@ test.describe('Login Card', () => {
 });
 
 test.describe('Header', () => {
-  test('Header contains Login Button', async ({ page }) => {
+  test('Header contains Login Button For Device Width Greater Than lg', async ({ page }) => {
     //navigate to the docs page
     await page.goto('/docs');
+
+    //check if the header contains a link that redirects to the login page
+    await page.locator('data-test-id=login-btn-lg').click();
+    await page.waitForLoadState('networkidle');
+
+    expect(await page.url()).toContain('/login');
+  });
+});
+
+test.describe('Header', () => {
+  test.use({
+    viewport: { width: 600, height: 900 },
+  });
+  test('Header contains Login Button In For Device Width Less Than lg', async ({ page }) => {
+    //navigate to the docs page
+    await page.goto('/docs');
+
+    //opening hamburger menu
+    await page.locator('data-test-id=hamburger-btn').click();
 
     //check if the header contains a link that redirects to the login page
     await page.locator('data-test-id=login-btn').click();
