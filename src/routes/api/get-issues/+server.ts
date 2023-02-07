@@ -6,7 +6,7 @@ import type { SearchResponse } from 'src/global';
 
 type Response = { search: SearchResponse };
 
-export const POST: RequestHandler = async ({ request }) => {
+export const POST: RequestHandler = async ({ request, cookies }) => {
   const token = cookie.parse(request.headers.get('cookie') || '').access_token || '';
 
   if (!token) {

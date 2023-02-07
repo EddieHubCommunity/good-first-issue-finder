@@ -1,7 +1,7 @@
 <script lang="ts">
   import ProfilePicture from './profile-picture.svelte';
   import { page } from '$app/stores';
-  export let username: string;
+  export let username: string | undefined;
 
   const navItems = [{ name: 'Docs', path: '/docs' }];
 </script>
