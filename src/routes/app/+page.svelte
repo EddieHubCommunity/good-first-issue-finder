@@ -3,7 +3,7 @@
   import Toggle from '$lib/components/toggle.svelte';
   import Seo from '$lib/components/seo.svelte';
 
-  import { goto } from '$app/navigation';
+  import { goto, disableScrollHandling, afterNavigate } from '$app/navigation';
   import type { PageData } from './$types';
   import { query } from '$lib/constants.json';
   import Loader from '$lib/components/loader.svelte';
@@ -19,6 +19,8 @@
 
   let searchString = '';
 
+  if (!checked) checked = false;
+
   $: issues = createInfiniteQuery({
     queryKey: ['issues', { global: checked }],
     queryFn: ({ pageParam }) => fetchIssues(checked ? query.global : query.org, pageParam),
@@ -26,6 +28,10 @@
       if (lastPage.pageInfo.hasNextPage) return lastPage.pageInfo.endCursor;
       return undefined;
     },
+  });
+
+  afterNavigate(() => {
+    disableScrollHandling();
   });
 
   const onChangeHandler = async () => {
@@ -82,7 +88,7 @@
   </div>
   <Search bind:searchTerm={searchString} />
 </div>
-{#if $issues.isLoading}
+{#if $issues.isInitialLoading}
   <div class="mt-8 flex items-center justify-center gap-4">
     <Loader background="off-background" /> Loading...
   </div>
