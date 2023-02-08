@@ -1,3 +1,12 @@
+# [2.14.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.13.0...v2.14.0) (2023-02-08)
+
+
+### Features
+
+* migrate fetching to Svelte-Query ([#291](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/291)) ([9f6dc4d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f6dc4d0ede888b71582fe030410883f32d9805e))
+
+
+
 # [2.13.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.2...v2.13.0) (2023-02-07)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * revamp Index Page ([#271](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/271)) ([26f95a0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/26f95a029961ba54946235c7f1f77d6517442e26))
-
-
-
-# [2.11.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.2...v2.11.0) (2023-01-12)
-
-
-### Features
-
-* loading indicator & bring project to sveltekit stable ([#264](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/264)) ([d8c06df](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/d8c06df3947d090770e56fb965dc688c22753e89))
 
 
 
