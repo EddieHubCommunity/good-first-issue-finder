@@ -2,7 +2,8 @@
   import ProfilePicture from './profile-picture.svelte';
   import { page } from '$app/stores';
   import { onMount } from 'svelte';
-  export let username: string;
+
+  export let username: string | undefined;
 
   const navItems = [{ name: 'Docs', path: '/docs' }];
   let closeHamburgerMenu: () => void;

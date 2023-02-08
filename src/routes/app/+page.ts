@@ -1,10 +1,11 @@
-import { error, redirect, type Load } from '@sveltejs/kit';
+import { redirect } from '@sveltejs/kit';
 import { query } from '$lib/constants.json';
-import type { SearchResponse } from '../../global';
+import type { PageLoad } from './$types';
+import { fetchIssuesLoad } from '$lib/data';
 
-export const load: Load = async ({ fetch, url, parent }) => {
-  const parentData = await parent();
-  if (!parentData.username) {
+export const load: PageLoad = async ({ fetch, url, parent }) => {
+  const { username, queryClient } = await parent();
+  if (!username) {
     throw redirect(307, '/login');
   }
   let globalParam = false;
@@ -17,20 +18,12 @@ export const load: Load = async ({ fetch, url, parent }) => {
 
   const postBody: { query: string } = globalParam ? { query: query.global } : { query: query.org };
 
-  const res = await fetch('/api/get-issues', {
-    method: 'POST',
-    body: JSON.stringify(postBody),
+  await queryClient.prefetchQuery({
+    queryKey: ['issues', { global: globalParam }],
+    queryFn: () => fetchIssuesLoad(postBody, fetch),
   });
-  if (res.ok) {
-    const data = await res.json();
-    return {
-      data: data as SearchResponse,
-      checked: globalParam,
-    };
-  }
-  if (res.status === 401) {
-    throw redirect(307, '/login');
-  }
-  const data = await res.json();
-  throw error(500, data.message);
+
+  return {
+    checked: globalParam,
+  };
 };
