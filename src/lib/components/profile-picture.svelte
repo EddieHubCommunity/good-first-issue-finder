@@ -30,10 +30,19 @@
   async function togglePopper() {
     displayPopover = !displayPopover;
     await tick();
-    if (popperInstance === null) {
+    if (displayPopover) {
       createInstance();
+      document.addEventListener('click', closePopper);
     } else {
       destroyInstance();
+      document.removeEventListener('click', closePopper);
+    }
+  }
+
+  function closePopper(event) {
+    if (!popover.contains(event.target) && !root.contains(event.target)) {
+      displayPopover = false;
+      document.removeEventListener('click', closePopper);
     }
   }
 
