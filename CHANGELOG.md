@@ -1,3 +1,12 @@
+## [2.14.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.14.0...v2.14.1) (2023-02-09)
+
+
+### Bug Fixes
+
+* remove cookie dependency ([#294](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/294)) ([98361af](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/98361af054125983069451478667a2e2c3143acd))
+
+
+
 # [2.14.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.13.0...v2.14.0) (2023-02-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typo in 'search' ([#274](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/274)) ([9daa15e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9daa15e9ee6a63726135765c4dc2237ddbfc7f9c))
-
-
-
-# [2.12.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.11.0...v2.12.0) (2023-01-15)
-
-
-### Features
-
-* revamp Index Page ([#271](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/271)) ([26f95a0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/26f95a029961ba54946235c7f1f77d6517442e26))
 
 
 
