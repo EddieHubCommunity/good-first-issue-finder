@@ -42,7 +42,7 @@
 </script>
 
 <div>
-  <button on:click={togglePopper}>
+  <button class="hidden lg:flex" on:click={togglePopper}>
     <img
       bind:this={root}
       class="rounded-full hover:shadow-lg dark:hover:shadow-dark"
@@ -76,4 +76,25 @@
       >
     </div>
   {/if}
+  <!-- smaller devices -->
+  <div
+    class="flex w-screen max-w-xs flex-col items-center justify-center rounded-xl bg-skin-off-background p-4 lg:hidden"
+  >
+    <div class="flex flex-col items-center justify-center gap-4">
+      <img
+        class="rounded-full"
+        alt="Github profile picture of {username}"
+        src="https://www.github.com/{username}.png"
+        width="96"
+        height="96"
+      />
+      <div class="font-semibold">{username}</div>
+    </div>
+    <div class="my-2 w-full border-[0.5px] border-skin-text-highlight" />
+    <a
+      href="/api/authentication/logout"
+      class="default-transition underline decoration-primary-100 hover:decoration-transparent"
+      >Sign out</a
+    >
+  </div>
 </div>
