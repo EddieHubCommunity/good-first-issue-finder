@@ -1,3 +1,12 @@
+# [2.15.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.14.1...v2.15.0) (2023-02-11)
+
+
+### Features
+
+* custom error pages ([#299](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/299)) ([90bccdc](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/90bccdc1877822931d35bd9b609afb2d4fe53124))
+
+
+
 ## [2.14.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.14.0...v2.14.1) (2023-02-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * filter hiding on no results issue ([#287](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/287)) ([05af46c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/05af46c73bea9cb66cf9fa5223675e4fc638ddea))
-
-
-
-## [2.12.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.0...v2.12.1) (2023-01-15)
-
-
-### Bug Fixes
-
-* typo in 'search' ([#274](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/274)) ([9daa15e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9daa15e9ee6a63726135765c4dc2237ddbfc7f9c))
 
 
 
