@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.error-image {
+  width: 40%;
+  object-fit: cover;
+}
+
+.error-title {
+  font-family: Roboto;
+  font-size: 3.8rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4b4b62;
+  margin-bottom: 1.6rem;
+}
+
+.error-subtitle {
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4b4b62;
+  margin-bottom: 2.4rem;
+}
