@@ -2,7 +2,6 @@ import { env } from '$env/dynamic/private';
 import type { RequestHandler } from './$types';
 import { error } from '@sveltejs/kit';
 import fetch from 'node-fetch';
-import cookie from 'cookie';
 import type { GithubUser } from '../../../../global';
 
 const tokenURL = 'https://github.com/login/oauth/access_token';
@@ -11,21 +10,21 @@ const userURL = 'https://api.github.com/user';
 const clientId = env.FINDER_GITHUB_CLIENT_ID;
 const secret = env.FINDER_GITHUB_CLIENT_SECRET;
 
-export const GET: RequestHandler = async ({ url, request }) => {
+export const GET: RequestHandler = async ({ url, cookies }) => {
   const code = url.searchParams.get('code') as string;
   const state = url.searchParams.get('state') as string;
 
   const token = await getAccessToken(code);
   const user = (await getUser(token)) as GithubUser;
 
-  const csrfToken = cookie.parse(request.headers.get('cookie') || '').state || '';
+  const csrfToken = cookies.get('state') || '';
 
   if (state !== csrfToken) {
     throw error(403, 'CSRF Token not matching');
   }
 
-  const tokenCookie = cookie.serialize('access_token', token, { httpOnly: true, path: '/' });
-  const userCookie = cookie.serialize('user', user.login || '', { httpOnly: true, path: '/' });
+  const tokenCookie = cookies.serialize('access_token', token, { httpOnly: true, path: '/' });
+  const userCookie = cookies.serialize('user', user.login || '', { httpOnly: true, path: '/' });
 
   const headers = new Headers();
   headers.append('location', '/app');

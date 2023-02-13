@@ -1,12 +1,11 @@
 import type { RequestHandler } from './$types';
-import cookie from 'cookie';
 import { env } from '$env/dynamic/private';
 
 const ghAuthURL = 'https://github.com/login/oauth/authorize';
 const clientId = env.FINDER_GITHUB_CLIENT_ID;
-export const GET: RequestHandler = async () => {
+export const GET: RequestHandler = async ({ cookies }) => {
   const csrfState = Math.random().toString(36).substring(7);
-  const csrfCookie = cookie.serialize('state', csrfState, {
+  const csrfCookie = cookies.serialize('state', csrfState, {
     maxAge: 1000 * 60 * 3,
     httpOnly: true,
   });

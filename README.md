@@ -54,13 +54,16 @@ Before installation, please make sure you have already installed the following t
 6. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
 
 > **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).
-> The Callback Url needs to point to the endpoint `http://localhost:5173/api/authentication/callback` of the baseURL the app should run on.
+> The Callback Url needs to point to the endpoint of the baseURL the app should run on: `http://localhost:5173/api/authentication/callback`. 
+> Also, never commit the .env file, it is ignored by Git.
 
 <img width=450 alt="callback url" src="https://user-images.githubusercontent.com/75534912/191059977-48962f25-4a83-4564-9a17-019ab0783a40.jpg" />
 
 7. Run `npm run dev`
 
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)
+
+> **Note:** You still need to do the 6th step as defined earlier even if you are using Gitpod to run the app.
 
 ## 🧪 Testing
 
