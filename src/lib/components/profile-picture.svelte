@@ -1,10 +1,16 @@
 <script lang="ts">
+  import { beforeNavigate } from '$app/navigation';
   import { createPopper, type Instance } from '@popperjs/core';
   import { tick } from 'svelte';
   export let username: string;
   let displayPopover = false;
 
   let popperInstance: Instance | null = null;
+
+  beforeNavigate(() => {
+    displayPopover = false;
+    destroyInstance();
+  });
 
   function createInstance() {
     popperInstance = createPopper(root, popover, {
