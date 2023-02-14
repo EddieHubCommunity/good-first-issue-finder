@@ -93,12 +93,12 @@
     <Loader background="off-background" /> Loading...
   </div>
 {:else if filteredResponse}
+  <div class="mb-8 flex flex-col items-center">
+    <Filter tags={uniqueTags || []} />
+  </div>
   {#if filteredResponse.length < 1}
     <div class="mt-4 text-center">Unfortunately, there were no issues found.</div>
   {:else}
-    <div class="mb-8 flex flex-col items-center">
-      <Filter tags={uniqueTags || []} />
-    </div>
     <div class="mb-4 space-y-4">
       {#each filteredResponse as edge}
         <IssueCard issue={edge.node} />
