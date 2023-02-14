@@ -1,3 +1,12 @@
+## [2.15.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.0...v2.15.1) (2023-02-14)
+
+
+### Bug Fixes
+
+* display labels when no filterresult ([#301](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/301)) ([a3c842d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a3c842dd0072d93a16ec95707eaa0c19da4493f1))
+
+
+
 # [2.15.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.14.1...v2.15.0) (2023-02-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add Hamburger menu ([#277](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/277)) ([4f8493a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4f8493a24a7675d27d42509ea9a51674d5e8ad0f))
-
-
-
-## [2.12.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.1...v2.12.2) (2023-02-03)
-
-
-### Bug Fixes
-
-* filter hiding on no results issue ([#287](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/287)) ([05af46c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/05af46c73bea9cb66cf9fa5223675e4fc638ddea))
 
 
 
