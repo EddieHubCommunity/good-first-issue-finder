@@ -1,3 +1,12 @@
+## [2.15.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.1...v2.15.2) (2023-02-14)
+
+
+### Bug Fixes
+
+* close profile picture banner on navigation ([#302](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/302)) ([e29ffc6](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e29ffc6feafccd92aa125245db4f923b4fb5ed8d))
+
+
+
 ## [2.15.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.0...v2.15.1) (2023-02-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * migrate fetching to Svelte-Query ([#291](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/291)) ([9f6dc4d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f6dc4d0ede888b71582fe030410883f32d9805e))
-
-
-
-# [2.13.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.2...v2.13.0) (2023-02-07)
-
-
-### Features
-
-* add Hamburger menu ([#277](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/277)) ([4f8493a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4f8493a24a7675d27d42509ea9a51674d5e8ad0f))
 
 
 
