@@ -15,7 +15,7 @@
           <a 
           style:color={hovering ? 'yellow' : 'blue'}
           data-test-id="discord-btn"
-          class="transition duration-200 hover:text-[#3f51b5] active:text-primary-100"
+          class="transition duration-200 hover:text-[#7289da] active:text-primary-100"
           href="http://discord.eddiehub.org"
           target="_blank"
           rel="noreferrer"
@@ -27,7 +27,7 @@
           data-test-id="github-btn"
           target="_blank"
           rel="noreferrer"
-          class="transition duration-200 hover:text-[#cddc39] active:text-primary-100"
+          class="transition duration-200 hover:text-[#fafafa] active:text-primary-100"
           href="http://github.eddiehub.org"
           aria-label="Github"><i class="fa-brands fa-github fa-xl" /></a
           >
