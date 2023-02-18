@@ -1,3 +1,30 @@
+## [2.15.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.1...v2.15.2) (2023-02-14)
+
+
+### Bug Fixes
+
+* close profile picture banner on navigation ([#302](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/302)) ([e29ffc6](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e29ffc6feafccd92aa125245db4f923b4fb5ed8d))
+
+
+
+## [2.15.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.0...v2.15.1) (2023-02-14)
+
+
+### Bug Fixes
+
+* display labels when no filterresult ([#301](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/301)) ([a3c842d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a3c842dd0072d93a16ec95707eaa0c19da4493f1))
+
+
+
+# [2.15.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.14.1...v2.15.0) (2023-02-11)
+
+
+### Features
+
+* custom error pages ([#299](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/299)) ([90bccdc](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/90bccdc1877822931d35bd9b609afb2d4fe53124))
+
+
+
 ## [2.14.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.14.0...v2.14.1) (2023-02-09)
 
 
@@ -13,33 +40,6 @@
 ### Features
 
 * migrate fetching to Svelte-Query ([#291](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/291)) ([9f6dc4d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f6dc4d0ede888b71582fe030410883f32d9805e))
-
-
-
-# [2.13.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.2...v2.13.0) (2023-02-07)
-
-
-### Features
-
-* add Hamburger menu ([#277](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/277)) ([4f8493a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4f8493a24a7675d27d42509ea9a51674d5e8ad0f))
-
-
-
-## [2.12.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.1...v2.12.2) (2023-02-03)
-
-
-### Bug Fixes
-
-* filter hiding on no results issue ([#287](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/287)) ([05af46c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/05af46c73bea9cb66cf9fa5223675e4fc638ddea))
-
-
-
-## [2.12.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.0...v2.12.1) (2023-01-15)
-
-
-### Bug Fixes
-
-* typo in 'search' ([#274](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/274)) ([9daa15e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9daa15e9ee6a63726135765c4dc2237ddbfc7f9c))
 
 
 
