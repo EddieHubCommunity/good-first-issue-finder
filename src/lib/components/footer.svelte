@@ -27,7 +27,7 @@
           data-test-id="github-btn"
           target="_blank"
           rel="noreferrer"
-          class="transition duration-200 hover:text-[#fafafa] active:text-primary-100"
+         class="transition duration-200  hover:text-slate-400 hover:fill-red-300 dark:hover:text-[#fafafa] active:text-primary-100"
           href="http://github.eddiehub.org"
           aria-label="Github"><i class="fa-brands fa-github fa-xl" /></a
           >
