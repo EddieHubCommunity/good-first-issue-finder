@@ -1,3 +1,12 @@
+## [2.15.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.2...v2.15.3) (2023-02-21)
+
+
+### Bug Fixes
+
+* hide horizontal scrolling ([#304](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/304)) ([fce2c70](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fce2c7027e77e6dd3e73fda07a96ab160f40eac7))
+
+
+
 ## [2.15.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.1...v2.15.2) (2023-02-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove cookie dependency ([#294](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/294)) ([98361af](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/98361af054125983069451478667a2e2c3143acd))
-
-
-
-# [2.14.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.13.0...v2.14.0) (2023-02-08)
-
-
-### Features
-
-* migrate fetching to Svelte-Query ([#291](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/291)) ([9f6dc4d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f6dc4d0ede888b71582fe030410883f32d9805e))
 
 
 
