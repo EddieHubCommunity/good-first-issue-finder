@@ -3,7 +3,7 @@ import { query } from '$lib/constants.json';
 import type { PageLoad } from './$types';
 import { fetchIssuesLoad } from '$lib/data';
 
-export const load: PageLoad = async ({ fetch, url, parent, data }) => {
+export const load: PageLoad = async ({ fetch, url, parent }) => {
   const { username, queryClient } = await parent();
   if (!username) {
     throw redirect(307, '/login');
@@ -24,7 +24,6 @@ export const load: PageLoad = async ({ fetch, url, parent, data }) => {
   });
 
   return {
-    ...data,
     checked: globalParam,
   };
 };

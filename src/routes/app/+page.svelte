@@ -13,7 +13,6 @@
   import IssueCard from '$lib/components/issue-card.svelte';
   import Filter from '$lib/components/filter.svelte';
   import Search from '$lib/components/search.svelte';
-  import Timeline from '$lib/components/timeline.svelte';
   export let data: PageData;
 
   let { checked } = data;
@@ -89,7 +88,6 @@
   </div>
   <Search bind:searchTerm={searchString} />
 </div>
-<Timeline changes={data.changes} />
 {#if $issues.isInitialLoading}
   <div class="mt-8 flex items-center justify-center gap-4">
     <Loader background="off-background" /> Loading...
