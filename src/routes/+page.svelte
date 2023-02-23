@@ -38,6 +38,8 @@
         slot="image"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
+        role="img"
+        aria-label="disc image"
       >
         <defs>
           <linearGradient id="0" x1="0" y1="0.51" x2="1" y2="0.49">
@@ -59,6 +61,8 @@
       <i
         slot="image"
         class="fa-solid fa-filter bg-gradient-to-tr from-primary-100 via-accent-magenta to-primary-200 bg-clip-text text-5xl text-transparent lg:text-8xl"
+        role="img"
+        aria-label="filter image"
       />
     </OverviewCard>
     <OverviewCard
@@ -68,6 +72,8 @@
       <i
         slot="image"
         class="fa-solid fa-magnifying-glass bg-gradient-to-r from-primary-100 to-accent-magenta bg-clip-text text-5xl text-transparent lg:text-8xl"
+        role="img"
+        aria-label="magnifying glass"
       />
     </OverviewCard>
   </div>
