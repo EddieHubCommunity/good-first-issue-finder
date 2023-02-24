@@ -1,3 +1,12 @@
+## [2.15.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.3...v2.15.4) (2023-02-24)
+
+
+### Bug Fixes
+
+* hover colors for icons [#280](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/280) ([#300](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/300)) ([9a269a8](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9a269a821b163089d4430c355d0579df424fd403))
+
+
+
 ## [2.15.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.2...v2.15.3) (2023-02-21)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * custom error pages ([#299](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/299)) ([90bccdc](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/90bccdc1877822931d35bd9b609afb2d4fe53124))
-
-
-
-## [2.14.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.14.0...v2.14.1) (2023-02-09)
-
-
-### Bug Fixes
-
-* remove cookie dependency ([#294](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/294)) ([98361af](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/98361af054125983069451478667a2e2c3143acd))
 
 
 
