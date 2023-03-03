@@ -10,8 +10,8 @@
   >{menuItem.name}</a
 >
 
-<style lang="postcss">
-  .active {
-    @apply text-primary-100 md:font-bold;
-  }
-</style>
+
+
+
+
+
