@@ -12,6 +12,12 @@
   </div>
   <div class="w-full border-gray-300 dark:border-gray-600 lg:w-3/5 lg:border-x lg:px-8">
     <slot />
+    <div class="flex" style=" justify-content: space-around; margin-top:5%;">
+      <a
+        class="default-transition text-skin-text-highlight hover:underline hover:decoration-inherit"
+        href="/app">Back to AppPage</a
+      >
+    </div>
   </div>
   <div class="hidden w-1/5  lg:block" />
 </div>
