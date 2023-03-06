@@ -1,3 +1,12 @@
+## [2.15.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.4...v2.15.5) (2023-03-06)
+
+
+### Bug Fixes
+
+* change color of docs menu-item on hover ([#312](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/312)) ([2117f69](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/2117f69e2fc1bd7b0961cc02d51a3666ba9e75df))
+
+
+
 ## [2.15.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.3...v2.15.4) (2023-02-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * display labels when no filterresult ([#301](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/301)) ([a3c842d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a3c842dd0072d93a16ec95707eaa0c19da4493f1))
-
-
-
-# [2.15.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.14.1...v2.15.0) (2023-02-11)
-
-
-### Features
-
-* custom error pages ([#299](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/299)) ([90bccdc](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/90bccdc1877822931d35bd9b609afb2d4fe53124))
 
 
 
