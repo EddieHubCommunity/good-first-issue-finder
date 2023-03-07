@@ -23,7 +23,7 @@
 
   const navItems = [
     { name: 'Docs', path: '/docs' },
-    { name: 'AppPage', path: '/app' },
+    { name: 'App', path: '/app' },
   ];
 </script>
 
