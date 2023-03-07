@@ -21,7 +21,10 @@
 
   export let username: string | undefined;
 
-  const navItems = [{ name: 'Docs', path: '/docs' }];
+  const navItems = [
+    { name: 'Docs', path: '/docs' },
+    { name: 'AppPage', path: '/app' },
+  ];
 </script>
 
 <header class="my-8 flex flex-wrap items-center justify-between">
@@ -45,17 +48,16 @@
     </button>
   </div>
   <div class="hidden items-center gap-4 lg:flex lg:gap-8">
-    <ul>
-      {#each navItems as item}
-        <li>
-          <a
-            class="default-transition text-skin-text-highlight decoration-transparent hover:underline hover:decoration-inherit"
-            class:active={$page.url.pathname.includes(item.path)}
-            href={item.path}>{item.name}</a
-          >
-        </li>
-      {/each}
-    </ul>
+    {#each navItems as item}
+      <div>
+        <a
+          class="default-transition text-skin-text-highlight decoration-transparent hover:underline hover:decoration-inherit"
+          class:active={$page.url.pathname.includes(item.path)}
+          href={item.path}>{item.name}</a
+        >
+      </div>
+    {/each}
+
     {#if username}
       <ProfilePicture {username} />
     {:else}
