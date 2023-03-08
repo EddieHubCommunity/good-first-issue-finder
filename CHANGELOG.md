@@ -1,3 +1,12 @@
+## [2.15.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.5...v2.15.6) (2023-03-08)
+
+
+### Bug Fixes
+
+* Added a button to link docs to appPage ([#314](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/314)) ([9f7f11a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f7f11a8ecc938ef88808b282aa30bb192694ef1))
+
+
+
 ## [2.15.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.4...v2.15.5) (2023-03-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * close profile picture banner on navigation ([#302](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/302)) ([e29ffc6](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e29ffc6feafccd92aa125245db4f923b4fb5ed8d))
-
-
-
-## [2.15.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.0...v2.15.1) (2023-02-14)
-
-
-### Bug Fixes
-
-* display labels when no filterresult ([#301](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/301)) ([a3c842d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a3c842dd0072d93a16ec95707eaa0c19da4493f1))
 
 
 
