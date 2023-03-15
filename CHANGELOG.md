@@ -1,45 +1,45 @@
-# [2.14.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.13.0...v2.14.0) (2023-02-08)
-
-
-### Features
-
-* migrate fetching to Svelte-Query ([#291](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/291)) ([9f6dc4d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f6dc4d0ede888b71582fe030410883f32d9805e))
-
-
-
-# [2.13.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.2...v2.13.0) (2023-02-07)
-
-
-### Features
-
-* add Hamburger menu ([#277](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/277)) ([4f8493a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4f8493a24a7675d27d42509ea9a51674d5e8ad0f))
-
-
-
-## [2.12.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.1...v2.12.2) (2023-02-03)
+## [2.15.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.5...v2.15.6) (2023-03-08)
 
 
 ### Bug Fixes
 
-* filter hiding on no results issue ([#287](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/287)) ([05af46c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/05af46c73bea9cb66cf9fa5223675e4fc638ddea))
+* Added a button to link docs to appPage ([#314](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/314)) ([9f7f11a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f7f11a8ecc938ef88808b282aa30bb192694ef1))
 
 
 
-## [2.12.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.0...v2.12.1) (2023-01-15)
+## [2.15.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.4...v2.15.5) (2023-03-06)
 
 
 ### Bug Fixes
 
-* typo in 'search' ([#274](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/274)) ([9daa15e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9daa15e9ee6a63726135765c4dc2237ddbfc7f9c))
+* change color of docs menu-item on hover ([#312](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/312)) ([2117f69](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/2117f69e2fc1bd7b0961cc02d51a3666ba9e75df))
 
 
 
-# [2.12.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.11.0...v2.12.0) (2023-01-15)
+## [2.15.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.3...v2.15.4) (2023-02-24)
 
 
-### Features
+### Bug Fixes
 
-* revamp Index Page ([#271](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/271)) ([26f95a0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/26f95a029961ba54946235c7f1f77d6517442e26))
+* hover colors for icons [#280](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/280) ([#300](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/300)) ([9a269a8](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9a269a821b163089d4430c355d0579df424fd403))
+
+
+
+## [2.15.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.2...v2.15.3) (2023-02-21)
+
+
+### Bug Fixes
+
+* hide horizontal scrolling ([#304](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/304)) ([fce2c70](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fce2c7027e77e6dd3e73fda07a96ab160f40eac7))
+
+
+
+## [2.15.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.1...v2.15.2) (2023-02-14)
+
+
+### Bug Fixes
+
+* close profile picture banner on navigation ([#302](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/302)) ([e29ffc6](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e29ffc6feafccd92aa125245db4f923b4fb5ed8d))
 
 
 

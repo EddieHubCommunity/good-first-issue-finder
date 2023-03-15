@@ -13,7 +13,7 @@
 </script>
 
 <QueryClientProvider client={data.queryClient}>
-  <div class="flex min-h-screen flex-col">
+  <div class="flex min-h-screen flex-col overflow-hidden">
     <div class="float-none mx-auto my-0 w-[90%] max-w-[1440px] pb-8">
       <Header username={data.username} />
       <main>

@@ -7,11 +7,12 @@
   <div class="mx-auto flex w-[90%] max-w-[1440px] items-center justify-between">
     <ThemeSwitcher />
     <PackageVersion />
+
     <ul class="flex list-none items-center justify-center gap-8">
       <li>
         <a
           data-test-id="discord-btn"
-          class="transition duration-200 hover:text-primary-100 active:text-primary-100"
+          class="transition duration-200 hover:text-[#7289da] active:text-primary-100"
           href="http://discord.eddiehub.org"
           target="_blank"
           rel="noreferrer"
@@ -23,7 +24,7 @@
           data-test-id="github-btn"
           target="_blank"
           rel="noreferrer"
-          class="transition duration-200 hover:text-primary-100 active:text-primary-100"
+          class="transition duration-200 hover:text-[#333333] active:text-primary-100 dark:hover:text-[#fafafa] "
           href="http://github.eddiehub.org"
           aria-label="Github"><i class="fa-brands fa-github fa-xl" title="Github" /></a
         >

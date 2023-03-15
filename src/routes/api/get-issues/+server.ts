@@ -1,13 +1,12 @@
 import { json as json$1 } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { Octokit } from 'octokit';
-import cookie from 'cookie';
 import type { SearchResponse } from 'src/global';
 
 type Response = { search: SearchResponse };
 
 export const POST: RequestHandler = async ({ request, cookies }) => {
-  const token = cookie.parse(request.headers.get('cookie') || '').access_token || '';
+  const token = cookies.get('access_token') || '';
 
   if (!token) {
     return new Response(JSON.stringify({ message: 'Please authenticate to use this endpoint' }), {
