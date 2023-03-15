@@ -74,7 +74,7 @@ test.describe('Footer', () => {
     const [popup] = await Promise.all([page.waitForEvent('popup'), githubBtn.click()]);
     await popup.waitForLoadState();
 
-    expect(await popup.url()).toContain('https://github.com/EddieHubCommunity');
+    expect(popup.url()).toContain('https://github.com/EddieHubCommunity');
   });
 
   test('Footer contains a working Discord Link', async ({ page }) => {
@@ -84,9 +84,9 @@ test.describe('Footer', () => {
     // check if the discord icon links to a discord link
     const discordBtn = await page.locator('data-test-id=discord-btn');
     const [popup] = await Promise.all([page.waitForEvent('popup'), discordBtn.click()]);
-    await popup.waitForLoadState();
+    // await popup.waitForLoadState();
 
-    expect(await popup.url()).toContain('https://discord.com/invite/jZQs6Wu');
+    expect(popup.url()).toContain('https://discord.com/invite/jZQs6Wu');
   });
 
   test('Footer contains the theme switcher', async ({ page }) => {
