@@ -16,7 +16,7 @@
           href="http://discord.eddiehub.org"
           target="_blank"
           rel="noreferrer"
-          aria-label="Discord"><i class="fa-brands fa-discord fa-xl" /></a
+          aria-label="Discord"><i class="fa-brands fa-discord fa-xl" title="Discord" /></a
         >
       </li>
       <li>
@@ -26,7 +26,7 @@
           rel="noreferrer"
           class="transition duration-200 hover:text-[#333333] active:text-primary-100 dark:hover:text-[#fafafa] "
           href="http://github.eddiehub.org"
-          aria-label="Github"><i class="fa-brands fa-github fa-xl" /></a
+          aria-label="Github"><i class="fa-brands fa-github fa-xl" title="Github" /></a
         >
       </li>
     </ul>

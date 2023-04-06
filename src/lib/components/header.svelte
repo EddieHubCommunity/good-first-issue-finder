@@ -29,7 +29,12 @@
 
 <header class="my-8 flex flex-wrap items-center justify-between">
   <a href="/">
-    <img src="/images/hubber.png" class="w-8 object-contain md:w-12" alt="hubber" />
+    <img
+      src="/images/hubber.png"
+      class="w-8 object-contain md:w-12"
+      alt="hubber"
+      aria-label="hubber"
+    />
   </a>
   <div class="lg:hidden">
     <button
@@ -38,7 +43,15 @@
       data-test-id="hamburger-btn"
     >
       <svg
-        class="block h-4 w-4 fill-skin-text-highlight"
+        class="block h-4 w-4 fill-current dark:hidden"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>Mobile menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+      </svg>
+      <svg
+        class="block h-4 w-4 fill-current dark:block"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
