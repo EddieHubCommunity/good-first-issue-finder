@@ -1,3 +1,12 @@
+## [2.15.7](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.6...v2.15.7) (2023-04-06)
+
+
+### Bug Fixes
+
+* added accessibility attributes to images and SVGs ([#307](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/307)) ([9049024](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/904902408d6bd1480f6c3d4c436cccd715840267))
+
+
+
 ## [2.15.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.5...v2.15.6) (2023-03-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hide horizontal scrolling ([#304](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/304)) ([fce2c70](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fce2c7027e77e6dd3e73fda07a96ab160f40eac7))
-
-
-
-## [2.15.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.1...v2.15.2) (2023-02-14)
-
-
-### Bug Fixes
-
-* close profile picture banner on navigation ([#302](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/302)) ([e29ffc6](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/e29ffc6feafccd92aa125245db4f923b4fb5ed8d))
 
 
 
