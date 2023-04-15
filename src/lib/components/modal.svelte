@@ -1,10 +1,20 @@
-<script>
-  import { createEventDispatcher } from 'svelte';
-  export let showModal = false;
-  export let title = '';
-  export let showFooter = false;
+<script lang="ts">
+  import { createEventDispatcher, onMount } from 'svelte';
+  export let showModal: boolean;
+  export let title: string;
+  export let showFooter: boolean;
 
   const dispatch = createEventDispatcher();
+
+  onMount(() => {
+    window.addEventListener('keydown', handleEscape);
+  });
+
+  const handleEscape = (event: KeyboardEvent) => {
+    if (event.key === 'Escape') {
+      dispatch('close');
+    }
+  };
 </script>
 
 {#if showModal}
