@@ -2,7 +2,7 @@
   import { selectedLabels } from '$lib/stores/selected-labels.store';
   import Checkbox from './checkbox.svelte';
   export let tags: string[];
-  let selection: string[] = [];
+  let selection: string[] = [...$selectedLabels];
 
   $: tags = tags.sort((a, b) => a.localeCompare(b));
 
