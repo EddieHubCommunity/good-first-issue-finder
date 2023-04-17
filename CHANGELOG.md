@@ -1,3 +1,12 @@
+# [2.16.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.7...v2.16.0) (2023-04-17)
+
+
+### Features
+
+* Added filter modal ([#319](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/319)) ([0b4b885](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/0b4b885e943ff98229160fb5fc06143d66d91c57))
+
+
+
 ## [2.15.7](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.6...v2.15.7) (2023-04-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hover colors for icons [#280](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/280) ([#300](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/300)) ([9a269a8](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9a269a821b163089d4430c355d0579df424fd403))
-
-
-
-## [2.15.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.2...v2.15.3) (2023-02-21)
-
-
-### Bug Fixes
-
-* hide horizontal scrolling ([#304](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/304)) ([fce2c70](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fce2c7027e77e6dd3e73fda07a96ab160f40eac7))
 
 
 
