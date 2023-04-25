@@ -29,6 +29,16 @@
           aria-label="Github"><i class="fa-brands fa-github fa-xl" title="Github" /></a
         >
       </li>
+      <li>
+  <a
+    data-test-id="linkedin-btn"
+    target="_blank"
+    rel="noreferrer"
+    class="transition duration-200 hover:text-[#333333] active:text-primary-100 dark:hover:text-[#fafafa]"
+    href="http://linkedin.com/company/YOUR-COMPANY-NAME"
+    aria-label="LinkedIn"><i class="fab fa-linkedin fa-xl" title="LinkedIn" /></a>
+</li>
+
     </ul>
   </div>
 </footer>
