@@ -31,7 +31,7 @@ Congratulations! You have commited few changes for our repository and thank you 
 - In that redirected page, you get to see kind of form which is linked with your changes you've commited on file or files. 
 - Include a message which refers the changes you've committed and click on submit pull request. 
 
-You have successfully generated a pull request. 🏆 Following that, the maintainers will analyse the PR and decide whether or not to merge it if it helps move the good-first-issue-finder project forward. 
+You have successfully generated a pull request. Following that, the maintainers will analyse the PR and decide whether or not to merge it if it helps move the good-first-issue-finder project forward. 
 
 Otherwise, it will receive constructive feedback and recommendations for the improvements required to include the PR into the codebase.
 
