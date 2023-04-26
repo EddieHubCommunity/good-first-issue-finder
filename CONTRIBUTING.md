@@ -1,110 +1,57 @@
-# Contributors
+# Contributing Guidelines
 
-## 💥 How to Contribute
+Thank you for your interest in contributing to our project. These are the guidelines for helping with our project. These instructions will assist you in effectively merging your committed modifications with the master branch. 
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/good-first-issue-finder/pulls)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/EddieHubCommunity/)
+Please look into our guidelines before contributing to ensure that your contributions are properly noticed and appreciated.
+Please contact us if you find yourselves stuck in the middle.  
 
-- Take a look at the existing [Issues](https://github.com/EddieHubCommunity/good-first-issue-finder/issues) or [create a new issue](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/new/choose)!
-- [Fork the Repo](https://github.com/EddieHubCommunity/good-first-issue-finder). Then, create a branch for any issue that you are working on. Finally, commit your work.
-- Create a **[Pull Request](https://github.com/EddieHubCommunity/good-first-issue-finder/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
-- Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
+##  How to Contribute
 
----
+- Fork the repository and clone it. 
+- Make a new branch and work on that branch for your modifications: `checkout git -b my-new-branch`
+- Make your changes and commit them: `git commit -am 'Add some feature'` Make sure to include a message that relates to the commit you made. 
 
-## ⭐ HOW TO MAKE A PULL REQUEST:
+- Push to the branch: `git push origin my-new-branch` -
+- Submit a pull request.
 
-**1.** Start by making a Fork of the [**good-first-issue-finder**](https://github.com/EddieHubCommunity/good-first-issue-finder) repository. Click on the <a href="https://github.com/EddieHubCommunity/good-first-issue-finder/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
+Please see [Github PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) if you require additional information!
 
-**2.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
 
-```bash
-git clone https://github.com/<your-github-username>/good-first-issue-finder
-```
+## Submitting a Pull Request
 
-**3.** Navigate to the newly created good-first-issue-finder project directory:
+Congratulations! You have commited few changes for our repository and thank you for that. To make it merged with the master brancch and released in our next release, please follow these steps to make it happen. 
 
-```bash
-cd good-first-issue-finder
-```
+- Firstly, make sure that your changes doesn't cross our guidelines and it works well. 
+- Then, Stage and commit your changes using `git add . ` and `git commit -m "Your commit message here"` commands. 
+- "Your commit message here" should be replaced with a concise summary of the changes you made.
+- Push your changes to your forked repository using the command `git push origin <branch-name (that you have commited changes)>`
+- To know you branch, use `git branch` command and replace it in thee above mentioned command. 
+- Go to your forked repository on GitHub and you can observe the option `Compare and Pull Request` button. It redirects you to the original repository you've forked from. 
 
-**4.** Set upstream command:
+- In that redirected page, you get to see kind of form which is linked with your changes you've commited on file or files. 
+- Include a message which refers the changes you've committed and click on submit pull request. 
 
-```bash
-git remote add upstream https://github.com/EddieHubCommunity/good-first-issue-finder.git
-```
+You have successfully generated a pull request. 🏆 Following that, the maintainers will analyse the PR and decide whether or not to merge it if it helps move the good-first-issue-finder project forward. 
 
-**5.** Create a new branch:
+Otherwise, it will receive constructive feedback and recommendations for the improvements required to include the PR into the codebase.
 
-```bash
-git checkout -b YourBranchName
-```
 
-**6.** Add secret github token in a .env file:
+## Issues and Reports
+If you find a bug or have a feature request, please report it on our issue tracker. Please search the current issues before posting a new one to ensure that your bug or feature request has not previously been reported.
 
-- Add a `.env` file in the root directory of the folder
+### The steps to create an issue
+Please include as much detail as possible when submitting an issue report, such as:
 
-- Paste the code below inside the `.env` file with your secret token
+- The expected behavior.
+- The actual behavior.
+- Any relevant error messages or stack traces.
+- When submitting a feature request, please describe the feature you would like to see added and why it would be useful.
 
-```bash
-GH_TOKEN=<Your-Super-Secret-Github-Token>
-```
+You can create an issue on this page [open an issue](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/new/choose)
 
-> **Note:** A detailed explanation on how to create a GitHub Token can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+If you're new to open source development and looking to get started, "Good First Issue" is a great place to begin. These are issues that are relatively easy to fix and are a good starting point for contributors who are looking to get familiar with a codebase and the contribution process.
 
-**7.** Sync your fork or your local repository with the origin repository:
-
-- In your forked repository, click on "Fetch upstream"
-- Click "Fetch and merge"
-
-### Alternatively, Git CLI way to Sync forked repository with origin repository:
-
-```bash
-git fetch upstream
-```
-
-```bash
-git merge upstream/main
-```
-
-### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
-
-**8.** Make your changes to the source code.
-
-**9.** Stage your changes and commit:
-
-⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
-
-⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
-
-```bash
-git add <filename>
-```
-
-```bash
-git commit -m "<your_commit_message>"
-```
-
-**10.** Push your local commits to the remote repository:
-
-```bash
-git push origin YourBranchName
-```
-
-**11.** Create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)!
-
-**12.** **Congratulations!** You've made your first contribution to [**good-first-issue-finder**](https://github.com/EddieHubCommunity/good-first-issue-finder/graphs/contributors)! 🙌🏼
-
-**_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the good-first-issue-finder project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
-
----
-
-## 💥 Issues
-
-In order to discuss changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/new/) about what you would like to contribute. Enhancements are always encouraged and appreciated.
-
-## All the best! 🥇
-
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](eddiehub.org)
+We encourage everyone to take part in open source development and contribute to projects in their areas of interest. By doing so, we can create a more vibrant and diverse ecosystem of software that benefits everyone.
 
 Join the conversation in our [Discord community](http://discord.eddiehub.org)
++
