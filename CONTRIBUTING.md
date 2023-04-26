@@ -91,7 +91,7 @@ git commit -m "<your_commit_message>"
 git push origin YourBranchName
 ```
 
-**11.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+**11.** Create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)!
 
 **12.** **Congratulations!** You've made your first contribution to [**good-first-issue-finder**](https://github.com/EddieHubCommunity/good-first-issue-finder/graphs/contributors)! 🙌🏼
 
