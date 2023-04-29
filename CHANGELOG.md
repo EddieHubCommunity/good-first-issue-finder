@@ -1,3 +1,12 @@
+# [2.17.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.16.0...v2.17.0) (2023-04-29)
+
+
+### Features
+
+* added Linkedin Link ([#327](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/327)) ([3e267fd](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/3e267fd007519c6be36c28e0a5623d3964c38192))
+
+
+
 # [2.16.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.7...v2.16.0) (2023-04-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * change color of docs menu-item on hover ([#312](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/312)) ([2117f69](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/2117f69e2fc1bd7b0961cc02d51a3666ba9e75df))
-
-
-
-## [2.15.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.3...v2.15.4) (2023-02-24)
-
-
-### Bug Fixes
-
-* hover colors for icons [#280](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/280) ([#300](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/300)) ([9a269a8](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9a269a821b163089d4430c355d0579df424fd403))
 
 
 
