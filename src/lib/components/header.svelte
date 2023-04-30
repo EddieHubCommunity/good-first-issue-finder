@@ -27,15 +27,21 @@
   ];
 </script>
 
-<header class="my-8 flex flex-wrap items-center justify-between">
+<header class="my-8 flex flex-wrap items-center justify-between ">
   <a href="/">
     <img
       src="/images/hubber.png"
-      class="w-8 object-contain md:w-12"
+      class="w-8 object-contain md:w-12 "
       alt="hubber"
       aria-label="hubber"
     />
   </a>
+  <img
+    src="/images/message-code.png"
+    class="w-12 justify-center object-contain md:w-14"
+    alt="message-code"
+    aria-label="message-code"
+  />
   <div class="lg:hidden">
     <button
       on:click={() => ($showHamburgerMenu = true)}
