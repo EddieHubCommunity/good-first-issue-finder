@@ -30,16 +30,15 @@
         >
       </li>
       <li>
-  <a
-    data-test-id="linkedin-btn"
-    target="_blank"
-    rel="noreferrer"
-    class="transition duration-200 hover:text-[#0e76a8] active:text-primary-100"
-    href="http://linkedin.com/company/eddiehub"
-    aria-label="LinkedIn"><i class="fab fa-linkedin fa-xl" title="LinkedIn" /></a
-  >
-</li>
-
+        <a
+          data-test-id="linkedin-btn"
+          target="_blank"
+          rel="noreferrer"
+          class="transition duration-200 hover:text-[#0e76a8] active:text-primary-100"
+          href="http://linkedin.com/company/eddiehub"
+          aria-label="LinkedIn"><i class="fab fa-linkedin fa-xl" title="LinkedIn" /></a
+        >
+      </li>
     </ul>
   </div>
 </footer>
