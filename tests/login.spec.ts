@@ -33,9 +33,28 @@ test.describe('Login Card', () => {
 });
 
 test.describe('Header', () => {
-  test('Header contains Login Button', async ({ page }) => {
+  test('Header contains Login Button For Device Width Greater Than lg', async ({ page }) => {
     //navigate to the docs page
     await page.goto('/docs');
+
+    //check if the header contains a link that redirects to the login page
+    await page.locator('data-test-id=login-btn-lg').click();
+    await page.waitForLoadState('networkidle');
+
+    expect(await page.url()).toContain('/login');
+  });
+});
+
+test.describe('Header', () => {
+  test.use({
+    viewport: { width: 600, height: 900 },
+  });
+  test('Header contains Login Button In For Device Width Less Than lg', async ({ page }) => {
+    //navigate to the docs page
+    await page.goto('/docs');
+
+    //opening hamburger menu
+    await page.locator('data-test-id=hamburger-btn').click();
 
     //check if the header contains a link that redirects to the login page
     await page.locator('data-test-id=login-btn').click();
@@ -55,7 +74,7 @@ test.describe('Footer', () => {
     const [popup] = await Promise.all([page.waitForEvent('popup'), githubBtn.click()]);
     await popup.waitForLoadState();
 
-    expect(await popup.url()).toContain('https://github.com/EddieHubCommunity');
+    expect(popup.url()).toContain('https://github.com/EddieHubCommunity');
   });
 
   test('Footer contains a working Discord Link', async ({ page }) => {
@@ -65,9 +84,9 @@ test.describe('Footer', () => {
     // check if the discord icon links to a discord link
     const discordBtn = await page.locator('data-test-id=discord-btn');
     const [popup] = await Promise.all([page.waitForEvent('popup'), discordBtn.click()]);
-    await popup.waitForLoadState();
+    // await popup.waitForLoadState();
 
-    expect(await popup.url()).toContain('https://discord.com/invite/jZQs6Wu');
+    expect(popup.url()).toContain('https://discord.com/invite/jZQs6Wu');
   });
 
   test('Footer contains the theme switcher', async ({ page }) => {

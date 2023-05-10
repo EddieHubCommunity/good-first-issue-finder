@@ -1,45 +1,45 @@
-## [2.12.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.12.0...v2.12.1) (2023-01-15)
-
-
-### Bug Fixes
-
-* typo in 'search' ([#274](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/274)) ([9daa15e](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9daa15e9ee6a63726135765c4dc2237ddbfc7f9c))
-
-
-
-# [2.12.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.11.0...v2.12.0) (2023-01-15)
+# [2.17.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.16.0...v2.17.0) (2023-04-29)
 
 
 ### Features
 
-* revamp Index Page ([#271](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/271)) ([26f95a0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/26f95a029961ba54946235c7f1f77d6517442e26))
+* added Linkedin Link ([#327](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/327)) ([3e267fd](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/3e267fd007519c6be36c28e0a5623d3964c38192))
 
 
 
-# [2.11.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.2...v2.11.0) (2023-01-12)
+# [2.16.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.7...v2.16.0) (2023-04-17)
 
 
 ### Features
 
-* loading indicator & bring project to sveltekit stable ([#264](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/264)) ([d8c06df](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/d8c06df3947d090770e56fb965dc688c22753e89))
+* Added filter modal ([#319](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/319)) ([0b4b885](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/0b4b885e943ff98229160fb5fc06143d66d91c57))
 
 
 
-## [2.10.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.1...v2.10.2) (2023-01-12)
-
-
-### Bug Fixes
-
-* use the constant globals for the repeated variables ([#267](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/267)) ([4ce7b9c](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/4ce7b9c98d6342c149bf8af72be1ea53c30f8ccc))
-
-
-
-## [2.10.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.10.0...v2.10.1) (2023-01-12)
+## [2.15.7](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.6...v2.15.7) (2023-04-06)
 
 
 ### Bug Fixes
 
-* the internal server on load more and implement archive filter in query ([#266](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/266)) ([48529ee](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/48529ee3058fbdd3114b6ca716308c0236859652))
+* added accessibility attributes to images and SVGs ([#307](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/307)) ([9049024](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/904902408d6bd1480f6c3d4c436cccd715840267))
+
+
+
+## [2.15.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.5...v2.15.6) (2023-03-08)
+
+
+### Bug Fixes
+
+* Added a button to link docs to appPage ([#314](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/314)) ([9f7f11a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f7f11a8ecc938ef88808b282aa30bb192694ef1))
+
+
+
+## [2.15.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.4...v2.15.5) (2023-03-06)
+
+
+### Bug Fixes
+
+* change color of docs menu-item on hover ([#312](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/312)) ([2117f69](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/2117f69e2fc1bd7b0961cc02d51a3666ba9e75df))
 
 
 

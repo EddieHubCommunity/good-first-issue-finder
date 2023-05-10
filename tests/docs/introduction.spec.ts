@@ -1,9 +1,11 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import { expect, test } from '@playwright/test';
 
-test.fixme('docs header element is active', async ({ page }) => {
+test('docs header element is active', async ({ page }) => {
   // navigate to the docs landing page /docs
+  await page.goto('/docs');
   // check if the docs link in the page header is having the active class
+  await expect(page.getByRole('link', { name: 'Docs' })).toHaveClass(/active/);
 });
 
 test('Correct Page Heading', async ({ page }) => {

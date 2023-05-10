@@ -69,9 +69,9 @@ git merge upstream/main
 
 ### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
 
-**7.** Make your changes to the source code.
+**8.** Make your changes to the source code.
 
-**8.** Stage your changes and commit:
+**9.** Stage your changes and commit:
 
 ⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
 
@@ -85,15 +85,15 @@ git add <filename>
 git commit -m "<your_commit_message>"
 ```
 
-**9.** Push your local commits to the remote repository:
+**10.** Push your local commits to the remote repository:
 
 ```bash
 git push origin YourBranchName
 ```
 
-**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+**11.** Create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)!
 
-**11.** **Congratulations!** You've made your first contribution to [**good-first-issue-finder**](https://github.com/EddieHubCommunity/good-first-issue-finder/graphs/contributors)! 🙌🏼
+**12.** **Congratulations!** You've made your first contribution to [**good-first-issue-finder**](https://github.com/EddieHubCommunity/good-first-issue-finder/graphs/contributors)! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the good-first-issue-finder project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 

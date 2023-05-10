@@ -8,6 +8,8 @@
     data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 122.88 73.29"
+    role="img"
+    aria-label="svelte icon"
     ><defs
       ><style>
         .cls-1 {

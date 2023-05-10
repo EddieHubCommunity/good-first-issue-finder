@@ -1,6 +1,6 @@
 {
   "name": "issue-finder",
-  "version": "2.12.1",
+  "version": "2.17.0",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -25,7 +25,7 @@
     "@sveltejs/adapter-node": "^1.1.0",
     "@sveltejs/kit": "^1.0.11",
     "@tailwindcss/typography": "^0.5.9",
-    "@types/cookie": "^0.5.1",
+    "@tanstack/svelte-query": "^4.24.4",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
     "autoprefixer": "^10.4.13",
@@ -53,7 +53,6 @@
   },
   "type": "module",
   "dependencies": {
-    "cookie": "^0.5.0",
     "node-fetch": "^3.3.0",
     "octokit": "^2.0.11"
   },

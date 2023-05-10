@@ -5,10 +5,8 @@
   $: isActivePage = $page.url.pathname === menuItem.href;
 </script>
 
-<a class:active={isActivePage} href={menuItem.href}>{menuItem.name}</a>
-
-<style lang="postcss">
-  .active {
-    @apply text-primary-100;
-  }
-</style>
+<a
+  class={isActivePage ? 'text-primary-100  md:font-bold' : 'hover:text-primary-300'}
+  class:active={isActivePage}
+  href={menuItem.href}>{menuItem.name}</a
+>
