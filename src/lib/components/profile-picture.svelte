@@ -42,7 +42,7 @@
       destroyInstance();
     }
   }
-  
+
   function handleOutsideClick(event: MouseEvent) {
     if (root && popover) {
       const target = event.target as Node;
@@ -55,9 +55,9 @@
 
   onMount(() => {
     window.addEventListener('click', handleOutsideClick);
-    onCleanup(() => {
+    return () => {
       window.removeEventListener('click', handleOutsideClick);
-    });
+    };
   });
 
   let root: HTMLElement;
