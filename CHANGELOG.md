@@ -1,3 +1,12 @@
+# [2.18.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.17.0...v2.18.0) (2023-05-13)
+
+
+### Features
+
+* added handler for outside clicking userinfo ([#335](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/335)) ([15f77a5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/15f77a5d2a091e593b898ded919c65181d4ac08a))
+
+
+
 # [2.17.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.16.0...v2.17.0) (2023-04-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Added a button to link docs to appPage ([#314](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/314)) ([9f7f11a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f7f11a8ecc938ef88808b282aa30bb192694ef1))
-
-
-
-## [2.15.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.4...v2.15.5) (2023-03-06)
-
-
-### Bug Fixes
-
-* change color of docs menu-item on hover ([#312](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/312)) ([2117f69](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/2117f69e2fc1bd7b0961cc02d51a3666ba9e75df))
 
 
 
