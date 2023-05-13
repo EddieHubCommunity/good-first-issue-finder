@@ -1,7 +1,7 @@
 <script lang="ts">
   import { beforeNavigate } from '$app/navigation';
   import { createPopper, type Instance } from '@popperjs/core';
-  import { tick } from 'svelte';
+  import { tick, onMount } from 'svelte';
   export let username: string;
   let displayPopover = false;
 
@@ -42,6 +42,23 @@
       destroyInstance();
     }
   }
+
+  function handleOutsideClick(event: MouseEvent) {
+    if (root && popover) {
+      const target = event.target as Node;
+      if (!root.contains(target) && !popover.contains(target)) {
+        displayPopover = false;
+        destroyInstance();
+      }
+    }
+  }
+
+  onMount(() => {
+    window.addEventListener('click', handleOutsideClick);
+    return () => {
+      window.removeEventListener('click', handleOutsideClick);
+    };
+  });
 
   let root: HTMLElement;
   let popover: HTMLElement;
