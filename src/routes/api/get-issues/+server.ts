@@ -1,7 +1,7 @@
 import { json as json$1 } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { Octokit } from 'octokit';
-import type { SearchResponse } from 'src/global';
+import type { Edge, LabelEdge, SearchResponse } from '../../../global';
 
 type Response = { search: SearchResponse };
 
@@ -73,7 +73,9 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
     },
   );
 
-  const labels = search.edges.flatMap((el) => el.node.labels.edges.map((label) => label.node.name));
+  const labels = search.edges.flatMap((el: Edge) =>
+    el.node.labels.edges.map((label: LabelEdge) => label.node.name),
+  );
 
   const uniqueLabels = [...new Set(labels)];
   const returnBody = { ...search, ...{ labels: uniqueLabels } };
