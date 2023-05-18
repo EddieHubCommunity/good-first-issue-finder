@@ -8,7 +8,7 @@
 
   $: selection, run();
   const run = () => {
-    selectedLabels.set(selection);
+    $selectedLabels = selection;
   };
 </script>
 

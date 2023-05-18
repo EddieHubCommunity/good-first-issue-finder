@@ -19,7 +19,6 @@
   let { checked } = data;
 
   let searchString = '';
-  let showFilterModal = false;
 
   if (!checked) checked = false;
 
@@ -42,14 +41,6 @@
       return;
     }
     await goto('?global=false', { noScroll: true });
-  };
-
-  const onFilterButtonClick = () => {
-    showFilterModal = true;
-  };
-
-  const onCloseFilterModal = () => {
-    showFilterModal = false;
   };
 
   const onFilterClear = () => {
@@ -103,45 +94,12 @@
   <div class="flex justify-center">
     <Search bind:searchTerm={searchString} />
     <div class="flex items-center justify-center">
-      <button
-        class="default-transition ml-2 mr-2 gap-4 rounded-xl bg-skin-off-background py-1.5 px-2 shadow-standard dark:shadow-dark max-sm:text-sm"
-        on:click={onFilterButtonClick}
-      >
-        Filters
-        <span class="rounded-lg bg-primary-100 px-1 text-xs font-medium text-white">
-          {$selectedLabels.length}
-        </span>
-      </button>
-      {#if $selectedLabels.length}
-        <button on:click={onFilterClear} class="rounded-lg bg-skin-off-background p-1">
-          <svg
-            class="block h-4 w-4 fill-current text-gray-700 dark:text-gray-400"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Close</title>
-            <path
-              d="M6 6l10 10M16 6l-10 10"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
-      {/if}
+      <Modal clearFilter={onFilterClear} title="Filters" amount={$selectedLabels}>
+        <Filter tags={uniqueTags || []} />
+      </Modal>
     </div>
   </div>
 </div>
-
-<Modal
-  showModal={showFilterModal}
-  title={'Filters'}
-  showFooter={false}
-  on:close={onCloseFilterModal}
->
-  <Filter tags={uniqueTags || []} />
-</Modal>
 
 {#if $issues.isInitialLoading}
   <div class="mt-8 flex items-center justify-center gap-4">
