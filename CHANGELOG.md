@@ -1,3 +1,12 @@
+# [2.19.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.18.0...v2.19.0) (2023-05-18)
+
+
+### Features
+
+* dependency update ([#340](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/340)) ([bb87814](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/bb87814cb9b745e44414174890c8bc69264954a5))
+
+
+
 # [2.18.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.17.0...v2.18.0) (2023-05-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * added accessibility attributes to images and SVGs ([#307](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/307)) ([9049024](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/904902408d6bd1480f6c3d4c436cccd715840267))
-
-
-
-## [2.15.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.5...v2.15.6) (2023-03-08)
-
-
-### Bug Fixes
-
-* Added a button to link docs to appPage ([#314](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/314)) ([9f7f11a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/9f7f11a8ecc938ef88808b282aa30bb192694ef1))
 
 
 
