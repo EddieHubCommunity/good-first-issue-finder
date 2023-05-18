@@ -15,7 +15,7 @@ const config = {
           magenta: 'var(--accent-2)',
         },
         neutral: {
-          000: 'var(--neutral-000)',
+          50: 'var(--neutral-050)',
           100: 'var(--neutral-100)',
           200: 'var(--neutral-200)',
           300: 'var(--neutral-300)',
