@@ -5,7 +5,7 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --neutral-000: #141414;
+    --neutral-050: #141414;
     --neutral-100: #22272e;
     --neutral-200: #333a43;
     --neutral-300: #555b66;
