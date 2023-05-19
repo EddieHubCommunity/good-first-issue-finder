@@ -1,8 +1,13 @@
 <script lang="ts">
+  import { Checkbox } from 'radix-svelte';
   export let label: string;
   export let value: string;
   export let group: string[];
   export let checked = false;
+
+  export let disabled = false;
+  export let required = false;
+  export let name = '';
 
   $: updateChekbox(group);
   $: updateGroup(checked);
@@ -28,33 +33,20 @@
 </script>
 
 <div class="flex items-center">
-  <input
+  <Checkbox.Root
+    class="flex h-4 w-4 appearance-none items-center
+    justify-center rounded-sm border border-gray-500 bg-white
+    shadow-lg outline-none focus:ring focus:ring-black data-[state=checked]:bg-primary-100 data-[state=checked]:text-white"
+    {disabled}
     bind:checked
+    {name}
     {value}
+    {required}
     id={label}
-    class="absolute cursor-pointer opacity-0"
-    type="checkbox"
-  />
-  <label for={label} class="flex cursor-pointer items-center whitespace-nowrap">{label}</label>
+  >
+    <Checkbox.Indicator>&#10003</Checkbox.Indicator>
+  </Checkbox.Root>
+  <label class="flex cursor-pointer items-center whitespace-nowrap pl-4" for={label}>
+    {label}
+  </label>
 </div>
-
-<style lang="postcss">
-  label::before {
-    @apply mr-2 h-4 w-4 rounded-sm border border-gray-500;
-    content: '';
-  }
-
-  label:hover::before,
-  input[type='checkbox']:hover + label::before {
-    @apply cursor-pointer;
-  }
-
-  input[type='checkbox']:focus + label::before {
-    @apply ring-2 ring-blue-500;
-  }
-
-  input[type='checkbox']:checked + label::before {
-    @apply flex items-center justify-center bg-primary-100 text-white;
-    content: '\002713';
-  }
-</style>
