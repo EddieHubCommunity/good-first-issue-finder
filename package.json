@@ -41,6 +41,7 @@
     "prettier": "^2.8.8",
     "prettier-plugin-svelte": "^2.10.0",
     "prettier-plugin-tailwindcss": "^0.3.0",
+    "radix-svelte": "^0.6.0",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.1.0",
     "svelte": "^3.59.1",
@@ -54,8 +55,7 @@
   "type": "module",
   "dependencies": {
     "node-fetch": "^3.3.1",
-    "octokit": "^2.0.15",
-    "radix-svelte": "^0.6.0"
+    "octokit": "^2.0.15"
   },
   "license": "MIT",
   "lint-staged": {
