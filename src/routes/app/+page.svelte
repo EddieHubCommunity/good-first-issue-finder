@@ -9,7 +9,6 @@
   import Loader from '$lib/components/loader.svelte';
   import { createInfiniteQuery } from '@tanstack/svelte-query';
   import { fetchIssues } from '$lib/data';
-  import { selectedLabels } from '$lib/stores/selected-labels.store';
   import IssueCard from '$lib/components/issue-card.svelte';
   import Filter from '$lib/components/filter.svelte';
   import Search from '$lib/components/search.svelte';
@@ -21,6 +20,8 @@
   let searchString = '';
 
   if (!checked) checked = false;
+
+  let selectedLabels: string[] = [];
 
   $: issues = createInfiniteQuery({
     queryKey: ['issues', { global: checked }],
@@ -44,7 +45,7 @@
   };
 
   const onFilterClear = () => {
-    $selectedLabels = [];
+    selectedLabels = [];
   };
 
   $: uniqueTags = $issues.data?.pages?.reduce((acc, page) => {
@@ -60,7 +61,7 @@
     return page.edges
       .filter((edge) => {
         const labels = edge.node.labels.edges.map((node) => node.node.name);
-        return $selectedLabels.every((label) => labels.includes(label));
+        return selectedLabels.every((label) => labels.includes(label));
       })
       .filter((edge) => {
         if (searchString === '') {
@@ -94,8 +95,8 @@
   <div class="flex justify-center">
     <Search bind:searchTerm={searchString} />
     <div class="flex items-center justify-center">
-      <Modal clearFilter={onFilterClear} title="Filters" amount={$selectedLabels}>
-        <Filter tags={uniqueTags || []} />
+      <Modal clearFilter={onFilterClear} title="Filters" amount={selectedLabels}>
+        <Filter bind:group={selectedLabels} tags={uniqueTags || []} />
       </Modal>
     </div>
   </div>
@@ -106,9 +107,6 @@
     <Loader background="off-background" /> Loading...
   </div>
 {:else if filteredResponse}
-  <div class="mb-8 hidden flex-col items-center">
-    <Filter tags={uniqueTags || []} />
-  </div>
   {#if filteredResponse.length < 1}
     <div class="mt-4 text-center">Unfortunately, there were no issues found.</div>
   {:else}

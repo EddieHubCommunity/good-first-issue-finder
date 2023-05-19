@@ -2,12 +2,13 @@
   import { Checkbox } from 'radix-svelte';
   export let label: string;
   export let value: string;
-  export let group: string[];
+  export let group: string[] = [];
   export let checked = false;
 
   export let disabled = false;
   export let required = false;
   export let name = '';
+  export let id = '';
 
   $: updateChekbox(group);
   $: updateGroup(checked);
@@ -42,11 +43,11 @@
     {name}
     {value}
     {required}
-    id={label}
+    id={id || label}
   >
     <Checkbox.Indicator>&#10003</Checkbox.Indicator>
   </Checkbox.Root>
-  <label class="flex cursor-pointer items-center whitespace-nowrap pl-4" for={label}>
+  <label class="flex cursor-pointer items-center whitespace-nowrap pl-4" for={id || label}>
     {label}
   </label>
 </div>
