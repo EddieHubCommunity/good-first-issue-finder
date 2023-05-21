@@ -44,11 +44,13 @@
     <Dialog.Content
       class="data-[state=open]:animate-contentShow fixed left-[50%] top-[50%] max-h-[85vh] w-[90vw]
 			translate-x-[-50%] translate-y-[-50%] rounded-md bg-white p-[25px]
-			shadow-lg focus:outline-none"
+			shadow-lg focus:outline-none dark:bg-neutral-100"
       openAutoFocus={contentOpenAutoFocus}
       closeAutoFocus={contentCloseAutoFocus}
     >
-      <Dialog.Title class="m-0 text-lg font-medium text-black">Filters</Dialog.Title>
+      <Dialog.Title class="m-0 text-lg font-medium text-black dark:text-gray-400"
+        >Filters</Dialog.Title
+      >
 
       <slot />
 
