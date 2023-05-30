@@ -34,7 +34,7 @@ Before installation, please make sure you have already installed the following t
 
 ## 🛠️ Installation Steps
 
-1. Fork the project
+1. Fork the project [here](https://github.com/EddieHubCommunity/good-first-issue-finder/fork)
 2. Clone the project
    ```bash
      git clone https://github.com/YOUR_USERNAME/good-first-issue-finder.git
