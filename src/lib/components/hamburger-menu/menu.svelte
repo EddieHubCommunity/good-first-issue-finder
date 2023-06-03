@@ -48,7 +48,7 @@
         {/if}
         <ul>
           {#each navItems as item}
-            <li class="mt-9 px-3">
+            <li class="mt-6 px-3">
               <a
                 class="default-transition text-skin-text-highlight decoration-transparent hover:underline hover:decoration-inherit"
                 class:active={$page.url.pathname.includes(item.path)}
