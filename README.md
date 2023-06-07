@@ -95,3 +95,9 @@ Thanks a lot for spending your time helping Good first issue finder grow. Thanks
 ## 🙏 Support
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
+
+## Our Pledge
+
+We take participation in our community as a harassment-free experience for everyone and we pledge to act in ways to contribute to an open, welcoming, diverse and inclusive community.  
+
+If you have experienced or been made aware of unacceptable behaviour, please remember that you can report this.  Read our [Code of Conduct](https://github.com/EddieHubCommunity/good-first-issue-finder/blob/main/CODE_OF_CONDUCT.md).
