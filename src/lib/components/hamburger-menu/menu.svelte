@@ -46,9 +46,9 @@
         {#if username}
           <ProfilePicture {username} />
         {/if}
-        <ul>
+        <ul class="space-y-6">
           {#each navItems as item}
-            <li class="mt-6 px-3">
+            <li class="px-3">
               <a
                 class="default-transition text-skin-text-highlight decoration-transparent hover:underline hover:decoration-inherit"
                 class:active={$page.url.pathname.includes(item.path)}
@@ -61,7 +61,7 @@
         {#if !username}
           <a
             data-test-id="login-btn"
-            class="default-transition mt-5 rounded-xl bg-skin-text px-4 py-2 text-skin-off-background hover:bg-primary-100 dark:bg-skin-text-highlight dark:text-skin-background dark:hover:bg-primary-100"
+            class="default-transition mt-6 rounded-xl bg-skin-text px-4 py-2 text-skin-off-background hover:bg-primary-100 dark:bg-skin-text-highlight dark:text-skin-background dark:hover:bg-primary-100"
             href="/login">Login</a
           >
         {/if}
