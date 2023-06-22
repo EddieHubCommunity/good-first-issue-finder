@@ -68,7 +68,7 @@
           return true;
         }
         const title = edge.node.title.toLowerCase();
-        return title.includes(searchString.toLowerCase());
+        return title.includes(searchString.trim().toLowerCase());
       });
   });
 
