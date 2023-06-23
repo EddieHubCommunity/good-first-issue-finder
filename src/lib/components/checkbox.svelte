@@ -10,10 +10,10 @@
   export let name = '';
   export let id = '';
 
-  $: updateChekbox(group);
+  $: updateCheckbox(group);
   $: updateGroup(checked);
 
-  function updateChekbox(group: string[]) {
+  function updateCheckbox(group: string[]) {
     checked = group.indexOf(value) >= 0;
   }
 
