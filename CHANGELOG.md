@@ -1,3 +1,12 @@
+## [2.19.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.1...v2.19.2) (2023-06-24)
+
+
+### Bug Fixes
+
+* trim searchstring ([#358](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/358)) ([db3ab9d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/db3ab9d607da5f5b56ca1d3a4f67d8748a3c7623))
+
+
+
 ## [2.19.1](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.0...v2.19.1) (2023-06-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added Linkedin Link ([#327](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/327)) ([3e267fd](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/3e267fd007519c6be36c28e0a5623d3964c38192))
-
-
-
-# [2.16.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.15.7...v2.16.0) (2023-04-17)
-
-
-### Features
-
-* Added filter modal ([#319](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/319)) ([0b4b885](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/0b4b885e943ff98229160fb5fc06143d66d91c57))
 
 
 
