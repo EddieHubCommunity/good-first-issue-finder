@@ -53,7 +53,7 @@ Before installation, please make sure you have already installed the following t
 
 6. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
 
-> **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).
+> **Note:** You need to set up an Oauth App(not GitHub App) in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).
 > The Callback Url needs to point to the endpoint of the baseURL the app should run on: `http://localhost:5173/api/authentication/callback`. 
 > Also, never commit the .env file, it is ignored by Git.
 

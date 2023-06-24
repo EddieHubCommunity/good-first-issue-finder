@@ -9,7 +9,6 @@
 
   onMount(() => {
     const handleTabletChange = (e: MediaQueryListEvent) => {
-      console.log('changed');
       if (e.matches) {
         $showHamburgerMenu = false;
         showHideOverflowY(false);
