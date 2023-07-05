@@ -22,14 +22,14 @@
     />
   </svg>
   <div class="flex flex-col items-center justify-center gap-4 transition duration-200">
-    <h3 class="text-xl font-bold text-skin-text-highlight ">GitHub</h3>
+    <h3 class="text-xl font-bold text-skin-text-highlight">GitHub</h3>
     <p class="px-8 text-center">a platform for hosting software projects</p>
   </div>
 </a>
 
 <style lang="postcss">
   .card:hover::before {
-    @apply absolute -z-10 h-[500px] w-[100px] bg-[#24292f];
+    @apply absolute -z-10 h-[500px] w-[100px] bg-[#000000];
     content: '';
     animation: animate-circle 5s linear infinite;
   }
