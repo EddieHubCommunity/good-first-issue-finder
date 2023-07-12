@@ -1,3 +1,12 @@
+## [2.19.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.2...v2.19.3) (2023-07-12)
+
+
+### Bug Fixes
+
+* adjust color of github hover ([#363](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/363)) ([65f0006](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/65f0006a12a4f3e3a5d555ac7b5ddf8d500eb77d))
+
+
+
 ## [2.19.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.1...v2.19.2) (2023-06-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added handler for outside clicking userinfo ([#335](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/335)) ([15f77a5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/15f77a5d2a091e593b898ded919c65181d4ac08a))
-
-
-
-# [2.17.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.16.0...v2.17.0) (2023-04-29)
-
-
-### Features
-
-* added Linkedin Link ([#327](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/327)) ([3e267fd](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/3e267fd007519c6be36c28e0a5623d3964c38192))
 
 
 
