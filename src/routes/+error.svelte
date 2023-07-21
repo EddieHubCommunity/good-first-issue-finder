@@ -14,7 +14,7 @@
       alt="404 error gif"
       class="w-1/1 rounded object-cover dark:hidden lg:w-1/3"
     />
-    <p class="text-center text-xl">OOPS! The requested resource doesn't exits</p>
+    <p class="text-center text-xl">OOPS! The requested resource doesn't exist</p>
   {:else if $page.status === 500}
     <img src="images/500.gif" alt="500 error gif" class="w-1/1 rounded object-cover lg:w-1/3" />
     <p class="text-center text-xl">OOPS! There is some internal issue</p>
