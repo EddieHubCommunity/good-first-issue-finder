@@ -1,3 +1,12 @@
+## [2.19.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.3...v2.19.4) (2023-07-24)
+
+
+### Bug Fixes
+
+* typo ([#364](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/364)) ([41462fa](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/41462fa862100da3b4ff16a085d0ce9214c766db))
+
+
+
 ## [2.19.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.2...v2.19.3) (2023-07-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * dependency update ([#340](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/340)) ([bb87814](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/bb87814cb9b745e44414174890c8bc69264954a5))
-
-
-
-# [2.18.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.17.0...v2.18.0) (2023-05-13)
-
-
-### Features
-
-* added handler for outside clicking userinfo ([#335](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/335)) ([15f77a5](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/15f77a5d2a091e593b898ded919c65181d4ac08a))
 
 
 
