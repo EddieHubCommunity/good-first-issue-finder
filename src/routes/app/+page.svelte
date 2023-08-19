@@ -3,6 +3,7 @@
   import Toggle from '$lib/components/toggle.svelte';
   import Seo from '$lib/components/seo.svelte';
 
+  import { onMount } from 'svelte';
   import { goto, disableScrollHandling, afterNavigate } from '$app/navigation';
   import type { PageData } from './$types';
   import { query } from '$lib/constants.json';
@@ -47,6 +48,20 @@
   const onFilterClear = () => {
     selectedLabels = [];
   };
+
+  onMount(() => {
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (!$issues.hasNextPage || $issues.isFetching) return;
+        const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+        if (scrollTop + clientHeight >= scrollHeight - 5) {
+          $issues.fetchNextPage();
+        }
+      },
+      { passive: true },
+    );
+  });
 
   $: uniqueTags = $issues.data?.pages?.reduce((acc, page) => {
     page.labels.forEach((label) => {
