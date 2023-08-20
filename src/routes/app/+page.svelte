@@ -48,15 +48,6 @@
     selectedLabels = [];
   };
 
-  $: uniqueTags = $issues.data?.pages?.reduce((acc, page) => {
-    page.labels.forEach((label) => {
-      if (!acc.includes(label)) {
-        acc.push(label);
-      }
-    });
-    return acc;
-  }, [] as string[]);
-
   $: filteredResponse = $issues.data?.pages?.flatMap((page) => {
     return page.edges
       .filter((edge) => {
@@ -96,7 +87,10 @@
     <Search bind:searchTerm={searchString} />
     <div class="flex items-center justify-center">
       <Modal clearFilter={onFilterClear} title="Filters" amount={selectedLabels}>
-        <Filter bind:group={selectedLabels} tags={uniqueTags || []} />
+        <Filter
+          bind:group={selectedLabels}
+          tags={$issues.data?.pages?.flatMap((page) => page.labels) || []}
+        />
       </Modal>
     </div>
   </div>
