@@ -9,8 +9,20 @@
 - [Fork the Repo](https://github.com/EddieHubCommunity/good-first-issue-finder). Then, create a branch for any issue that you are working on. Finally, commit your work.
 - Create a **[Pull Request](https://github.com/EddieHubCommunity/good-first-issue-finder/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
+- Please open an issue first **before** contributing a Pull Request, to prevent you from building features or spending time on things, that aren't intended to be merged to the `main` branch.
 
 ---
+
+## 💥 Issues
+
+In order to discuss changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/new/) about what you would like to contribute. Enhancements are always encouraged and appreciated.
+
+Before Starting: 
+
+- **Search Existing Issues:** Before creating a new issue, take a moment to search the existing issues to ensure that the topic hasn't already been discussed or addressed.
+
+- **Check Documentation:** Make sure you have read any relevant documentation or guidelines related to the project. This will help you understand the context and requirements of the issue you're reporting or suggesting.
+
 
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 
@@ -98,10 +110,6 @@ git push origin YourBranchName
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the good-first-issue-finder project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
 ---
-
-## 💥 Issues
-
-In order to discuss changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/new/) about what you would like to contribute. Enhancements are always encouraged and appreciated.
 
 ## All the best! 🥇
 
