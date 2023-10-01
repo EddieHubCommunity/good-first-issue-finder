@@ -1,3 +1,12 @@
+## [2.19.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.4...v2.19.5) (2023-10-01)
+
+
+### Bug Fixes
+
+* hamburger menu fill ([#374](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/374)) ([a4f0f76](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a4f0f762301095903b94ab2061f02d7e51251145))
+
+
+
 ## [2.19.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.3...v2.19.4) (2023-07-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * color issues in darkmode ([#349](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/349)) ([fd8bfca](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fd8bfca5ec4176495ced79ff19a92d3db39fa063))
-
-
-
-# [2.19.0](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.18.0...v2.19.0) (2023-05-18)
-
-
-### Features
-
-* dependency update ([#340](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/340)) ([bb87814](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/bb87814cb9b745e44414174890c8bc69264954a5))
 
 
 
