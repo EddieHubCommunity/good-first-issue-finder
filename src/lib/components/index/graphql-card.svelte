@@ -9,11 +9,7 @@
     fill="#e10098"
     role="img"
     aria-label="graphql icon"
-    ><style>
-      svg {
-        fill: color(display-p3 0.8824 0 0.5961);
-      }
-    </style>
+  >
     <title>GraphQL</title>
     <path
       fill-rule="evenodd"
@@ -30,7 +26,7 @@
     /></svg
   >
   <div class="flex flex-col items-center justify-center gap-4 transition duration-200">
-    <h3 class="text-xl font-bold text-skin-text-highlight ">GraphQL</h3>
+    <h3 class="text-xl font-bold text-skin-text-highlight">GraphQL</h3>
     <p class="px-8 text-center">a query and manipulation language for APIs</p>
   </div>
 </a>
@@ -54,5 +50,9 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+
+  svg {
+    fill: color(display-p3 0.8824 0 0.5961);
   }
 </style>
