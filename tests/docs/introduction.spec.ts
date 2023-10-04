@@ -26,6 +26,6 @@ test.fixme(
   'is the left-side menu containing an element with the same name as the page headline',
   async ({ page }) => {
     // navigate to the docs landing page /docs
-    // check if the Introduction element in the left menu is holding the active class
+    // check if both element in the left menu and page header are the same and say 'Introduction'
   },
 );
