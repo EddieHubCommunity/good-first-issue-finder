@@ -16,3 +16,16 @@ test('Page Heading is correct', async ({ page }) => {
   // check if the heading contains Introduction
   expect(await page.textContent('h1')).toBe('Introduction');
 });
+
+test.fixme('is the highlighted item in the left-menu is the correct one', async ({ page }) => {
+  // navigate to the docs landing page /docs
+  // check if the Introduction element in the left menu is highlighted
+});
+
+test.fixme(
+  'is the left-side menu containing an element with the same name as the page headline',
+  async ({ page }) => {
+    // navigate to the docs landing page /docs
+    // check if the Introduction element in the left menu is holding the active class
+  },
+);
