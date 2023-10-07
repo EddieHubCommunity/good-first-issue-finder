@@ -8,9 +8,6 @@ jobs:
   build:
     name: Node v${{ matrix.node-version }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: read
     strategy:
       matrix:
         node-version: [18]
