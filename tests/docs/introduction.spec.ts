@@ -17,9 +17,16 @@ test('Page Heading is correct', async ({ page }) => {
   expect(await page.textContent('h1')).toBe('Introduction');
 });
 
-test.fixme('is the highlighted item in the left-menu is the correct one', async ({ page }) => {
+test('Introduction element is highlighted', async ({ page }) => {
   // navigate to the docs landing page /docs
+  await page.goto('/docs');
+
   // check if the Introduction element in the left menu is highlighted
+  const introElement = page.getByRole('link', { name: 'Docs' });
+  const highlightedColor = await introElement.evaluate((element) =>
+    window.getComputedStyle(element).getPropertyValue('--primary-100'),
+  );
+  await expect(highlightedColor).toEqual('#ff5a00');
 });
 
 test.fixme(
