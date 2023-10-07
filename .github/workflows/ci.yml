@@ -13,7 +13,7 @@ jobs:
       packages: read
     strategy:
       matrix:
-        node-version: [16, 18]
+        node-version: [18]
     steps:
       - uses: actions/checkout@v2
         name: Checkout repository
