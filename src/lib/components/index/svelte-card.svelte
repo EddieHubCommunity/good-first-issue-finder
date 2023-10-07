@@ -35,7 +35,7 @@
     />
   </svg>
   <div class="flex flex-col items-center justify-center gap-4 transition duration-200">
-    <h3 class="text-xl font-bold text-skin-text-highlight ">Sveltekit</h3>
+    <h3 class="text-xl font-bold text-skin-text-highlight">Sveltekit</h3>
     <p class="px-8 text-center">a framework for building Frontend applications using Svelte</p>
   </div>
 </a>
