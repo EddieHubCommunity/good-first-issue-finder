@@ -37,5 +37,5 @@ test.only('Introduction element has the same name as the page headline', async (
   const pageHeadlineName = await page.textContent('h1');
   const introElement = await page.locator('.space-y-4 .active').innerHTML();
   const introElementName = introElement.toString();
-  expect(introElementName).toBe(pageHeadlineName);
+  expect(introElementName).toEqual(pageHeadlineName);
 });
