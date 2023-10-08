@@ -29,7 +29,7 @@ test('Introduction element is highlighted as orange', async ({ page }) => {
   await expect(introElementColor).toEqual('#ff5a00');
 });
 
-test.only('Introduction element has the same name as the page headline', async ({ page }) => {
+test('Introduction element has the same name as the page headline', async ({ page }) => {
   // navigate to the docs landing page /docs
   await page.goto('/docs');
 
