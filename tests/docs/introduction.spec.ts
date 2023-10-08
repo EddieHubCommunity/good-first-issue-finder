@@ -27,6 +27,7 @@ test('Introduction element is highlighted as orange', async ({ page }) => {
     window.getComputedStyle(element).getPropertyValue('--primary-100'),
   );
   await expect(introElementColor).toEqual('#ff5a00');
+});
 
 test('Introduction element has the same name as the page headline', async ({ page }) => {
   // navigate to the docs landing page /docs
