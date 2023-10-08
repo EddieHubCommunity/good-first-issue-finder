@@ -61,8 +61,8 @@
   "license": "MIT",
   "lint-staged": {
     "*.{cjs,js,ts,css,scss,svelte}": [
-      "npx eslint --ignore-path .gitignore --fix .",
-      "npm run format"
+      "eslint --fix",
+      "prettier --write --plugin prettier-plugin-svelte"
     ]
   }
 }
