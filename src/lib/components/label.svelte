@@ -15,5 +15,6 @@
     0.7,
   )}"
 >
+  <!-- eslint-disable -->
   {@html text}
 </div>
