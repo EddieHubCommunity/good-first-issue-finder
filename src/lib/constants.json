@@ -1,6 +1,6 @@
 {
-    "query": {
-        "org": "is:open archived:false label:\"good first issue\" org:EddieHubCommunity no:assignee",
-        "global": "is:open archived:false label:\"EddieHub:good-first-issue\" no:assignee"
-    }
+  "query": {
+    "org": "is:open archived:false label:\"good first issue\" org:EddieHubCommunity no:assignee",
+    "global": "is:open archived:false label:\"EddieHub:good-first-issue\" no:assignee"
+  }
 }

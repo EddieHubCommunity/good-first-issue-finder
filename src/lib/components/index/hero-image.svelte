@@ -7,12 +7,12 @@
   />
 
   <img
-    class="relative w-full max-w-4xl rounded-2xl dark:hidden "
+    class="relative w-full max-w-4xl rounded-2xl dark:hidden"
     src="/images/screenshot-light.png"
     alt="screenshot of the application in lightmode"
   />
   <img
-    class="relative hidden w-full max-w-4xl rounded-2xl dark:block "
+    class="relative hidden w-full max-w-4xl rounded-2xl dark:block"
     src="/images/screenshot-dark.png"
     alt="screenshot of the application in lightmode"
   />

@@ -7,7 +7,7 @@
 </script>
 
 <div
-  class="mr-2 inline-block rounded-2xl border-[1px] py-1 px-3 text-xs font-semibold"
+  class="mr-2 inline-block rounded-2xl border-[1px] px-3 py-1 text-xs font-semibold"
   style="border-color: {processedColor === '#ffffff'
     ? '#000'
     : processedColor}; background-color: {processedColor}; color: {calculateFontColor(

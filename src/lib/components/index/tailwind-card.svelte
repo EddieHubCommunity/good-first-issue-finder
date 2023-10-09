@@ -23,7 +23,7 @@
     /></svg
   >
   <div class="flex flex-col items-center justify-center gap-4 transition duration-200">
-    <h3 class="text-xl font-bold text-skin-text-highlight ">Tailwind</h3>
+    <h3 class="text-xl font-bold text-skin-text-highlight">Tailwind</h3>
     <p class="px-8 text-center">a utility-first CSS framework for building user interfaces</p>
   </div>
 </a>

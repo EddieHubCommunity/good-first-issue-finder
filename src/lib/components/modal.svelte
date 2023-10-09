@@ -1,6 +1,5 @@
 <script lang="ts">
   import { Dialog } from 'radix-svelte';
-  import Checkbox from './checkbox.svelte';
 
   export let title: string;
   export let amount: string[];
