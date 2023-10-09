@@ -17,12 +17,11 @@
 
 In order to discuss changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/new/) about what you would like to contribute. Enhancements are always encouraged and appreciated.
 
-Before Starting: 
+Before Starting:
 
 - **Search Existing Issues:** Before creating a new issue, take a moment to search the existing issues to ensure that the topic hasn't already been discussed or addressed.
 
 - **Check Documentation:** Make sure you have read any relevant documentation or guidelines related to the project. This will help you understand the context and requirements of the issue you're reporting or suggesting.
-
 
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 

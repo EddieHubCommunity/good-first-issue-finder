@@ -1,0 +1,44 @@
+name: Build and Test
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+      - synchronize
+jobs:
+  build:
+    name: Node v${{ matrix.node-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18]
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout repository
+
+      - uses: actions/setup-node@v2
+        name: Setup nodejs
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - run: npm ci
+        name: Install npm dependencies
+
+      - run: npm run lint
+        name: 'Smoke Test :: Check linting'
+
+      - run: npm run check
+        name: 'Smoke Test :: Run svelte check'
+
+      - run: npm run build
+        name: 'Smoke Test :: Build Codebase'
+
+      - run: npx playwright install --with-deps
+        name: Install Playwright's dependencies
+
+      - run: npm run test
+        name: Run tests

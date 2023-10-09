@@ -31,7 +31,7 @@ test('Introduction element is highlighted', async ({ page }) => {
 
 test.fixme(
   'is the left-side menu containing an element with the same name as the page headline',
-  async ({ page }) => {
+  async () => {
     // navigate to the docs landing page /docs
     // check if both elements in the left menu and page header are the same and say 'Introduction'
   },

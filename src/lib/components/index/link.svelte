@@ -10,7 +10,7 @@
 
 <a
   {href}
-  class="relative rounded-lg bg-skin-primary py-2 px-4 text-white shadow-lg transition duration-200 hover:shadow-primary-hover {variantMap[
+  class="relative rounded-lg bg-skin-primary px-4 py-2 text-white shadow-lg transition duration-200 hover:shadow-primary-hover {variantMap[
     variant
   ]}"
 >

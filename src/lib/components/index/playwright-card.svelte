@@ -41,7 +41,7 @@
     />
   </svg>
   <div class="flex flex-col items-center justify-center gap-4 transition duration-200">
-    <h3 class="text-xl font-bold text-skin-text-highlight ">Playwright</h3>
+    <h3 class="text-xl font-bold text-skin-text-highlight">Playwright</h3>
     <p class="px-8 text-center">a test runner for running automated e2e tests</p>
   </div>
 </a>
