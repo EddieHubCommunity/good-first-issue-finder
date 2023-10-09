@@ -36,3 +36,17 @@ test.fixme(
     // check if both elements in the left menu and page header are the same and say 'Introduction'
   },
 );
+
+test('Introduction element is highlighted as yellow when hovered-over', async ({ page }) => {
+  // navigate to the docs landing page /docs/testing
+  await page.goto('/docs/testing');
+
+  // check the Introduction element on hover has yellow color
+  const introElement = await page.getByRole('link', { name: 'Docs' });
+  await introElement.hover();
+  const introElementAfterHover = await page.getByRole('link', { name: 'Docs' });
+  const introElementColorOnHover = await introElementAfterHover.evaluate((element) =>
+    window.getComputedStyle(element).getPropertyValue('--primary-300'),
+  );
+  await expect(introElementColorOnHover).toEqual('#ffbf00');
+});
