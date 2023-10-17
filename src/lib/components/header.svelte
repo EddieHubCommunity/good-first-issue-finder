@@ -71,7 +71,7 @@
     {:else}
       <a
         data-test-id="login-btn-lg"
-        class="default-transition rounded-xl bg-skin-text px-4 py-2 text-skin-off-background hover:bg-primary-100 dark:bg-skin-text-highlight dark:text-skin-background dark:hover:bg-primary-100"
+        class="default-transition rounded-xl bg-skin-text px-4 py-2 text-skin-off-background hover:shadow-primary-hover dark:bg-skin-text-highlight dark:text-skin-background dark:hover:shadow-primary-hover"
         href="/login">Login</a
       >
     {/if}
