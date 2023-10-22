@@ -69,10 +69,16 @@
     {#if username}
       <ProfilePicture {username} />
     {:else}
-      <a
+      <!-- <a
         data-test-id="login-btn-lg"
         class="default-transition rounded-xl bg-orange-500 px-4 py-2 text-skin-off-background hover:shadow-primary-hover dark:bg-skin-text-highlight dark:text-skin-background dark:hover:bg-orange-400"
         href="/login">Login</a
+      > -->
+      <a
+        data-test-id="login-btn-lg"
+        href="/login"
+        class="relative rounded-lg bg-skin-primary px-4 py-2 text-white shadow-lg transition duration-200 hover:shadow-primary-hover bg-skin-primary"
+        >Login</a
       >
     {/if}
   </div>
