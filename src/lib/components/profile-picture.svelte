@@ -94,8 +94,8 @@
       <div class="my-2 w-full border-[0.5px] border-skin-text-highlight" />
       <a
         href="/api/authentication/logout"
-        class="default-transition underline decoration-primary-100 hover:decoration-transparent"
-        >Sign out</a
+        class="default-transition decoration-primary-100 hover:decoration-transparent hover:text-red-600 text-red-500"
+        >Sign Out</a
       >
     </div>
   {/if}
@@ -116,8 +116,8 @@
     <div class="my-2 w-full border-[0.5px] border-skin-text-highlight" />
     <a
       href="/api/authentication/logout"
-      class="default-transition underline decoration-primary-100 hover:decoration-transparent"
-      >Sign out</a
+      class="default-transition decoration-primary-100 hover:decoration-transparent hover:text-red-600 text-red-500"
+      >Sign Out</a
     >
   </div>
 </div>
