@@ -1,3 +1,4 @@
+[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=EddieHubCommunity&name=good-first-issue-finder)](https://repo-rater.eddiehub.io/rate?owner=EddieHubCommunity&name=good-first-issue-finder)
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)\
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/EddieHubCommunity/good-first-issue-finder/blob/main/LICENSE)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EddieHubCommunity/good-first-issue-finder?style=plastic)
