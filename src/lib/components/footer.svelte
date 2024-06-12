@@ -1,19 +1,12 @@
-<script>
-  import { onMount } from 'svelte';
-
-  let theme;
-
-  onMount(() => {
-    // Simulate theme change (replace with your actual theme logic)
-    theme = 'light';
-  });
+<script lang="ts">
+  import ThemeSwitcher from './theme-switcher.svelte';
+  import PackageVersion from './package-version.svelte';
 </script>
 
 <footer class="mt-auto w-full bg-skin-off-background py-4">
   <div class="mx-auto flex w-[90%] max-w-[1440px] items-center justify-between">
-    <span>Theme: {theme}</span>
-
-    <span>v1.0.0</span>
+    <ThemeSwitcher />
+    <PackageVersion />
 
     <ul class="flex list-none items-center justify-center gap-8">
       <li>
@@ -49,24 +42,3 @@
     </ul>
   </div>
 </footer>
-
-<style>
-  /* Increase specificity to potentially override conflicting styles */
-  footer a {
-    color: inherit; /* Inherit from parent or base styles */
-    transition: color 0.2s ease-in-out; /* Adjust transition duration if needed */
-  }
-
-  footer a:hover {
-    color: #7289da;
-  }
-
-  footer a:active {
-    color: text-primary-100; /* Replace with your primary color class */
-  }
-
-  /* Add dark mode styles if applicable */
-  .dark footer a:hover {
-    color: #fff; /* Adjust hover color for dark mode */
-  }
-</style>

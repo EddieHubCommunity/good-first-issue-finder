@@ -3,6 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
     --neutral-050: #141414;
@@ -26,6 +27,7 @@
     --color-off-background: #ffffff;
     --color-text: var(--neutral-100);
   }
+
   .dark {
     --color-primary: var(--primary-100);
     --color-background: var(--neutral-100);
@@ -33,8 +35,14 @@
     --color-text: #dadada99;
     --color-text-highlight: #dadadade;
   }
+
   body {
     @apply bg-skin-background text-skin-text;
+  }
+
+  footer a:active {
+    color: inherit !important;
+    /* Inherits color from parent or base styles */
   }
 }
 
