@@ -39,11 +39,6 @@
   body {
     @apply bg-skin-background text-skin-text;
   }
-
-  footer a:active {
-    color: inherit !important;
-    /* Inherits color from parent or base styles */
-  }
 }
 
 @layer utilities {
