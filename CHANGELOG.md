@@ -1,3 +1,12 @@
+## [2.19.8](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.7...v2.19.8) (2024-06-29)
+
+
+### Bug Fixes
+
+* caprover config ([38521e0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/38521e035edc251675ad28f5914aac477c4c5fae))
+
+
+
 ## [2.19.7](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.6...v2.19.7) (2024-06-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typo ([#364](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/364)) ([41462fa](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/41462fa862100da3b4ff16a085d0ce9214c766db))
-
-
-
-## [2.19.3](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.2...v2.19.3) (2023-07-12)
-
-
-### Bug Fixes
-
-* adjust color of github hover ([#363](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/363)) ([65f0006](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/65f0006a12a4f3e3a5d555ac7b5ddf8d500eb77d))
 
 
 
