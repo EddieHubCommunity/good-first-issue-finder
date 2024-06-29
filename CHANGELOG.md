@@ -1,3 +1,12 @@
+## [2.19.9](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.8...v2.19.9) (2024-06-29)
+
+
+### Bug Fixes
+
+* k8s no longer required ([5a5bd4a](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/5a5bd4ab4f7c360ca2f4f1a132297689abbc115d))
+
+
+
 ## [2.19.8](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.7...v2.19.8) (2024-06-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hamburger menu fill ([#374](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/374)) ([a4f0f76](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a4f0f762301095903b94ab2061f02d7e51251145))
-
-
-
-## [2.19.4](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.3...v2.19.4) (2023-07-24)
-
-
-### Bug Fixes
-
-* typo ([#364](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/364)) ([41462fa](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/41462fa862100da3b4ff16a085d0ce9214c766db))
 
 
 
