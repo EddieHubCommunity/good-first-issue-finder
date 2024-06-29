@@ -1,3 +1,12 @@
+## [2.19.10](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.9...v2.19.10) (2024-06-29)
+
+
+### Bug Fixes
+
+* k8s kubescape no longer required ([fdd1f6b](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/fdd1f6b24688e9ebe30a467c67304bbe26eda68a))
+
+
+
 ## [2.19.9](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.8...v2.19.9) (2024-06-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * rename deploy action to docker ([0376052](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/0376052740972a85351ee744c8c7c26dc016298a))
-
-
-
-## [2.19.5](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.4...v2.19.5) (2023-10-01)
-
-
-### Bug Fixes
-
-* hamburger menu fill ([#374](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/374)) ([a4f0f76](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/a4f0f762301095903b94ab2061f02d7e51251145))
 
 
 
