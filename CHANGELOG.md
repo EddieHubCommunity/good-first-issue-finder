@@ -1,3 +1,12 @@
+## [2.19.7](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.6...v2.19.7) (2024-06-29)
+
+
+### Bug Fixes
+
+* deploy to caprover action ([c6043a3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c6043a3f89de829bcadb1b0cc2c26c177913071e))
+
+
+
 ## [2.19.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.5...v2.19.6) (2024-06-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * adjust color of github hover ([#363](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/363)) ([65f0006](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/65f0006a12a4f3e3a5d555ac7b5ddf8d500eb77d))
-
-
-
-## [2.19.2](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.1...v2.19.2) (2023-06-24)
-
-
-### Bug Fixes
-
-* trim searchstring ([#358](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/358)) ([db3ab9d](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/db3ab9d607da5f5b56ca1d3a4f67d8748a3c7623))
 
 
 

@@ -1,6 +1,6 @@
 {
   "name": "issue-finder",
-  "version": "2.19.6",
+  "version": "2.19.7",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
