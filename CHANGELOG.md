@@ -1,3 +1,12 @@
+## [2.19.12](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.11...v2.19.12) (2024-08-03)
+
+
+### Bug Fixes
+
+* screenshots ([#417](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/417)) ([ea72632](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/ea72632655e69787052b9b357243909ddc9d8ed8))
+
+
+
 ## [2.19.11](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.10...v2.19.11) (2024-08-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * caprover config ([38521e0](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/38521e035edc251675ad28f5914aac477c4c5fae))
-
-
-
-## [2.19.7](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.6...v2.19.7) (2024-06-29)
-
-
-### Bug Fixes
-
-* deploy to caprover action ([c6043a3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c6043a3f89de829bcadb1b0cc2c26c177913071e))
 
 
 
