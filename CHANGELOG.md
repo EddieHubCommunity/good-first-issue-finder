@@ -1,3 +1,12 @@
+## [2.19.11](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.10...v2.19.11) (2024-08-03)
+
+
+### Bug Fixes
+
+* repo rater badge ([#416](https://github.com/EddieHubCommunity/good-first-issue-finder/issues/416)) ([ad5b7e1](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/ad5b7e1c6fd652cc94b983dcad595081c97c47ab))
+
+
+
 ## [2.19.10](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.9...v2.19.10) (2024-06-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * deploy to caprover action ([c6043a3](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/c6043a3f89de829bcadb1b0cc2c26c177913071e))
-
-
-
-## [2.19.6](https://github.com/EddieHubCommunity/good-first-issue-finder/compare/v2.19.5...v2.19.6) (2024-06-29)
-
-
-### Bug Fixes
-
-* rename deploy action to docker ([0376052](https://github.com/EddieHubCommunity/good-first-issue-finder/commit/0376052740972a85351ee744c8c7c26dc016298a))
 
 
 
