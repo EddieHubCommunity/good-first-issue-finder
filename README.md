@@ -1,5 +1,5 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/good-first-issue-finder)\
-[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=EddieHubCommunity&name=good-first-issue-finder)](https://repo-rater.eddiehub.io/rate?owner=EddieHubCommunity&name=good-first-issue-finder)
+[![RepoRater](https://repo-rater.eddiehub.org/api/badge?owner=EddieHubCommunity&name=good-first-issue-finder)](https://repo-rater.eddiehub.org/rate?owner=EddieHubCommunity&name=good-first-issue-finder)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EddieHubCommunity/good-first-issue-finder?style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/EddieHubCommunity/good-first-issue-finder)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=plastic&logo=discord&logoColor=white)](https://discord.com/invite/jZQs6Wu)
@@ -8,7 +8,7 @@
 
 Good First Issue Finder helps new open source contributors to make it easy to get into the world of open source through good first issues.
 
-![eddiehub issue finder](https://user-images.githubusercontent.com/64529217/177034601-fe8dffce-cfac-4f61-889b-e3fe1ab7497d.png)
+![eddiehub issue finder](https://github.com/user-attachments/assets/093b84ac-0fb8-43ab-aa55-0992a01d8fc5)
 
 <!-- (Can be only done after merged 😅)
 ## Example using Gitpod, ephemeral dev environment in the cloud (free)
@@ -18,7 +18,7 @@ Good First Issue Finder helps new open source contributors to make it easy to ge
 
 ## 👨‍💻 Live Version
 
-Check out the website: [Good First Issue Finder](https://finder.eddiehub.io)
+Check out the website: [Good First Issue Finder](https://finder.eddiehub.org)
 
 ## 👇 Prerequisites
 

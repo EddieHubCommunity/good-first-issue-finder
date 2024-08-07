@@ -3,4 +3,4 @@
 
 npx lint-staged
 
-npx prettier --ignore-path .gitignore --check --plugin prettier-plugin-svelte .
+npx prettier --ignore-path .prettierignore --check --plugin prettier-plugin-svelte .
