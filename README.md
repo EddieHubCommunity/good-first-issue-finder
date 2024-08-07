@@ -46,7 +46,13 @@ Before installation, please make sure you have already installed the following t
 
    We highly recommend installing the current LTS version of node.
 
-6. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
+6. 
+
+Copy the `.env.example` file into a `.env` file using the following command.
+
+```
+cp .env.example .env
+```
 
 > **Note:** You need to set up an Oauth App(not GitHub App) in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).
 > The Callback Url needs to point to the endpoint of the baseURL the app should run on: `http://localhost:5173/api/authentication/callback`.
